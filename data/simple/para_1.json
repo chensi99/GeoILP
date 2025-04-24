@@ -1,0 +1,4406 @@
+{
+    "meta_data": {
+        "is_multitask": false,
+        "target_predicates": [
+            "para"
+        ]
+    },
+    "data": {
+        "train": {
+            "background_knowledge": [
+                "cong(F0, B0, B0, F0)",
+                "cong(J0, B0, B0, J0)",
+                "cong(K0, D0, K0, F0)",
+                "cong(K0, F0, K0, G0)",
+                "cong(L0, J0, L0, B0)",
+                "ncoll(L0, B0, J0)",
+                "cong(L0, B0, L0, F0)",
+                "ncoll(L0, B0, F0)",
+                "cong(M0, H0, M0, A0)",
+                "cong(M0, G0, M0, H0)",
+                "cong(N0, I0, N0, C0)",
+                "cong(N0, H0, N0, I0)",
+                "cong(O0, I0, O0, E0)",
+                "cong(O0, J0, O0, I0)",
+                "cong(K0, P0, K0, D0)",
+                "cong(L0, P0, L0, B0)",
+                "cong(P0, B0, B0, P0)",
+                "ncoll(L0, B0, P0)",
+                "cong(K0, Q0, K0, D0)",
+                "cong(Q0, P0, P0, Q0)",
+                "ncoll(K0, Q0, P0)",
+                "cong(Q0, F0, F0, Q0)",
+                "ncoll(K0, Q0, F0)",
+                "cong(Q0, D0, D0, Q0)",
+                "ncoll(K0, Q0, D0)",
+                "cong(Q0, G0, G0, Q0)",
+                "ncoll(K0, Q0, G0)",
+                "cong(M0, Q0, M0, A0)",
+                "cong(M0, R0, M0, A0)",
+                "cong(Q0, R0, R0, Q0)",
+                "ncoll(M0, R0, Q0)",
+                "cong(H0, R0, R0, H0)",
+                "ncoll(M0, R0, H0)",
+                "cong(G0, R0, R0, G0)",
+                "ncoll(M0, R0, G0)",
+                "cong(A0, R0, R0, A0)",
+                "ncoll(M0, R0, A0)",
+                "cong(N0, R0, N0, C0)",
+                "cong(N0, S0, N0, C0)",
+                "cong(S0, R0, R0, S0)",
+                "ncoll(N0, S0, R0)",
+                "cong(S0, I0, I0, S0)",
+                "ncoll(N0, S0, I0)",
+                "cong(S0, H0, H0, S0)",
+                "ncoll(N0, S0, H0)",
+                "cong(S0, C0, C0, S0)",
+                "ncoll(N0, S0, C0)",
+                "cong(O0, S0, O0, E0)",
+                "cong(L0, T0, L0, B0)",
+                "cong(T0, B0, B0, T0)",
+                "ncoll(L0, B0, T0)",
+                "cong(O0, T0, O0, E0)",
+                "cong(S0, T0, T0, S0)",
+                "ncoll(O0, T0, S0)",
+                "cong(I0, T0, T0, I0)",
+                "ncoll(O0, T0, I0)",
+                "cong(T0, J0, J0, T0)",
+                "ncoll(O0, T0, J0)",
+                "cong(E0, T0, T0, E0)",
+                "ncoll(O0, T0, E0)",
+                "cong(F1, B1, B1, F1)",
+                "cong(J1, B1, B1, J1)",
+                "cong(K1, D1, K1, F1)",
+                "cong(K1, F1, K1, G1)",
+                "cong(L1, J1, L1, B1)",
+                "ncoll(L1, B1, J1)",
+                "cong(L1, B1, L1, F1)",
+                "ncoll(L1, B1, F1)",
+                "cong(M1, H1, M1, A1)",
+                "cong(M1, G1, M1, H1)",
+                "cong(N1, I1, N1, C1)",
+                "cong(N1, H1, N1, I1)",
+                "cong(O1, I1, O1, E1)",
+                "cong(O1, J1, O1, I1)",
+                "cong(K1, P1, K1, D1)",
+                "cong(L1, P1, L1, B1)",
+                "cong(P1, B1, B1, P1)",
+                "ncoll(L1, B1, P1)",
+                "cong(K1, Q1, K1, D1)",
+                "cong(Q1, P1, P1, Q1)",
+                "ncoll(K1, Q1, P1)",
+                "cong(Q1, F1, F1, Q1)",
+                "ncoll(K1, Q1, F1)",
+                "cong(Q1, D1, D1, Q1)",
+                "ncoll(K1, Q1, D1)",
+                "cong(Q1, G1, G1, Q1)",
+                "ncoll(K1, Q1, G1)",
+                "cong(M1, Q1, M1, A1)",
+                "cong(M1, R1, M1, A1)",
+                "cong(Q1, R1, R1, Q1)",
+                "ncoll(M1, R1, Q1)",
+                "cong(H1, R1, R1, H1)",
+                "ncoll(M1, R1, H1)",
+                "cong(G1, R1, R1, G1)",
+                "ncoll(M1, R1, G1)",
+                "cong(A1, R1, R1, A1)",
+                "ncoll(M1, R1, A1)",
+                "cong(N1, R1, N1, C1)",
+                "cong(N1, S1, N1, C1)",
+                "cong(S1, R1, R1, S1)",
+                "ncoll(N1, S1, R1)",
+                "cong(S1, I1, I1, S1)",
+                "ncoll(N1, S1, I1)",
+                "cong(S1, H1, H1, S1)",
+                "ncoll(N1, S1, H1)",
+                "cong(S1, C1, C1, S1)",
+                "ncoll(N1, S1, C1)",
+                "cong(O1, S1, O1, E1)",
+                "cong(L1, T1, L1, B1)",
+                "cong(T1, B1, B1, T1)",
+                "ncoll(L1, B1, T1)",
+                "cong(O1, T1, O1, E1)",
+                "cong(S1, T1, T1, S1)",
+                "ncoll(O1, T1, S1)",
+                "cong(I1, T1, T1, I1)",
+                "ncoll(O1, T1, I1)",
+                "cong(T1, J1, J1, T1)",
+                "ncoll(O1, T1, J1)",
+                "cong(E1, T1, T1, E1)",
+                "ncoll(O1, T1, E1)",
+                "cong(F2, B2, B2, F2)",
+                "cong(J2, B2, B2, J2)",
+                "cong(K2, D2, K2, F2)",
+                "cong(K2, F2, K2, G2)",
+                "cong(L2, J2, L2, B2)",
+                "ncoll(L2, B2, J2)",
+                "cong(L2, B2, L2, F2)",
+                "ncoll(L2, B2, F2)",
+                "cong(M2, H2, M2, A2)",
+                "cong(M2, G2, M2, H2)",
+                "cong(N2, I2, N2, C2)",
+                "cong(N2, H2, N2, I2)",
+                "cong(O2, I2, O2, E2)",
+                "cong(O2, J2, O2, I2)",
+                "cong(K2, P2, K2, D2)",
+                "cong(L2, P2, L2, B2)",
+                "cong(P2, B2, B2, P2)",
+                "ncoll(L2, B2, P2)",
+                "cong(K2, Q2, K2, D2)",
+                "cong(Q2, P2, P2, Q2)",
+                "ncoll(K2, Q2, P2)",
+                "cong(Q2, F2, F2, Q2)",
+                "ncoll(K2, Q2, F2)",
+                "cong(Q2, D2, D2, Q2)",
+                "ncoll(K2, Q2, D2)",
+                "cong(Q2, G2, G2, Q2)",
+                "ncoll(K2, Q2, G2)",
+                "cong(M2, Q2, M2, A2)",
+                "cong(M2, R2, M2, A2)",
+                "cong(Q2, R2, R2, Q2)",
+                "ncoll(M2, R2, Q2)",
+                "cong(H2, R2, R2, H2)",
+                "ncoll(M2, R2, H2)",
+                "cong(G2, R2, R2, G2)",
+                "ncoll(M2, R2, G2)",
+                "cong(A2, R2, R2, A2)",
+                "ncoll(M2, R2, A2)",
+                "cong(N2, R2, N2, C2)",
+                "cong(N2, S2, N2, C2)",
+                "cong(S2, R2, R2, S2)",
+                "ncoll(N2, S2, R2)",
+                "cong(S2, I2, I2, S2)",
+                "ncoll(N2, S2, I2)",
+                "cong(S2, H2, H2, S2)",
+                "ncoll(N2, S2, H2)",
+                "cong(S2, C2, C2, S2)",
+                "ncoll(N2, S2, C2)",
+                "cong(O2, S2, O2, E2)",
+                "cong(L2, T2, L2, B2)",
+                "cong(T2, B2, B2, T2)",
+                "ncoll(L2, B2, T2)",
+                "cong(O2, T2, O2, E2)",
+                "cong(S2, T2, T2, S2)",
+                "ncoll(O2, T2, S2)",
+                "cong(I2, T2, T2, I2)",
+                "ncoll(O2, T2, I2)",
+                "cong(T2, J2, J2, T2)",
+                "ncoll(O2, T2, J2)",
+                "cong(E2, T2, T2, E2)",
+                "ncoll(O2, T2, E2)",
+                "cong(F3, B3, B3, F3)",
+                "cong(J3, B3, B3, J3)",
+                "cong(K3, D3, K3, F3)",
+                "cong(K3, F3, K3, G3)",
+                "cong(L3, J3, L3, B3)",
+                "ncoll(L3, B3, J3)",
+                "cong(L3, B3, L3, F3)",
+                "ncoll(L3, B3, F3)",
+                "cong(M3, H3, M3, A3)",
+                "cong(M3, G3, M3, H3)",
+                "cong(N3, I3, N3, C3)",
+                "cong(N3, H3, N3, I3)",
+                "cong(O3, I3, O3, E3)",
+                "cong(O3, J3, O3, I3)",
+                "cong(K3, P3, K3, D3)",
+                "cong(L3, P3, L3, B3)",
+                "cong(P3, B3, B3, P3)",
+                "ncoll(L3, B3, P3)",
+                "cong(K3, Q3, K3, D3)",
+                "cong(Q3, P3, P3, Q3)",
+                "ncoll(K3, Q3, P3)",
+                "cong(Q3, F3, F3, Q3)",
+                "ncoll(K3, Q3, F3)",
+                "cong(Q3, D3, D3, Q3)",
+                "ncoll(K3, Q3, D3)",
+                "cong(Q3, G3, G3, Q3)",
+                "ncoll(K3, Q3, G3)",
+                "cong(M3, Q3, M3, A3)",
+                "cong(M3, R3, M3, A3)",
+                "cong(Q3, R3, R3, Q3)",
+                "ncoll(M3, R3, Q3)",
+                "cong(H3, R3, R3, H3)",
+                "ncoll(M3, R3, H3)",
+                "cong(G3, R3, R3, G3)",
+                "ncoll(M3, R3, G3)",
+                "cong(A3, R3, R3, A3)",
+                "ncoll(M3, R3, A3)",
+                "cong(N3, R3, N3, C3)",
+                "cong(N3, S3, N3, C3)",
+                "cong(S3, R3, R3, S3)",
+                "ncoll(N3, S3, R3)",
+                "cong(S3, I3, I3, S3)",
+                "ncoll(N3, S3, I3)",
+                "cong(S3, H3, H3, S3)",
+                "ncoll(N3, S3, H3)",
+                "cong(S3, C3, C3, S3)",
+                "ncoll(N3, S3, C3)",
+                "cong(O3, S3, O3, E3)",
+                "cong(L3, T3, L3, B3)",
+                "cong(T3, B3, B3, T3)",
+                "ncoll(L3, B3, T3)",
+                "cong(O3, T3, O3, E3)",
+                "cong(S3, T3, T3, S3)",
+                "ncoll(O3, T3, S3)",
+                "cong(I3, T3, T3, I3)",
+                "ncoll(O3, T3, I3)",
+                "cong(T3, J3, J3, T3)",
+                "ncoll(O3, T3, J3)",
+                "cong(E3, T3, T3, E3)",
+                "ncoll(O3, T3, E3)",
+                "cong(F4, B4, B4, F4)",
+                "cong(J4, B4, B4, J4)",
+                "cong(K4, D4, K4, F4)",
+                "cong(K4, F4, K4, G4)",
+                "cong(L4, J4, L4, B4)",
+                "ncoll(L4, B4, J4)",
+                "cong(L4, B4, L4, F4)",
+                "ncoll(L4, B4, F4)",
+                "cong(M4, H4, M4, A4)",
+                "cong(M4, G4, M4, H4)",
+                "cong(N4, I4, N4, C4)",
+                "cong(N4, H4, N4, I4)",
+                "cong(O4, I4, O4, E4)",
+                "cong(O4, J4, O4, I4)",
+                "cong(K4, P4, K4, D4)",
+                "cong(L4, P4, L4, B4)",
+                "cong(P4, B4, B4, P4)",
+                "ncoll(L4, B4, P4)",
+                "cong(K4, Q4, K4, D4)",
+                "cong(Q4, P4, P4, Q4)",
+                "ncoll(K4, Q4, P4)",
+                "cong(Q4, F4, F4, Q4)",
+                "ncoll(K4, Q4, F4)",
+                "cong(Q4, D4, D4, Q4)",
+                "ncoll(K4, Q4, D4)",
+                "cong(Q4, G4, G4, Q4)",
+                "ncoll(K4, Q4, G4)",
+                "cong(M4, Q4, M4, A4)",
+                "cong(M4, R4, M4, A4)",
+                "cong(Q4, R4, R4, Q4)",
+                "ncoll(M4, R4, Q4)",
+                "cong(H4, R4, R4, H4)",
+                "ncoll(M4, R4, H4)",
+                "cong(G4, R4, R4, G4)",
+                "ncoll(M4, R4, G4)",
+                "cong(A4, R4, R4, A4)",
+                "ncoll(M4, R4, A4)",
+                "cong(N4, R4, N4, C4)",
+                "cong(N4, S4, N4, C4)",
+                "cong(S4, R4, R4, S4)",
+                "ncoll(N4, S4, R4)",
+                "cong(S4, I4, I4, S4)",
+                "ncoll(N4, S4, I4)",
+                "cong(S4, H4, H4, S4)",
+                "ncoll(N4, S4, H4)",
+                "cong(S4, C4, C4, S4)",
+                "ncoll(N4, S4, C4)",
+                "cong(O4, S4, O4, E4)",
+                "cong(L4, T4, L4, B4)",
+                "cong(T4, B4, B4, T4)",
+                "ncoll(L4, B4, T4)",
+                "cong(O4, T4, O4, E4)",
+                "cong(S4, T4, T4, S4)",
+                "ncoll(O4, T4, S4)",
+                "cong(I4, T4, T4, I4)",
+                "ncoll(O4, T4, I4)",
+                "cong(T4, J4, J4, T4)",
+                "ncoll(O4, T4, J4)",
+                "cong(E4, T4, T4, E4)",
+                "ncoll(O4, T4, E4)",
+                "cong(F5, B5, B5, F5)",
+                "cong(J5, B5, B5, J5)",
+                "cong(K5, D5, K5, F5)",
+                "cong(K5, F5, K5, G5)",
+                "cong(L5, J5, L5, B5)",
+                "ncoll(L5, B5, J5)",
+                "cong(L5, B5, L5, F5)",
+                "ncoll(L5, B5, F5)",
+                "cong(M5, H5, M5, A5)",
+                "cong(M5, G5, M5, H5)",
+                "cong(N5, I5, N5, C5)",
+                "cong(N5, H5, N5, I5)",
+                "cong(O5, I5, O5, E5)",
+                "cong(O5, J5, O5, I5)",
+                "cong(K5, P5, K5, D5)",
+                "cong(L5, P5, L5, B5)",
+                "cong(P5, B5, B5, P5)",
+                "ncoll(L5, B5, P5)",
+                "cong(K5, Q5, K5, D5)",
+                "cong(Q5, P5, P5, Q5)",
+                "ncoll(K5, Q5, P5)",
+                "cong(Q5, F5, F5, Q5)",
+                "ncoll(K5, Q5, F5)",
+                "cong(Q5, D5, D5, Q5)",
+                "ncoll(K5, Q5, D5)",
+                "cong(Q5, G5, G5, Q5)",
+                "ncoll(K5, Q5, G5)",
+                "cong(M5, Q5, M5, A5)",
+                "cong(M5, R5, M5, A5)",
+                "cong(Q5, R5, R5, Q5)",
+                "ncoll(M5, R5, Q5)",
+                "cong(H5, R5, R5, H5)",
+                "ncoll(M5, R5, H5)",
+                "cong(G5, R5, R5, G5)",
+                "ncoll(M5, R5, G5)",
+                "cong(A5, R5, R5, A5)",
+                "ncoll(M5, R5, A5)",
+                "cong(N5, R5, N5, C5)",
+                "cong(N5, S5, N5, C5)",
+                "cong(S5, R5, R5, S5)",
+                "ncoll(N5, S5, R5)",
+                "cong(S5, I5, I5, S5)",
+                "ncoll(N5, S5, I5)",
+                "cong(S5, H5, H5, S5)",
+                "ncoll(N5, S5, H5)",
+                "cong(S5, C5, C5, S5)",
+                "ncoll(N5, S5, C5)",
+                "cong(O5, S5, O5, E5)",
+                "cong(L5, T5, L5, B5)",
+                "cong(T5, B5, B5, T5)",
+                "ncoll(L5, B5, T5)",
+                "cong(O5, T5, O5, E5)",
+                "cong(S5, T5, T5, S5)",
+                "ncoll(O5, T5, S5)",
+                "cong(I5, T5, T5, I5)",
+                "ncoll(O5, T5, I5)",
+                "cong(T5, J5, J5, T5)",
+                "ncoll(O5, T5, J5)",
+                "cong(E5, T5, T5, E5)",
+                "ncoll(O5, T5, E5)",
+                "cong(F6, B6, B6, F6)",
+                "cong(J6, B6, B6, J6)",
+                "cong(K6, D6, K6, F6)",
+                "cong(K6, F6, K6, G6)",
+                "cong(L6, J6, L6, B6)",
+                "ncoll(L6, B6, J6)",
+                "cong(L6, B6, L6, F6)",
+                "ncoll(L6, B6, F6)",
+                "cong(M6, H6, M6, A6)",
+                "cong(M6, G6, M6, H6)",
+                "cong(N6, I6, N6, C6)",
+                "cong(N6, H6, N6, I6)",
+                "cong(O6, I6, O6, E6)",
+                "cong(O6, J6, O6, I6)",
+                "cong(K6, P6, K6, D6)",
+                "cong(L6, P6, L6, B6)",
+                "cong(P6, B6, B6, P6)",
+                "ncoll(L6, B6, P6)",
+                "cong(K6, Q6, K6, D6)",
+                "cong(Q6, P6, P6, Q6)",
+                "ncoll(K6, Q6, P6)",
+                "cong(Q6, F6, F6, Q6)",
+                "ncoll(K6, Q6, F6)",
+                "cong(Q6, D6, D6, Q6)",
+                "ncoll(K6, Q6, D6)",
+                "cong(Q6, G6, G6, Q6)",
+                "ncoll(K6, Q6, G6)",
+                "cong(M6, Q6, M6, A6)",
+                "cong(M6, R6, M6, A6)",
+                "cong(Q6, R6, R6, Q6)",
+                "ncoll(M6, R6, Q6)",
+                "cong(H6, R6, R6, H6)",
+                "ncoll(M6, R6, H6)",
+                "cong(G6, R6, R6, G6)",
+                "ncoll(M6, R6, G6)",
+                "cong(A6, R6, R6, A6)",
+                "ncoll(M6, R6, A6)",
+                "cong(N6, R6, N6, C6)",
+                "cong(N6, S6, N6, C6)",
+                "cong(S6, R6, R6, S6)",
+                "ncoll(N6, S6, R6)",
+                "cong(S6, I6, I6, S6)",
+                "ncoll(N6, S6, I6)",
+                "cong(S6, H6, H6, S6)",
+                "ncoll(N6, S6, H6)",
+                "cong(S6, C6, C6, S6)",
+                "ncoll(N6, S6, C6)",
+                "cong(O6, S6, O6, E6)",
+                "cong(L6, T6, L6, B6)",
+                "cong(T6, B6, B6, T6)",
+                "ncoll(L6, B6, T6)",
+                "cong(O6, T6, O6, E6)",
+                "cong(S6, T6, T6, S6)",
+                "ncoll(O6, T6, S6)",
+                "cong(I6, T6, T6, I6)",
+                "ncoll(O6, T6, I6)",
+                "cong(T6, J6, J6, T6)",
+                "ncoll(O6, T6, J6)",
+                "cong(E6, T6, T6, E6)",
+                "ncoll(O6, T6, E6)",
+                "cong(F7, B7, B7, F7)",
+                "cong(J7, B7, B7, J7)",
+                "cong(K7, D7, K7, F7)",
+                "cong(K7, F7, K7, G7)",
+                "cong(L7, J7, L7, B7)",
+                "ncoll(L7, B7, J7)",
+                "cong(L7, B7, L7, F7)",
+                "ncoll(L7, B7, F7)",
+                "cong(M7, H7, M7, A7)",
+                "cong(M7, G7, M7, H7)",
+                "cong(N7, I7, N7, C7)",
+                "cong(N7, H7, N7, I7)",
+                "cong(O7, I7, O7, E7)",
+                "cong(O7, J7, O7, I7)",
+                "cong(K7, P7, K7, D7)",
+                "cong(L7, P7, L7, B7)",
+                "cong(P7, B7, B7, P7)",
+                "ncoll(L7, B7, P7)",
+                "cong(K7, Q7, K7, D7)",
+                "cong(Q7, P7, P7, Q7)",
+                "ncoll(K7, Q7, P7)",
+                "cong(Q7, F7, F7, Q7)",
+                "ncoll(K7, Q7, F7)",
+                "cong(Q7, D7, D7, Q7)",
+                "ncoll(K7, Q7, D7)",
+                "cong(Q7, G7, G7, Q7)",
+                "ncoll(K7, Q7, G7)",
+                "cong(M7, Q7, M7, A7)",
+                "cong(M7, R7, M7, A7)",
+                "cong(Q7, R7, R7, Q7)",
+                "ncoll(M7, R7, Q7)",
+                "cong(H7, R7, R7, H7)",
+                "ncoll(M7, R7, H7)",
+                "cong(G7, R7, R7, G7)",
+                "ncoll(M7, R7, G7)",
+                "cong(A7, R7, R7, A7)",
+                "ncoll(M7, R7, A7)",
+                "cong(N7, R7, N7, C7)",
+                "cong(N7, S7, N7, C7)",
+                "cong(S7, R7, R7, S7)",
+                "ncoll(N7, S7, R7)",
+                "cong(S7, I7, I7, S7)",
+                "ncoll(N7, S7, I7)",
+                "cong(S7, H7, H7, S7)",
+                "ncoll(N7, S7, H7)",
+                "cong(S7, C7, C7, S7)",
+                "ncoll(N7, S7, C7)",
+                "cong(O7, S7, O7, E7)",
+                "cong(L7, T7, L7, B7)",
+                "cong(T7, B7, B7, T7)",
+                "ncoll(L7, B7, T7)",
+                "cong(O7, T7, O7, E7)",
+                "cong(S7, T7, T7, S7)",
+                "ncoll(O7, T7, S7)",
+                "cong(I7, T7, T7, I7)",
+                "ncoll(O7, T7, I7)",
+                "cong(T7, J7, J7, T7)",
+                "ncoll(O7, T7, J7)",
+                "cong(E7, T7, T7, E7)",
+                "ncoll(O7, T7, E7)"
+            ],
+            "positive_examples": [
+                "para(K0, P0, K0, P0)",
+                "para(F0, K0, F0, K0)",
+                "para(D0, K0, D0, K0)",
+                "para(G0, K0, G0, K0)",
+                "para(J0, L0, J0, L0)",
+                "para(F0, L0, F0, L0)",
+                "para(L0, P0, L0, P0)",
+                "para(L0, T0, L0, T0)",
+                "para(M0, Q0, M0, Q0)",
+                "para(H0, M0, H0, M0)",
+                "para(G0, M0, G0, M0)",
+                "para(A0, M0, A0, M0)",
+                "para(N0, R0, N0, R0)",
+                "para(I0, N0, I0, N0)",
+                "para(H0, N0, H0, N0)",
+                "para(C0, N0, C0, N0)",
+                "para(O0, S0, O0, S0)",
+                "para(I0, O0, I0, O0)",
+                "para(J0, O0, J0, O0)",
+                "para(E0, O0, E0, O0)",
+                "para(K0, Q0, K0, Q0)",
+                "para(B0, L0, B0, L0)",
+                "para(O0, T0, O0, T0)",
+                "para(M0, R0, M0, R0)",
+                "para(N0, S0, N0, S0)",
+                "para(K1, P1, K1, P1)",
+                "para(F1, K1, F1, K1)",
+                "para(D1, K1, D1, K1)",
+                "para(G1, K1, G1, K1)",
+                "para(J1, L1, J1, L1)",
+                "para(F1, L1, F1, L1)",
+                "para(L1, P1, L1, P1)",
+                "para(L1, T1, L1, T1)",
+                "para(M1, Q1, M1, Q1)",
+                "para(H1, M1, H1, M1)",
+                "para(G1, M1, G1, M1)",
+                "para(A1, M1, A1, M1)",
+                "para(N1, R1, N1, R1)",
+                "para(I1, N1, I1, N1)",
+                "para(H1, N1, H1, N1)",
+                "para(C1, N1, C1, N1)",
+                "para(O1, S1, O1, S1)",
+                "para(I1, O1, I1, O1)",
+                "para(J1, O1, J1, O1)",
+                "para(E1, O1, E1, O1)",
+                "para(K1, Q1, K1, Q1)",
+                "para(B1, L1, B1, L1)",
+                "para(O1, T1, O1, T1)",
+                "para(M1, R1, M1, R1)",
+                "para(N1, S1, N1, S1)",
+                "para(K2, P2, K2, P2)",
+                "para(F2, K2, F2, K2)",
+                "para(D2, K2, D2, K2)",
+                "para(G2, K2, G2, K2)",
+                "para(J2, L2, J2, L2)",
+                "para(F2, L2, F2, L2)",
+                "para(L2, P2, L2, P2)",
+                "para(L2, T2, L2, T2)",
+                "para(M2, Q2, M2, Q2)",
+                "para(H2, M2, H2, M2)",
+                "para(G2, M2, G2, M2)",
+                "para(A2, M2, A2, M2)",
+                "para(N2, R2, N2, R2)",
+                "para(I2, N2, I2, N2)",
+                "para(H2, N2, H2, N2)",
+                "para(C2, N2, C2, N2)",
+                "para(O2, S2, O2, S2)",
+                "para(I2, O2, I2, O2)",
+                "para(J2, O2, J2, O2)",
+                "para(E2, O2, E2, O2)",
+                "para(K2, Q2, K2, Q2)",
+                "para(B2, L2, B2, L2)",
+                "para(O2, T2, O2, T2)",
+                "para(M2, R2, M2, R2)",
+                "para(N2, S2, N2, S2)",
+                "para(K3, P3, K3, P3)",
+                "para(F3, K3, F3, K3)",
+                "para(D3, K3, D3, K3)",
+                "para(G3, K3, G3, K3)",
+                "para(J3, L3, J3, L3)",
+                "para(F3, L3, F3, L3)",
+                "para(L3, P3, L3, P3)",
+                "para(L3, T3, L3, T3)",
+                "para(M3, Q3, M3, Q3)",
+                "para(H3, M3, H3, M3)",
+                "para(G3, M3, G3, M3)",
+                "para(A3, M3, A3, M3)",
+                "para(N3, R3, N3, R3)",
+                "para(I3, N3, I3, N3)",
+                "para(H3, N3, H3, N3)",
+                "para(C3, N3, C3, N3)",
+                "para(O3, S3, O3, S3)",
+                "para(I3, O3, I3, O3)",
+                "para(J3, O3, J3, O3)",
+                "para(E3, O3, E3, O3)",
+                "para(K3, Q3, K3, Q3)",
+                "para(B3, L3, B3, L3)",
+                "para(O3, T3, O3, T3)",
+                "para(M3, R3, M3, R3)",
+                "para(N3, S3, N3, S3)",
+                "para(K4, P4, K4, P4)",
+                "para(F4, K4, F4, K4)",
+                "para(D4, K4, D4, K4)",
+                "para(G4, K4, G4, K4)",
+                "para(J4, L4, J4, L4)",
+                "para(F4, L4, F4, L4)",
+                "para(L4, P4, L4, P4)",
+                "para(L4, T4, L4, T4)",
+                "para(M4, Q4, M4, Q4)",
+                "para(H4, M4, H4, M4)",
+                "para(G4, M4, G4, M4)",
+                "para(A4, M4, A4, M4)",
+                "para(N4, R4, N4, R4)",
+                "para(I4, N4, I4, N4)",
+                "para(H4, N4, H4, N4)",
+                "para(C4, N4, C4, N4)",
+                "para(O4, S4, O4, S4)",
+                "para(I4, O4, I4, O4)",
+                "para(J4, O4, J4, O4)",
+                "para(E4, O4, E4, O4)",
+                "para(K4, Q4, K4, Q4)",
+                "para(B4, L4, B4, L4)",
+                "para(O4, T4, O4, T4)",
+                "para(M4, R4, M4, R4)",
+                "para(N4, S4, N4, S4)",
+                "para(K5, P5, K5, P5)",
+                "para(F5, K5, F5, K5)",
+                "para(D5, K5, D5, K5)",
+                "para(G5, K5, G5, K5)",
+                "para(J5, L5, J5, L5)",
+                "para(F5, L5, F5, L5)",
+                "para(L5, P5, L5, P5)",
+                "para(L5, T5, L5, T5)",
+                "para(M5, Q5, M5, Q5)",
+                "para(H5, M5, H5, M5)",
+                "para(G5, M5, G5, M5)",
+                "para(A5, M5, A5, M5)",
+                "para(N5, R5, N5, R5)",
+                "para(I5, N5, I5, N5)",
+                "para(H5, N5, H5, N5)",
+                "para(C5, N5, C5, N5)",
+                "para(O5, S5, O5, S5)",
+                "para(I5, O5, I5, O5)",
+                "para(J5, O5, J5, O5)",
+                "para(E5, O5, E5, O5)",
+                "para(K5, Q5, K5, Q5)",
+                "para(B5, L5, B5, L5)",
+                "para(O5, T5, O5, T5)",
+                "para(M5, R5, M5, R5)",
+                "para(N5, S5, N5, S5)",
+                "para(K6, P6, K6, P6)",
+                "para(F6, K6, F6, K6)",
+                "para(D6, K6, D6, K6)",
+                "para(G6, K6, G6, K6)",
+                "para(J6, L6, J6, L6)",
+                "para(F6, L6, F6, L6)",
+                "para(L6, P6, L6, P6)",
+                "para(L6, T6, L6, T6)",
+                "para(M6, Q6, M6, Q6)",
+                "para(H6, M6, H6, M6)",
+                "para(G6, M6, G6, M6)",
+                "para(A6, M6, A6, M6)",
+                "para(N6, R6, N6, R6)",
+                "para(I6, N6, I6, N6)",
+                "para(H6, N6, H6, N6)",
+                "para(C6, N6, C6, N6)",
+                "para(O6, S6, O6, S6)",
+                "para(I6, O6, I6, O6)",
+                "para(J6, O6, J6, O6)",
+                "para(E6, O6, E6, O6)",
+                "para(K6, Q6, K6, Q6)",
+                "para(B6, L6, B6, L6)",
+                "para(O6, T6, O6, T6)",
+                "para(M6, R6, M6, R6)",
+                "para(N6, S6, N6, S6)",
+                "para(K7, P7, K7, P7)",
+                "para(F7, K7, F7, K7)",
+                "para(D7, K7, D7, K7)",
+                "para(G7, K7, G7, K7)",
+                "para(J7, L7, J7, L7)",
+                "para(F7, L7, F7, L7)",
+                "para(L7, P7, L7, P7)",
+                "para(L7, T7, L7, T7)",
+                "para(M7, Q7, M7, Q7)",
+                "para(H7, M7, H7, M7)",
+                "para(G7, M7, G7, M7)",
+                "para(A7, M7, A7, M7)",
+                "para(N7, R7, N7, R7)",
+                "para(I7, N7, I7, N7)",
+                "para(H7, N7, H7, N7)",
+                "para(C7, N7, C7, N7)",
+                "para(O7, S7, O7, S7)",
+                "para(I7, O7, I7, O7)",
+                "para(J7, O7, J7, O7)",
+                "para(E7, O7, E7, O7)",
+                "para(K7, Q7, K7, Q7)",
+                "para(B7, L7, B7, L7)",
+                "para(O7, T7, O7, T7)",
+                "para(M7, R7, M7, R7)",
+                "para(N7, S7, N7, S7)"
+            ],
+            "proof_steps": [
+                {
+                    "body": [
+                        "cong(K0, P0, K0, D0)",
+                        "cong(K0, Q0, K0, D0)"
+                    ],
+                    "head": "cong(K0, Q0, K0, P0)"
+                },
+                {
+                    "body": [
+                        "cong(K0, Q0, K0, P0)",
+                        "cong(Q0, P0, P0, Q0)",
+                        "ncoll(K0, Q0, P0)"
+                    ],
+                    "head": "para(K0, P0, K0, P0)"
+                },
+                {
+                    "body": [
+                        "cong(K0, D0, K0, F0)",
+                        "cong(K0, Q0, K0, D0)"
+                    ],
+                    "head": "cong(K0, Q0, K0, F0)"
+                },
+                {
+                    "body": [
+                        "cong(K0, Q0, K0, F0)",
+                        "cong(Q0, F0, F0, Q0)",
+                        "ncoll(K0, Q0, F0)"
+                    ],
+                    "head": "para(F0, K0, F0, K0)"
+                },
+                {
+                    "body": [
+                        "cong(K0, Q0, K0, D0)",
+                        "cong(Q0, D0, D0, Q0)",
+                        "ncoll(K0, Q0, D0)"
+                    ],
+                    "head": "para(D0, K0, D0, K0)"
+                },
+                {
+                    "body": [
+                        "cong(K0, F0, K0, G0)",
+                        "cong(K0, D0, K0, F0)",
+                        "cong(K0, Q0, K0, D0)"
+                    ],
+                    "head": "cong(K0, Q0, K0, G0)"
+                },
+                {
+                    "body": [
+                        "cong(K0, Q0, K0, G0)",
+                        "cong(Q0, G0, G0, Q0)",
+                        "ncoll(K0, Q0, G0)"
+                    ],
+                    "head": "para(G0, K0, G0, K0)"
+                },
+                {
+                    "body": [
+                        "cong(L0, J0, L0, B0)",
+                        "cong(J0, B0, B0, J0)",
+                        "ncoll(L0, B0, J0)"
+                    ],
+                    "head": "para(J0, L0, J0, L0)"
+                },
+                {
+                    "body": [
+                        "cong(L0, B0, L0, F0)",
+                        "cong(F0, B0, B0, F0)",
+                        "ncoll(L0, B0, F0)"
+                    ],
+                    "head": "para(F0, L0, F0, L0)"
+                },
+                {
+                    "body": [
+                        "cong(L0, P0, L0, B0)",
+                        "cong(P0, B0, B0, P0)",
+                        "ncoll(L0, B0, P0)"
+                    ],
+                    "head": "para(L0, P0, L0, P0)"
+                },
+                {
+                    "body": [
+                        "cong(L0, T0, L0, B0)",
+                        "cong(T0, B0, B0, T0)",
+                        "ncoll(L0, B0, T0)"
+                    ],
+                    "head": "para(L0, T0, L0, T0)"
+                },
+                {
+                    "body": [
+                        "cong(M0, Q0, M0, A0)",
+                        "cong(M0, R0, M0, A0)"
+                    ],
+                    "head": "cong(M0, R0, M0, Q0)"
+                },
+                {
+                    "body": [
+                        "cong(M0, R0, M0, Q0)",
+                        "cong(Q0, R0, R0, Q0)",
+                        "ncoll(M0, R0, Q0)"
+                    ],
+                    "head": "para(M0, Q0, M0, Q0)"
+                },
+                {
+                    "body": [
+                        "cong(M0, H0, M0, A0)",
+                        "cong(M0, R0, M0, A0)"
+                    ],
+                    "head": "cong(M0, R0, M0, H0)"
+                },
+                {
+                    "body": [
+                        "cong(M0, R0, M0, H0)",
+                        "cong(H0, R0, R0, H0)",
+                        "ncoll(M0, R0, H0)"
+                    ],
+                    "head": "para(H0, M0, H0, M0)"
+                },
+                {
+                    "body": [
+                        "cong(M0, G0, M0, H0)",
+                        "cong(M0, H0, M0, A0)",
+                        "cong(M0, R0, M0, A0)"
+                    ],
+                    "head": "cong(M0, R0, M0, G0)"
+                },
+                {
+                    "body": [
+                        "cong(M0, R0, M0, G0)",
+                        "cong(G0, R0, R0, G0)",
+                        "ncoll(M0, R0, G0)"
+                    ],
+                    "head": "para(G0, M0, G0, M0)"
+                },
+                {
+                    "body": [
+                        "cong(M0, R0, M0, A0)",
+                        "cong(A0, R0, R0, A0)",
+                        "ncoll(M0, R0, A0)"
+                    ],
+                    "head": "para(A0, M0, A0, M0)"
+                },
+                {
+                    "body": [
+                        "cong(N0, R0, N0, C0)",
+                        "cong(N0, S0, N0, C0)"
+                    ],
+                    "head": "cong(N0, S0, N0, R0)"
+                },
+                {
+                    "body": [
+                        "cong(N0, S0, N0, R0)",
+                        "cong(S0, R0, R0, S0)",
+                        "ncoll(N0, S0, R0)"
+                    ],
+                    "head": "para(N0, R0, N0, R0)"
+                },
+                {
+                    "body": [
+                        "cong(N0, I0, N0, C0)",
+                        "cong(N0, S0, N0, C0)"
+                    ],
+                    "head": "cong(N0, S0, N0, I0)"
+                },
+                {
+                    "body": [
+                        "cong(N0, S0, N0, I0)",
+                        "cong(S0, I0, I0, S0)",
+                        "ncoll(N0, S0, I0)"
+                    ],
+                    "head": "para(I0, N0, I0, N0)"
+                },
+                {
+                    "body": [
+                        "cong(N0, H0, N0, I0)",
+                        "cong(N0, I0, N0, C0)",
+                        "cong(N0, S0, N0, C0)"
+                    ],
+                    "head": "cong(N0, S0, N0, H0)"
+                },
+                {
+                    "body": [
+                        "cong(N0, S0, N0, H0)",
+                        "cong(S0, H0, H0, S0)",
+                        "ncoll(N0, S0, H0)"
+                    ],
+                    "head": "para(H0, N0, H0, N0)"
+                },
+                {
+                    "body": [
+                        "cong(N0, S0, N0, C0)",
+                        "cong(S0, C0, C0, S0)",
+                        "ncoll(N0, S0, C0)"
+                    ],
+                    "head": "para(C0, N0, C0, N0)"
+                },
+                {
+                    "body": [
+                        "cong(O0, S0, O0, E0)",
+                        "cong(O0, T0, O0, E0)"
+                    ],
+                    "head": "cong(O0, T0, O0, S0)"
+                },
+                {
+                    "body": [
+                        "cong(O0, T0, O0, S0)",
+                        "cong(S0, T0, T0, S0)",
+                        "ncoll(O0, T0, S0)"
+                    ],
+                    "head": "para(O0, S0, O0, S0)"
+                },
+                {
+                    "body": [
+                        "cong(O0, I0, O0, E0)",
+                        "cong(O0, T0, O0, E0)"
+                    ],
+                    "head": "cong(O0, T0, O0, I0)"
+                },
+                {
+                    "body": [
+                        "cong(O0, T0, O0, I0)",
+                        "cong(I0, T0, T0, I0)",
+                        "ncoll(O0, T0, I0)"
+                    ],
+                    "head": "para(I0, O0, I0, O0)"
+                },
+                {
+                    "body": [
+                        "cong(O0, J0, O0, I0)",
+                        "cong(O0, I0, O0, E0)",
+                        "cong(O0, T0, O0, E0)"
+                    ],
+                    "head": "cong(O0, T0, O0, J0)"
+                },
+                {
+                    "body": [
+                        "cong(O0, T0, O0, J0)",
+                        "cong(T0, J0, J0, T0)",
+                        "ncoll(O0, T0, J0)"
+                    ],
+                    "head": "para(J0, O0, J0, O0)"
+                },
+                {
+                    "body": [
+                        "cong(O0, T0, O0, E0)",
+                        "cong(E0, T0, T0, E0)",
+                        "ncoll(O0, T0, E0)"
+                    ],
+                    "head": "para(E0, O0, E0, O0)"
+                },
+                {
+                    "body": [
+                        "cong(K0, Q0, K0, P0)"
+                    ],
+                    "head": "eqratio(P0, Q0, P0, K0, Q0, P0, Q0, K0)"
+                },
+                {
+                    "body": [
+                        "cong(K0, Q0, K0, P0)"
+                    ],
+                    "head": "eqratio(K0, Q0, K0, P0, K0, P0, K0, Q0)"
+                },
+                {
+                    "body": [
+                        "eqratio(P0, Q0, P0, K0, Q0, P0, Q0, K0)",
+                        "eqratio(K0, Q0, K0, P0, K0, P0, K0, Q0)",
+                        "ncoll(K0, Q0, P0)",
+                        "cong(Q0, P0, P0, Q0)"
+                    ],
+                    "head": "para(K0, Q0, K0, Q0)"
+                },
+                {
+                    "body": [
+                        "cong(L0, J0, L0, B0)"
+                    ],
+                    "head": "eqratio(J0, B0, J0, L0, B0, J0, B0, L0)"
+                },
+                {
+                    "body": [
+                        "cong(L0, B0, L0, J0)"
+                    ],
+                    "head": "eqratio(L0, B0, L0, J0, L0, J0, L0, B0)"
+                },
+                {
+                    "body": [
+                        "eqratio(J0, B0, J0, L0, B0, J0, B0, L0)",
+                        "eqratio(L0, B0, L0, J0, L0, J0, L0, B0)",
+                        "ncoll(L0, B0, J0)",
+                        "cong(J0, B0, B0, J0)"
+                    ],
+                    "head": "para(B0, L0, B0, L0)"
+                },
+                {
+                    "body": [
+                        "cong(O0, T0, O0, J0)"
+                    ],
+                    "head": "eqratio(J0, T0, J0, O0, T0, J0, T0, O0)"
+                },
+                {
+                    "body": [
+                        "cong(O0, T0, O0, J0)"
+                    ],
+                    "head": "eqratio(O0, T0, O0, J0, O0, J0, O0, T0)"
+                },
+                {
+                    "body": [
+                        "eqratio(J0, T0, J0, O0, T0, J0, T0, O0)",
+                        "eqratio(O0, T0, O0, J0, O0, J0, O0, T0)",
+                        "ncoll(O0, T0, J0)",
+                        "cong(T0, J0, J0, T0)"
+                    ],
+                    "head": "para(O0, T0, O0, T0)"
+                },
+                {
+                    "body": [
+                        "cong(M0, R0, M0, Q0)"
+                    ],
+                    "head": "eqratio(Q0, R0, Q0, M0, R0, Q0, R0, M0)"
+                },
+                {
+                    "body": [
+                        "cong(M0, R0, M0, Q0)"
+                    ],
+                    "head": "eqratio(M0, R0, M0, Q0, M0, Q0, M0, R0)"
+                },
+                {
+                    "body": [
+                        "eqratio(Q0, R0, Q0, M0, R0, Q0, R0, M0)",
+                        "eqratio(M0, R0, M0, Q0, M0, Q0, M0, R0)",
+                        "ncoll(M0, R0, Q0)",
+                        "cong(Q0, R0, R0, Q0)"
+                    ],
+                    "head": "para(M0, R0, M0, R0)"
+                },
+                {
+                    "body": [
+                        "cong(N0, S0, N0, R0)"
+                    ],
+                    "head": "eqratio(R0, S0, R0, N0, S0, R0, S0, N0)"
+                },
+                {
+                    "body": [
+                        "cong(N0, S0, N0, R0)"
+                    ],
+                    "head": "eqratio(N0, S0, N0, R0, N0, R0, N0, S0)"
+                },
+                {
+                    "body": [
+                        "eqratio(R0, S0, R0, N0, S0, R0, S0, N0)",
+                        "eqratio(N0, S0, N0, R0, N0, R0, N0, S0)",
+                        "ncoll(N0, S0, R0)",
+                        "cong(S0, R0, R0, S0)"
+                    ],
+                    "head": "para(N0, S0, N0, S0)"
+                },
+                {
+                    "body": [
+                        "cong(K1, P1, K1, D1)",
+                        "cong(K1, Q1, K1, D1)"
+                    ],
+                    "head": "cong(K1, Q1, K1, P1)"
+                },
+                {
+                    "body": [
+                        "cong(K1, Q1, K1, P1)",
+                        "cong(Q1, P1, P1, Q1)",
+                        "ncoll(K1, Q1, P1)"
+                    ],
+                    "head": "para(K1, P1, K1, P1)"
+                },
+                {
+                    "body": [
+                        "cong(K1, D1, K1, F1)",
+                        "cong(K1, Q1, K1, D1)"
+                    ],
+                    "head": "cong(K1, Q1, K1, F1)"
+                },
+                {
+                    "body": [
+                        "cong(K1, Q1, K1, F1)",
+                        "cong(Q1, F1, F1, Q1)",
+                        "ncoll(K1, Q1, F1)"
+                    ],
+                    "head": "para(F1, K1, F1, K1)"
+                },
+                {
+                    "body": [
+                        "cong(K1, Q1, K1, D1)",
+                        "cong(Q1, D1, D1, Q1)",
+                        "ncoll(K1, Q1, D1)"
+                    ],
+                    "head": "para(D1, K1, D1, K1)"
+                },
+                {
+                    "body": [
+                        "cong(K1, F1, K1, G1)",
+                        "cong(K1, D1, K1, F1)",
+                        "cong(K1, Q1, K1, D1)"
+                    ],
+                    "head": "cong(K1, Q1, K1, G1)"
+                },
+                {
+                    "body": [
+                        "cong(K1, Q1, K1, G1)",
+                        "cong(Q1, G1, G1, Q1)",
+                        "ncoll(K1, Q1, G1)"
+                    ],
+                    "head": "para(G1, K1, G1, K1)"
+                },
+                {
+                    "body": [
+                        "cong(L1, J1, L1, B1)",
+                        "cong(J1, B1, B1, J1)",
+                        "ncoll(L1, B1, J1)"
+                    ],
+                    "head": "para(J1, L1, J1, L1)"
+                },
+                {
+                    "body": [
+                        "cong(L1, B1, L1, F1)",
+                        "cong(F1, B1, B1, F1)",
+                        "ncoll(L1, B1, F1)"
+                    ],
+                    "head": "para(F1, L1, F1, L1)"
+                },
+                {
+                    "body": [
+                        "cong(L1, P1, L1, B1)",
+                        "cong(P1, B1, B1, P1)",
+                        "ncoll(L1, B1, P1)"
+                    ],
+                    "head": "para(L1, P1, L1, P1)"
+                },
+                {
+                    "body": [
+                        "cong(L1, T1, L1, B1)",
+                        "cong(T1, B1, B1, T1)",
+                        "ncoll(L1, B1, T1)"
+                    ],
+                    "head": "para(L1, T1, L1, T1)"
+                },
+                {
+                    "body": [
+                        "cong(M1, Q1, M1, A1)",
+                        "cong(M1, R1, M1, A1)"
+                    ],
+                    "head": "cong(M1, R1, M1, Q1)"
+                },
+                {
+                    "body": [
+                        "cong(M1, R1, M1, Q1)",
+                        "cong(Q1, R1, R1, Q1)",
+                        "ncoll(M1, R1, Q1)"
+                    ],
+                    "head": "para(M1, Q1, M1, Q1)"
+                },
+                {
+                    "body": [
+                        "cong(M1, H1, M1, A1)",
+                        "cong(M1, R1, M1, A1)"
+                    ],
+                    "head": "cong(M1, R1, M1, H1)"
+                },
+                {
+                    "body": [
+                        "cong(M1, R1, M1, H1)",
+                        "cong(H1, R1, R1, H1)",
+                        "ncoll(M1, R1, H1)"
+                    ],
+                    "head": "para(H1, M1, H1, M1)"
+                },
+                {
+                    "body": [
+                        "cong(M1, G1, M1, H1)",
+                        "cong(M1, H1, M1, A1)",
+                        "cong(M1, R1, M1, A1)"
+                    ],
+                    "head": "cong(M1, R1, M1, G1)"
+                },
+                {
+                    "body": [
+                        "cong(M1, R1, M1, G1)",
+                        "cong(G1, R1, R1, G1)",
+                        "ncoll(M1, R1, G1)"
+                    ],
+                    "head": "para(G1, M1, G1, M1)"
+                },
+                {
+                    "body": [
+                        "cong(M1, R1, M1, A1)",
+                        "cong(A1, R1, R1, A1)",
+                        "ncoll(M1, R1, A1)"
+                    ],
+                    "head": "para(A1, M1, A1, M1)"
+                },
+                {
+                    "body": [
+                        "cong(N1, R1, N1, C1)",
+                        "cong(N1, S1, N1, C1)"
+                    ],
+                    "head": "cong(N1, S1, N1, R1)"
+                },
+                {
+                    "body": [
+                        "cong(N1, S1, N1, R1)",
+                        "cong(S1, R1, R1, S1)",
+                        "ncoll(N1, S1, R1)"
+                    ],
+                    "head": "para(N1, R1, N1, R1)"
+                },
+                {
+                    "body": [
+                        "cong(N1, I1, N1, C1)",
+                        "cong(N1, S1, N1, C1)"
+                    ],
+                    "head": "cong(N1, S1, N1, I1)"
+                },
+                {
+                    "body": [
+                        "cong(N1, S1, N1, I1)",
+                        "cong(S1, I1, I1, S1)",
+                        "ncoll(N1, S1, I1)"
+                    ],
+                    "head": "para(I1, N1, I1, N1)"
+                },
+                {
+                    "body": [
+                        "cong(N1, H1, N1, I1)",
+                        "cong(N1, I1, N1, C1)",
+                        "cong(N1, S1, N1, C1)"
+                    ],
+                    "head": "cong(N1, S1, N1, H1)"
+                },
+                {
+                    "body": [
+                        "cong(N1, S1, N1, H1)",
+                        "cong(S1, H1, H1, S1)",
+                        "ncoll(N1, S1, H1)"
+                    ],
+                    "head": "para(H1, N1, H1, N1)"
+                },
+                {
+                    "body": [
+                        "cong(N1, S1, N1, C1)",
+                        "cong(S1, C1, C1, S1)",
+                        "ncoll(N1, S1, C1)"
+                    ],
+                    "head": "para(C1, N1, C1, N1)"
+                },
+                {
+                    "body": [
+                        "cong(O1, S1, O1, E1)",
+                        "cong(O1, T1, O1, E1)"
+                    ],
+                    "head": "cong(O1, T1, O1, S1)"
+                },
+                {
+                    "body": [
+                        "cong(O1, T1, O1, S1)",
+                        "cong(S1, T1, T1, S1)",
+                        "ncoll(O1, T1, S1)"
+                    ],
+                    "head": "para(O1, S1, O1, S1)"
+                },
+                {
+                    "body": [
+                        "cong(O1, I1, O1, E1)",
+                        "cong(O1, T1, O1, E1)"
+                    ],
+                    "head": "cong(O1, T1, O1, I1)"
+                },
+                {
+                    "body": [
+                        "cong(O1, T1, O1, I1)",
+                        "cong(I1, T1, T1, I1)",
+                        "ncoll(O1, T1, I1)"
+                    ],
+                    "head": "para(I1, O1, I1, O1)"
+                },
+                {
+                    "body": [
+                        "cong(O1, J1, O1, I1)",
+                        "cong(O1, I1, O1, E1)",
+                        "cong(O1, T1, O1, E1)"
+                    ],
+                    "head": "cong(O1, T1, O1, J1)"
+                },
+                {
+                    "body": [
+                        "cong(O1, T1, O1, J1)",
+                        "cong(T1, J1, J1, T1)",
+                        "ncoll(O1, T1, J1)"
+                    ],
+                    "head": "para(J1, O1, J1, O1)"
+                },
+                {
+                    "body": [
+                        "cong(O1, T1, O1, E1)",
+                        "cong(E1, T1, T1, E1)",
+                        "ncoll(O1, T1, E1)"
+                    ],
+                    "head": "para(E1, O1, E1, O1)"
+                },
+                {
+                    "body": [
+                        "cong(K1, Q1, K1, P1)"
+                    ],
+                    "head": "eqratio(P1, Q1, P1, K1, Q1, P1, Q1, K1)"
+                },
+                {
+                    "body": [
+                        "cong(K1, Q1, K1, P1)"
+                    ],
+                    "head": "eqratio(K1, Q1, K1, P1, K1, P1, K1, Q1)"
+                },
+                {
+                    "body": [
+                        "eqratio(P1, Q1, P1, K1, Q1, P1, Q1, K1)",
+                        "eqratio(K1, Q1, K1, P1, K1, P1, K1, Q1)",
+                        "ncoll(K1, Q1, P1)",
+                        "cong(Q1, P1, P1, Q1)"
+                    ],
+                    "head": "para(K1, Q1, K1, Q1)"
+                },
+                {
+                    "body": [
+                        "cong(L1, J1, L1, B1)"
+                    ],
+                    "head": "eqratio(J1, B1, J1, L1, B1, J1, B1, L1)"
+                },
+                {
+                    "body": [
+                        "cong(L1, B1, L1, J1)"
+                    ],
+                    "head": "eqratio(L1, B1, L1, J1, L1, J1, L1, B1)"
+                },
+                {
+                    "body": [
+                        "eqratio(J1, B1, J1, L1, B1, J1, B1, L1)",
+                        "eqratio(L1, B1, L1, J1, L1, J1, L1, B1)",
+                        "ncoll(L1, B1, J1)",
+                        "cong(J1, B1, B1, J1)"
+                    ],
+                    "head": "para(B1, L1, B1, L1)"
+                },
+                {
+                    "body": [
+                        "cong(O1, T1, O1, J1)"
+                    ],
+                    "head": "eqratio(J1, T1, J1, O1, T1, J1, T1, O1)"
+                },
+                {
+                    "body": [
+                        "cong(O1, T1, O1, J1)"
+                    ],
+                    "head": "eqratio(O1, T1, O1, J1, O1, J1, O1, T1)"
+                },
+                {
+                    "body": [
+                        "eqratio(J1, T1, J1, O1, T1, J1, T1, O1)",
+                        "eqratio(O1, T1, O1, J1, O1, J1, O1, T1)",
+                        "ncoll(O1, T1, J1)",
+                        "cong(T1, J1, J1, T1)"
+                    ],
+                    "head": "para(O1, T1, O1, T1)"
+                },
+                {
+                    "body": [
+                        "cong(M1, R1, M1, Q1)"
+                    ],
+                    "head": "eqratio(Q1, R1, Q1, M1, R1, Q1, R1, M1)"
+                },
+                {
+                    "body": [
+                        "cong(M1, R1, M1, Q1)"
+                    ],
+                    "head": "eqratio(M1, R1, M1, Q1, M1, Q1, M1, R1)"
+                },
+                {
+                    "body": [
+                        "eqratio(Q1, R1, Q1, M1, R1, Q1, R1, M1)",
+                        "eqratio(M1, R1, M1, Q1, M1, Q1, M1, R1)",
+                        "ncoll(M1, R1, Q1)",
+                        "cong(Q1, R1, R1, Q1)"
+                    ],
+                    "head": "para(M1, R1, M1, R1)"
+                },
+                {
+                    "body": [
+                        "cong(N1, S1, N1, R1)"
+                    ],
+                    "head": "eqratio(R1, S1, R1, N1, S1, R1, S1, N1)"
+                },
+                {
+                    "body": [
+                        "cong(N1, S1, N1, R1)"
+                    ],
+                    "head": "eqratio(N1, S1, N1, R1, N1, R1, N1, S1)"
+                },
+                {
+                    "body": [
+                        "eqratio(R1, S1, R1, N1, S1, R1, S1, N1)",
+                        "eqratio(N1, S1, N1, R1, N1, R1, N1, S1)",
+                        "ncoll(N1, S1, R1)",
+                        "cong(S1, R1, R1, S1)"
+                    ],
+                    "head": "para(N1, S1, N1, S1)"
+                },
+                {
+                    "body": [
+                        "cong(K2, P2, K2, D2)",
+                        "cong(K2, Q2, K2, D2)"
+                    ],
+                    "head": "cong(K2, Q2, K2, P2)"
+                },
+                {
+                    "body": [
+                        "cong(K2, Q2, K2, P2)",
+                        "cong(Q2, P2, P2, Q2)",
+                        "ncoll(K2, Q2, P2)"
+                    ],
+                    "head": "para(K2, P2, K2, P2)"
+                },
+                {
+                    "body": [
+                        "cong(K2, D2, K2, F2)",
+                        "cong(K2, Q2, K2, D2)"
+                    ],
+                    "head": "cong(K2, Q2, K2, F2)"
+                },
+                {
+                    "body": [
+                        "cong(K2, Q2, K2, F2)",
+                        "cong(Q2, F2, F2, Q2)",
+                        "ncoll(K2, Q2, F2)"
+                    ],
+                    "head": "para(F2, K2, F2, K2)"
+                },
+                {
+                    "body": [
+                        "cong(K2, Q2, K2, D2)",
+                        "cong(Q2, D2, D2, Q2)",
+                        "ncoll(K2, Q2, D2)"
+                    ],
+                    "head": "para(D2, K2, D2, K2)"
+                },
+                {
+                    "body": [
+                        "cong(K2, F2, K2, G2)",
+                        "cong(K2, D2, K2, F2)",
+                        "cong(K2, Q2, K2, D2)"
+                    ],
+                    "head": "cong(K2, Q2, K2, G2)"
+                },
+                {
+                    "body": [
+                        "cong(K2, Q2, K2, G2)",
+                        "cong(Q2, G2, G2, Q2)",
+                        "ncoll(K2, Q2, G2)"
+                    ],
+                    "head": "para(G2, K2, G2, K2)"
+                },
+                {
+                    "body": [
+                        "cong(L2, J2, L2, B2)",
+                        "cong(J2, B2, B2, J2)",
+                        "ncoll(L2, B2, J2)"
+                    ],
+                    "head": "para(J2, L2, J2, L2)"
+                },
+                {
+                    "body": [
+                        "cong(L2, B2, L2, F2)",
+                        "cong(F2, B2, B2, F2)",
+                        "ncoll(L2, B2, F2)"
+                    ],
+                    "head": "para(F2, L2, F2, L2)"
+                },
+                {
+                    "body": [
+                        "cong(L2, P2, L2, B2)",
+                        "cong(P2, B2, B2, P2)",
+                        "ncoll(L2, B2, P2)"
+                    ],
+                    "head": "para(L2, P2, L2, P2)"
+                },
+                {
+                    "body": [
+                        "cong(L2, T2, L2, B2)",
+                        "cong(T2, B2, B2, T2)",
+                        "ncoll(L2, B2, T2)"
+                    ],
+                    "head": "para(L2, T2, L2, T2)"
+                },
+                {
+                    "body": [
+                        "cong(M2, Q2, M2, A2)",
+                        "cong(M2, R2, M2, A2)"
+                    ],
+                    "head": "cong(M2, R2, M2, Q2)"
+                },
+                {
+                    "body": [
+                        "cong(M2, R2, M2, Q2)",
+                        "cong(Q2, R2, R2, Q2)",
+                        "ncoll(M2, R2, Q2)"
+                    ],
+                    "head": "para(M2, Q2, M2, Q2)"
+                },
+                {
+                    "body": [
+                        "cong(M2, H2, M2, A2)",
+                        "cong(M2, R2, M2, A2)"
+                    ],
+                    "head": "cong(M2, R2, M2, H2)"
+                },
+                {
+                    "body": [
+                        "cong(M2, R2, M2, H2)",
+                        "cong(H2, R2, R2, H2)",
+                        "ncoll(M2, R2, H2)"
+                    ],
+                    "head": "para(H2, M2, H2, M2)"
+                },
+                {
+                    "body": [
+                        "cong(M2, G2, M2, H2)",
+                        "cong(M2, H2, M2, A2)",
+                        "cong(M2, R2, M2, A2)"
+                    ],
+                    "head": "cong(M2, R2, M2, G2)"
+                },
+                {
+                    "body": [
+                        "cong(M2, R2, M2, G2)",
+                        "cong(G2, R2, R2, G2)",
+                        "ncoll(M2, R2, G2)"
+                    ],
+                    "head": "para(G2, M2, G2, M2)"
+                },
+                {
+                    "body": [
+                        "cong(M2, R2, M2, A2)",
+                        "cong(A2, R2, R2, A2)",
+                        "ncoll(M2, R2, A2)"
+                    ],
+                    "head": "para(A2, M2, A2, M2)"
+                },
+                {
+                    "body": [
+                        "cong(N2, R2, N2, C2)",
+                        "cong(N2, S2, N2, C2)"
+                    ],
+                    "head": "cong(N2, S2, N2, R2)"
+                },
+                {
+                    "body": [
+                        "cong(N2, S2, N2, R2)",
+                        "cong(S2, R2, R2, S2)",
+                        "ncoll(N2, S2, R2)"
+                    ],
+                    "head": "para(N2, R2, N2, R2)"
+                },
+                {
+                    "body": [
+                        "cong(N2, I2, N2, C2)",
+                        "cong(N2, S2, N2, C2)"
+                    ],
+                    "head": "cong(N2, S2, N2, I2)"
+                },
+                {
+                    "body": [
+                        "cong(N2, S2, N2, I2)",
+                        "cong(S2, I2, I2, S2)",
+                        "ncoll(N2, S2, I2)"
+                    ],
+                    "head": "para(I2, N2, I2, N2)"
+                },
+                {
+                    "body": [
+                        "cong(N2, H2, N2, I2)",
+                        "cong(N2, I2, N2, C2)",
+                        "cong(N2, S2, N2, C2)"
+                    ],
+                    "head": "cong(N2, S2, N2, H2)"
+                },
+                {
+                    "body": [
+                        "cong(N2, S2, N2, H2)",
+                        "cong(S2, H2, H2, S2)",
+                        "ncoll(N2, S2, H2)"
+                    ],
+                    "head": "para(H2, N2, H2, N2)"
+                },
+                {
+                    "body": [
+                        "cong(N2, S2, N2, C2)",
+                        "cong(S2, C2, C2, S2)",
+                        "ncoll(N2, S2, C2)"
+                    ],
+                    "head": "para(C2, N2, C2, N2)"
+                },
+                {
+                    "body": [
+                        "cong(O2, S2, O2, E2)",
+                        "cong(O2, T2, O2, E2)"
+                    ],
+                    "head": "cong(O2, T2, O2, S2)"
+                },
+                {
+                    "body": [
+                        "cong(O2, T2, O2, S2)",
+                        "cong(S2, T2, T2, S2)",
+                        "ncoll(O2, T2, S2)"
+                    ],
+                    "head": "para(O2, S2, O2, S2)"
+                },
+                {
+                    "body": [
+                        "cong(O2, I2, O2, E2)",
+                        "cong(O2, T2, O2, E2)"
+                    ],
+                    "head": "cong(O2, T2, O2, I2)"
+                },
+                {
+                    "body": [
+                        "cong(O2, T2, O2, I2)",
+                        "cong(I2, T2, T2, I2)",
+                        "ncoll(O2, T2, I2)"
+                    ],
+                    "head": "para(I2, O2, I2, O2)"
+                },
+                {
+                    "body": [
+                        "cong(O2, J2, O2, I2)",
+                        "cong(O2, I2, O2, E2)",
+                        "cong(O2, T2, O2, E2)"
+                    ],
+                    "head": "cong(O2, T2, O2, J2)"
+                },
+                {
+                    "body": [
+                        "cong(O2, T2, O2, J2)",
+                        "cong(T2, J2, J2, T2)",
+                        "ncoll(O2, T2, J2)"
+                    ],
+                    "head": "para(J2, O2, J2, O2)"
+                },
+                {
+                    "body": [
+                        "cong(O2, T2, O2, E2)",
+                        "cong(E2, T2, T2, E2)",
+                        "ncoll(O2, T2, E2)"
+                    ],
+                    "head": "para(E2, O2, E2, O2)"
+                },
+                {
+                    "body": [
+                        "cong(K2, Q2, K2, P2)"
+                    ],
+                    "head": "eqratio(P2, Q2, P2, K2, Q2, P2, Q2, K2)"
+                },
+                {
+                    "body": [
+                        "cong(K2, Q2, K2, P2)"
+                    ],
+                    "head": "eqratio(K2, Q2, K2, P2, K2, P2, K2, Q2)"
+                },
+                {
+                    "body": [
+                        "eqratio(P2, Q2, P2, K2, Q2, P2, Q2, K2)",
+                        "eqratio(K2, Q2, K2, P2, K2, P2, K2, Q2)",
+                        "ncoll(K2, Q2, P2)",
+                        "cong(Q2, P2, P2, Q2)"
+                    ],
+                    "head": "para(K2, Q2, K2, Q2)"
+                },
+                {
+                    "body": [
+                        "cong(L2, J2, L2, B2)"
+                    ],
+                    "head": "eqratio(J2, B2, J2, L2, B2, J2, B2, L2)"
+                },
+                {
+                    "body": [
+                        "cong(L2, B2, L2, J2)"
+                    ],
+                    "head": "eqratio(L2, B2, L2, J2, L2, J2, L2, B2)"
+                },
+                {
+                    "body": [
+                        "eqratio(J2, B2, J2, L2, B2, J2, B2, L2)",
+                        "eqratio(L2, B2, L2, J2, L2, J2, L2, B2)",
+                        "ncoll(L2, B2, J2)",
+                        "cong(J2, B2, B2, J2)"
+                    ],
+                    "head": "para(B2, L2, B2, L2)"
+                },
+                {
+                    "body": [
+                        "cong(O2, T2, O2, J2)"
+                    ],
+                    "head": "eqratio(J2, T2, J2, O2, T2, J2, T2, O2)"
+                },
+                {
+                    "body": [
+                        "cong(O2, T2, O2, J2)"
+                    ],
+                    "head": "eqratio(O2, T2, O2, J2, O2, J2, O2, T2)"
+                },
+                {
+                    "body": [
+                        "eqratio(J2, T2, J2, O2, T2, J2, T2, O2)",
+                        "eqratio(O2, T2, O2, J2, O2, J2, O2, T2)",
+                        "ncoll(O2, T2, J2)",
+                        "cong(T2, J2, J2, T2)"
+                    ],
+                    "head": "para(O2, T2, O2, T2)"
+                },
+                {
+                    "body": [
+                        "cong(M2, R2, M2, Q2)"
+                    ],
+                    "head": "eqratio(Q2, R2, Q2, M2, R2, Q2, R2, M2)"
+                },
+                {
+                    "body": [
+                        "cong(M2, R2, M2, Q2)"
+                    ],
+                    "head": "eqratio(M2, R2, M2, Q2, M2, Q2, M2, R2)"
+                },
+                {
+                    "body": [
+                        "eqratio(Q2, R2, Q2, M2, R2, Q2, R2, M2)",
+                        "eqratio(M2, R2, M2, Q2, M2, Q2, M2, R2)",
+                        "ncoll(M2, R2, Q2)",
+                        "cong(Q2, R2, R2, Q2)"
+                    ],
+                    "head": "para(M2, R2, M2, R2)"
+                },
+                {
+                    "body": [
+                        "cong(N2, S2, N2, R2)"
+                    ],
+                    "head": "eqratio(R2, S2, R2, N2, S2, R2, S2, N2)"
+                },
+                {
+                    "body": [
+                        "cong(N2, S2, N2, R2)"
+                    ],
+                    "head": "eqratio(N2, S2, N2, R2, N2, R2, N2, S2)"
+                },
+                {
+                    "body": [
+                        "eqratio(R2, S2, R2, N2, S2, R2, S2, N2)",
+                        "eqratio(N2, S2, N2, R2, N2, R2, N2, S2)",
+                        "ncoll(N2, S2, R2)",
+                        "cong(S2, R2, R2, S2)"
+                    ],
+                    "head": "para(N2, S2, N2, S2)"
+                },
+                {
+                    "body": [
+                        "cong(K3, P3, K3, D3)",
+                        "cong(K3, Q3, K3, D3)"
+                    ],
+                    "head": "cong(K3, Q3, K3, P3)"
+                },
+                {
+                    "body": [
+                        "cong(K3, Q3, K3, P3)",
+                        "cong(Q3, P3, P3, Q3)",
+                        "ncoll(K3, Q3, P3)"
+                    ],
+                    "head": "para(K3, P3, K3, P3)"
+                },
+                {
+                    "body": [
+                        "cong(K3, D3, K3, F3)",
+                        "cong(K3, Q3, K3, D3)"
+                    ],
+                    "head": "cong(K3, Q3, K3, F3)"
+                },
+                {
+                    "body": [
+                        "cong(K3, Q3, K3, F3)",
+                        "cong(Q3, F3, F3, Q3)",
+                        "ncoll(K3, Q3, F3)"
+                    ],
+                    "head": "para(F3, K3, F3, K3)"
+                },
+                {
+                    "body": [
+                        "cong(K3, Q3, K3, D3)",
+                        "cong(Q3, D3, D3, Q3)",
+                        "ncoll(K3, Q3, D3)"
+                    ],
+                    "head": "para(D3, K3, D3, K3)"
+                },
+                {
+                    "body": [
+                        "cong(K3, F3, K3, G3)",
+                        "cong(K3, D3, K3, F3)",
+                        "cong(K3, Q3, K3, D3)"
+                    ],
+                    "head": "cong(K3, Q3, K3, G3)"
+                },
+                {
+                    "body": [
+                        "cong(K3, Q3, K3, G3)",
+                        "cong(Q3, G3, G3, Q3)",
+                        "ncoll(K3, Q3, G3)"
+                    ],
+                    "head": "para(G3, K3, G3, K3)"
+                },
+                {
+                    "body": [
+                        "cong(L3, J3, L3, B3)",
+                        "cong(J3, B3, B3, J3)",
+                        "ncoll(L3, B3, J3)"
+                    ],
+                    "head": "para(J3, L3, J3, L3)"
+                },
+                {
+                    "body": [
+                        "cong(L3, B3, L3, F3)",
+                        "cong(F3, B3, B3, F3)",
+                        "ncoll(L3, B3, F3)"
+                    ],
+                    "head": "para(F3, L3, F3, L3)"
+                },
+                {
+                    "body": [
+                        "cong(L3, P3, L3, B3)",
+                        "cong(P3, B3, B3, P3)",
+                        "ncoll(L3, B3, P3)"
+                    ],
+                    "head": "para(L3, P3, L3, P3)"
+                },
+                {
+                    "body": [
+                        "cong(L3, T3, L3, B3)",
+                        "cong(T3, B3, B3, T3)",
+                        "ncoll(L3, B3, T3)"
+                    ],
+                    "head": "para(L3, T3, L3, T3)"
+                },
+                {
+                    "body": [
+                        "cong(M3, Q3, M3, A3)",
+                        "cong(M3, R3, M3, A3)"
+                    ],
+                    "head": "cong(M3, R3, M3, Q3)"
+                },
+                {
+                    "body": [
+                        "cong(M3, R3, M3, Q3)",
+                        "cong(Q3, R3, R3, Q3)",
+                        "ncoll(M3, R3, Q3)"
+                    ],
+                    "head": "para(M3, Q3, M3, Q3)"
+                },
+                {
+                    "body": [
+                        "cong(M3, H3, M3, A3)",
+                        "cong(M3, R3, M3, A3)"
+                    ],
+                    "head": "cong(M3, R3, M3, H3)"
+                },
+                {
+                    "body": [
+                        "cong(M3, R3, M3, H3)",
+                        "cong(H3, R3, R3, H3)",
+                        "ncoll(M3, R3, H3)"
+                    ],
+                    "head": "para(H3, M3, H3, M3)"
+                },
+                {
+                    "body": [
+                        "cong(M3, G3, M3, H3)",
+                        "cong(M3, H3, M3, A3)",
+                        "cong(M3, R3, M3, A3)"
+                    ],
+                    "head": "cong(M3, R3, M3, G3)"
+                },
+                {
+                    "body": [
+                        "cong(M3, R3, M3, G3)",
+                        "cong(G3, R3, R3, G3)",
+                        "ncoll(M3, R3, G3)"
+                    ],
+                    "head": "para(G3, M3, G3, M3)"
+                },
+                {
+                    "body": [
+                        "cong(M3, R3, M3, A3)",
+                        "cong(A3, R3, R3, A3)",
+                        "ncoll(M3, R3, A3)"
+                    ],
+                    "head": "para(A3, M3, A3, M3)"
+                },
+                {
+                    "body": [
+                        "cong(N3, R3, N3, C3)",
+                        "cong(N3, S3, N3, C3)"
+                    ],
+                    "head": "cong(N3, S3, N3, R3)"
+                },
+                {
+                    "body": [
+                        "cong(N3, S3, N3, R3)",
+                        "cong(S3, R3, R3, S3)",
+                        "ncoll(N3, S3, R3)"
+                    ],
+                    "head": "para(N3, R3, N3, R3)"
+                },
+                {
+                    "body": [
+                        "cong(N3, I3, N3, C3)",
+                        "cong(N3, S3, N3, C3)"
+                    ],
+                    "head": "cong(N3, S3, N3, I3)"
+                },
+                {
+                    "body": [
+                        "cong(N3, S3, N3, I3)",
+                        "cong(S3, I3, I3, S3)",
+                        "ncoll(N3, S3, I3)"
+                    ],
+                    "head": "para(I3, N3, I3, N3)"
+                },
+                {
+                    "body": [
+                        "cong(N3, H3, N3, I3)",
+                        "cong(N3, I3, N3, C3)",
+                        "cong(N3, S3, N3, C3)"
+                    ],
+                    "head": "cong(N3, S3, N3, H3)"
+                },
+                {
+                    "body": [
+                        "cong(N3, S3, N3, H3)",
+                        "cong(S3, H3, H3, S3)",
+                        "ncoll(N3, S3, H3)"
+                    ],
+                    "head": "para(H3, N3, H3, N3)"
+                },
+                {
+                    "body": [
+                        "cong(N3, S3, N3, C3)",
+                        "cong(S3, C3, C3, S3)",
+                        "ncoll(N3, S3, C3)"
+                    ],
+                    "head": "para(C3, N3, C3, N3)"
+                },
+                {
+                    "body": [
+                        "cong(O3, S3, O3, E3)",
+                        "cong(O3, T3, O3, E3)"
+                    ],
+                    "head": "cong(O3, T3, O3, S3)"
+                },
+                {
+                    "body": [
+                        "cong(O3, T3, O3, S3)",
+                        "cong(S3, T3, T3, S3)",
+                        "ncoll(O3, T3, S3)"
+                    ],
+                    "head": "para(O3, S3, O3, S3)"
+                },
+                {
+                    "body": [
+                        "cong(O3, I3, O3, E3)",
+                        "cong(O3, T3, O3, E3)"
+                    ],
+                    "head": "cong(O3, T3, O3, I3)"
+                },
+                {
+                    "body": [
+                        "cong(O3, T3, O3, I3)",
+                        "cong(I3, T3, T3, I3)",
+                        "ncoll(O3, T3, I3)"
+                    ],
+                    "head": "para(I3, O3, I3, O3)"
+                },
+                {
+                    "body": [
+                        "cong(O3, J3, O3, I3)",
+                        "cong(O3, I3, O3, E3)",
+                        "cong(O3, T3, O3, E3)"
+                    ],
+                    "head": "cong(O3, T3, O3, J3)"
+                },
+                {
+                    "body": [
+                        "cong(O3, T3, O3, J3)",
+                        "cong(T3, J3, J3, T3)",
+                        "ncoll(O3, T3, J3)"
+                    ],
+                    "head": "para(J3, O3, J3, O3)"
+                },
+                {
+                    "body": [
+                        "cong(O3, T3, O3, E3)",
+                        "cong(E3, T3, T3, E3)",
+                        "ncoll(O3, T3, E3)"
+                    ],
+                    "head": "para(E3, O3, E3, O3)"
+                },
+                {
+                    "body": [
+                        "cong(K3, Q3, K3, P3)"
+                    ],
+                    "head": "eqratio(P3, Q3, P3, K3, Q3, P3, Q3, K3)"
+                },
+                {
+                    "body": [
+                        "cong(K3, Q3, K3, P3)"
+                    ],
+                    "head": "eqratio(K3, Q3, K3, P3, K3, P3, K3, Q3)"
+                },
+                {
+                    "body": [
+                        "eqratio(P3, Q3, P3, K3, Q3, P3, Q3, K3)",
+                        "eqratio(K3, Q3, K3, P3, K3, P3, K3, Q3)",
+                        "ncoll(K3, Q3, P3)",
+                        "cong(Q3, P3, P3, Q3)"
+                    ],
+                    "head": "para(K3, Q3, K3, Q3)"
+                },
+                {
+                    "body": [
+                        "cong(L3, J3, L3, B3)"
+                    ],
+                    "head": "eqratio(J3, B3, J3, L3, B3, J3, B3, L3)"
+                },
+                {
+                    "body": [
+                        "cong(L3, B3, L3, J3)"
+                    ],
+                    "head": "eqratio(L3, B3, L3, J3, L3, J3, L3, B3)"
+                },
+                {
+                    "body": [
+                        "eqratio(J3, B3, J3, L3, B3, J3, B3, L3)",
+                        "eqratio(L3, B3, L3, J3, L3, J3, L3, B3)",
+                        "ncoll(L3, B3, J3)",
+                        "cong(J3, B3, B3, J3)"
+                    ],
+                    "head": "para(B3, L3, B3, L3)"
+                },
+                {
+                    "body": [
+                        "cong(O3, T3, O3, J3)"
+                    ],
+                    "head": "eqratio(J3, T3, J3, O3, T3, J3, T3, O3)"
+                },
+                {
+                    "body": [
+                        "cong(O3, T3, O3, J3)"
+                    ],
+                    "head": "eqratio(O3, T3, O3, J3, O3, J3, O3, T3)"
+                },
+                {
+                    "body": [
+                        "eqratio(J3, T3, J3, O3, T3, J3, T3, O3)",
+                        "eqratio(O3, T3, O3, J3, O3, J3, O3, T3)",
+                        "ncoll(O3, T3, J3)",
+                        "cong(T3, J3, J3, T3)"
+                    ],
+                    "head": "para(O3, T3, O3, T3)"
+                },
+                {
+                    "body": [
+                        "cong(M3, R3, M3, Q3)"
+                    ],
+                    "head": "eqratio(Q3, R3, Q3, M3, R3, Q3, R3, M3)"
+                },
+                {
+                    "body": [
+                        "cong(M3, R3, M3, Q3)"
+                    ],
+                    "head": "eqratio(M3, R3, M3, Q3, M3, Q3, M3, R3)"
+                },
+                {
+                    "body": [
+                        "eqratio(Q3, R3, Q3, M3, R3, Q3, R3, M3)",
+                        "eqratio(M3, R3, M3, Q3, M3, Q3, M3, R3)",
+                        "ncoll(M3, R3, Q3)",
+                        "cong(Q3, R3, R3, Q3)"
+                    ],
+                    "head": "para(M3, R3, M3, R3)"
+                },
+                {
+                    "body": [
+                        "cong(N3, S3, N3, R3)"
+                    ],
+                    "head": "eqratio(R3, S3, R3, N3, S3, R3, S3, N3)"
+                },
+                {
+                    "body": [
+                        "cong(N3, S3, N3, R3)"
+                    ],
+                    "head": "eqratio(N3, S3, N3, R3, N3, R3, N3, S3)"
+                },
+                {
+                    "body": [
+                        "eqratio(R3, S3, R3, N3, S3, R3, S3, N3)",
+                        "eqratio(N3, S3, N3, R3, N3, R3, N3, S3)",
+                        "ncoll(N3, S3, R3)",
+                        "cong(S3, R3, R3, S3)"
+                    ],
+                    "head": "para(N3, S3, N3, S3)"
+                },
+                {
+                    "body": [
+                        "cong(K4, P4, K4, D4)",
+                        "cong(K4, Q4, K4, D4)"
+                    ],
+                    "head": "cong(K4, Q4, K4, P4)"
+                },
+                {
+                    "body": [
+                        "cong(K4, Q4, K4, P4)",
+                        "cong(Q4, P4, P4, Q4)",
+                        "ncoll(K4, Q4, P4)"
+                    ],
+                    "head": "para(K4, P4, K4, P4)"
+                },
+                {
+                    "body": [
+                        "cong(K4, D4, K4, F4)",
+                        "cong(K4, Q4, K4, D4)"
+                    ],
+                    "head": "cong(K4, Q4, K4, F4)"
+                },
+                {
+                    "body": [
+                        "cong(K4, Q4, K4, F4)",
+                        "cong(Q4, F4, F4, Q4)",
+                        "ncoll(K4, Q4, F4)"
+                    ],
+                    "head": "para(F4, K4, F4, K4)"
+                },
+                {
+                    "body": [
+                        "cong(K4, Q4, K4, D4)",
+                        "cong(Q4, D4, D4, Q4)",
+                        "ncoll(K4, Q4, D4)"
+                    ],
+                    "head": "para(D4, K4, D4, K4)"
+                },
+                {
+                    "body": [
+                        "cong(K4, F4, K4, G4)",
+                        "cong(K4, D4, K4, F4)",
+                        "cong(K4, Q4, K4, D4)"
+                    ],
+                    "head": "cong(K4, Q4, K4, G4)"
+                },
+                {
+                    "body": [
+                        "cong(K4, Q4, K4, G4)",
+                        "cong(Q4, G4, G4, Q4)",
+                        "ncoll(K4, Q4, G4)"
+                    ],
+                    "head": "para(G4, K4, G4, K4)"
+                },
+                {
+                    "body": [
+                        "cong(L4, J4, L4, B4)",
+                        "cong(J4, B4, B4, J4)",
+                        "ncoll(L4, B4, J4)"
+                    ],
+                    "head": "para(J4, L4, J4, L4)"
+                },
+                {
+                    "body": [
+                        "cong(L4, B4, L4, F4)",
+                        "cong(F4, B4, B4, F4)",
+                        "ncoll(L4, B4, F4)"
+                    ],
+                    "head": "para(F4, L4, F4, L4)"
+                },
+                {
+                    "body": [
+                        "cong(L4, P4, L4, B4)",
+                        "cong(P4, B4, B4, P4)",
+                        "ncoll(L4, B4, P4)"
+                    ],
+                    "head": "para(L4, P4, L4, P4)"
+                },
+                {
+                    "body": [
+                        "cong(L4, T4, L4, B4)",
+                        "cong(T4, B4, B4, T4)",
+                        "ncoll(L4, B4, T4)"
+                    ],
+                    "head": "para(L4, T4, L4, T4)"
+                },
+                {
+                    "body": [
+                        "cong(M4, Q4, M4, A4)",
+                        "cong(M4, R4, M4, A4)"
+                    ],
+                    "head": "cong(M4, R4, M4, Q4)"
+                },
+                {
+                    "body": [
+                        "cong(M4, R4, M4, Q4)",
+                        "cong(Q4, R4, R4, Q4)",
+                        "ncoll(M4, R4, Q4)"
+                    ],
+                    "head": "para(M4, Q4, M4, Q4)"
+                },
+                {
+                    "body": [
+                        "cong(M4, H4, M4, A4)",
+                        "cong(M4, R4, M4, A4)"
+                    ],
+                    "head": "cong(M4, R4, M4, H4)"
+                },
+                {
+                    "body": [
+                        "cong(M4, R4, M4, H4)",
+                        "cong(H4, R4, R4, H4)",
+                        "ncoll(M4, R4, H4)"
+                    ],
+                    "head": "para(H4, M4, H4, M4)"
+                },
+                {
+                    "body": [
+                        "cong(M4, G4, M4, H4)",
+                        "cong(M4, H4, M4, A4)",
+                        "cong(M4, R4, M4, A4)"
+                    ],
+                    "head": "cong(M4, R4, M4, G4)"
+                },
+                {
+                    "body": [
+                        "cong(M4, R4, M4, G4)",
+                        "cong(G4, R4, R4, G4)",
+                        "ncoll(M4, R4, G4)"
+                    ],
+                    "head": "para(G4, M4, G4, M4)"
+                },
+                {
+                    "body": [
+                        "cong(M4, R4, M4, A4)",
+                        "cong(A4, R4, R4, A4)",
+                        "ncoll(M4, R4, A4)"
+                    ],
+                    "head": "para(A4, M4, A4, M4)"
+                },
+                {
+                    "body": [
+                        "cong(N4, R4, N4, C4)",
+                        "cong(N4, S4, N4, C4)"
+                    ],
+                    "head": "cong(N4, S4, N4, R4)"
+                },
+                {
+                    "body": [
+                        "cong(N4, S4, N4, R4)",
+                        "cong(S4, R4, R4, S4)",
+                        "ncoll(N4, S4, R4)"
+                    ],
+                    "head": "para(N4, R4, N4, R4)"
+                },
+                {
+                    "body": [
+                        "cong(N4, I4, N4, C4)",
+                        "cong(N4, S4, N4, C4)"
+                    ],
+                    "head": "cong(N4, S4, N4, I4)"
+                },
+                {
+                    "body": [
+                        "cong(N4, S4, N4, I4)",
+                        "cong(S4, I4, I4, S4)",
+                        "ncoll(N4, S4, I4)"
+                    ],
+                    "head": "para(I4, N4, I4, N4)"
+                },
+                {
+                    "body": [
+                        "cong(N4, H4, N4, I4)",
+                        "cong(N4, I4, N4, C4)",
+                        "cong(N4, S4, N4, C4)"
+                    ],
+                    "head": "cong(N4, S4, N4, H4)"
+                },
+                {
+                    "body": [
+                        "cong(N4, S4, N4, H4)",
+                        "cong(S4, H4, H4, S4)",
+                        "ncoll(N4, S4, H4)"
+                    ],
+                    "head": "para(H4, N4, H4, N4)"
+                },
+                {
+                    "body": [
+                        "cong(N4, S4, N4, C4)",
+                        "cong(S4, C4, C4, S4)",
+                        "ncoll(N4, S4, C4)"
+                    ],
+                    "head": "para(C4, N4, C4, N4)"
+                },
+                {
+                    "body": [
+                        "cong(O4, S4, O4, E4)",
+                        "cong(O4, T4, O4, E4)"
+                    ],
+                    "head": "cong(O4, T4, O4, S4)"
+                },
+                {
+                    "body": [
+                        "cong(O4, T4, O4, S4)",
+                        "cong(S4, T4, T4, S4)",
+                        "ncoll(O4, T4, S4)"
+                    ],
+                    "head": "para(O4, S4, O4, S4)"
+                },
+                {
+                    "body": [
+                        "cong(O4, I4, O4, E4)",
+                        "cong(O4, T4, O4, E4)"
+                    ],
+                    "head": "cong(O4, T4, O4, I4)"
+                },
+                {
+                    "body": [
+                        "cong(O4, T4, O4, I4)",
+                        "cong(I4, T4, T4, I4)",
+                        "ncoll(O4, T4, I4)"
+                    ],
+                    "head": "para(I4, O4, I4, O4)"
+                },
+                {
+                    "body": [
+                        "cong(O4, J4, O4, I4)",
+                        "cong(O4, I4, O4, E4)",
+                        "cong(O4, T4, O4, E4)"
+                    ],
+                    "head": "cong(O4, T4, O4, J4)"
+                },
+                {
+                    "body": [
+                        "cong(O4, T4, O4, J4)",
+                        "cong(T4, J4, J4, T4)",
+                        "ncoll(O4, T4, J4)"
+                    ],
+                    "head": "para(J4, O4, J4, O4)"
+                },
+                {
+                    "body": [
+                        "cong(O4, T4, O4, E4)",
+                        "cong(E4, T4, T4, E4)",
+                        "ncoll(O4, T4, E4)"
+                    ],
+                    "head": "para(E4, O4, E4, O4)"
+                },
+                {
+                    "body": [
+                        "cong(K4, Q4, K4, P4)"
+                    ],
+                    "head": "eqratio(P4, Q4, P4, K4, Q4, P4, Q4, K4)"
+                },
+                {
+                    "body": [
+                        "cong(K4, Q4, K4, P4)"
+                    ],
+                    "head": "eqratio(K4, Q4, K4, P4, K4, P4, K4, Q4)"
+                },
+                {
+                    "body": [
+                        "eqratio(P4, Q4, P4, K4, Q4, P4, Q4, K4)",
+                        "eqratio(K4, Q4, K4, P4, K4, P4, K4, Q4)",
+                        "ncoll(K4, Q4, P4)",
+                        "cong(Q4, P4, P4, Q4)"
+                    ],
+                    "head": "para(K4, Q4, K4, Q4)"
+                },
+                {
+                    "body": [
+                        "cong(L4, J4, L4, B4)"
+                    ],
+                    "head": "eqratio(J4, B4, J4, L4, B4, J4, B4, L4)"
+                },
+                {
+                    "body": [
+                        "cong(L4, B4, L4, J4)"
+                    ],
+                    "head": "eqratio(L4, B4, L4, J4, L4, J4, L4, B4)"
+                },
+                {
+                    "body": [
+                        "eqratio(J4, B4, J4, L4, B4, J4, B4, L4)",
+                        "eqratio(L4, B4, L4, J4, L4, J4, L4, B4)",
+                        "ncoll(L4, B4, J4)",
+                        "cong(J4, B4, B4, J4)"
+                    ],
+                    "head": "para(B4, L4, B4, L4)"
+                },
+                {
+                    "body": [
+                        "cong(O4, T4, O4, J4)"
+                    ],
+                    "head": "eqratio(J4, T4, J4, O4, T4, J4, T4, O4)"
+                },
+                {
+                    "body": [
+                        "cong(O4, T4, O4, J4)"
+                    ],
+                    "head": "eqratio(O4, T4, O4, J4, O4, J4, O4, T4)"
+                },
+                {
+                    "body": [
+                        "eqratio(J4, T4, J4, O4, T4, J4, T4, O4)",
+                        "eqratio(O4, T4, O4, J4, O4, J4, O4, T4)",
+                        "ncoll(O4, T4, J4)",
+                        "cong(T4, J4, J4, T4)"
+                    ],
+                    "head": "para(O4, T4, O4, T4)"
+                },
+                {
+                    "body": [
+                        "cong(M4, R4, M4, Q4)"
+                    ],
+                    "head": "eqratio(Q4, R4, Q4, M4, R4, Q4, R4, M4)"
+                },
+                {
+                    "body": [
+                        "cong(M4, R4, M4, Q4)"
+                    ],
+                    "head": "eqratio(M4, R4, M4, Q4, M4, Q4, M4, R4)"
+                },
+                {
+                    "body": [
+                        "eqratio(Q4, R4, Q4, M4, R4, Q4, R4, M4)",
+                        "eqratio(M4, R4, M4, Q4, M4, Q4, M4, R4)",
+                        "ncoll(M4, R4, Q4)",
+                        "cong(Q4, R4, R4, Q4)"
+                    ],
+                    "head": "para(M4, R4, M4, R4)"
+                },
+                {
+                    "body": [
+                        "cong(N4, S4, N4, R4)"
+                    ],
+                    "head": "eqratio(R4, S4, R4, N4, S4, R4, S4, N4)"
+                },
+                {
+                    "body": [
+                        "cong(N4, S4, N4, R4)"
+                    ],
+                    "head": "eqratio(N4, S4, N4, R4, N4, R4, N4, S4)"
+                },
+                {
+                    "body": [
+                        "eqratio(R4, S4, R4, N4, S4, R4, S4, N4)",
+                        "eqratio(N4, S4, N4, R4, N4, R4, N4, S4)",
+                        "ncoll(N4, S4, R4)",
+                        "cong(S4, R4, R4, S4)"
+                    ],
+                    "head": "para(N4, S4, N4, S4)"
+                },
+                {
+                    "body": [
+                        "cong(K5, P5, K5, D5)",
+                        "cong(K5, Q5, K5, D5)"
+                    ],
+                    "head": "cong(K5, Q5, K5, P5)"
+                },
+                {
+                    "body": [
+                        "cong(K5, Q5, K5, P5)",
+                        "cong(Q5, P5, P5, Q5)",
+                        "ncoll(K5, Q5, P5)"
+                    ],
+                    "head": "para(K5, P5, K5, P5)"
+                },
+                {
+                    "body": [
+                        "cong(K5, D5, K5, F5)",
+                        "cong(K5, Q5, K5, D5)"
+                    ],
+                    "head": "cong(K5, Q5, K5, F5)"
+                },
+                {
+                    "body": [
+                        "cong(K5, Q5, K5, F5)",
+                        "cong(Q5, F5, F5, Q5)",
+                        "ncoll(K5, Q5, F5)"
+                    ],
+                    "head": "para(F5, K5, F5, K5)"
+                },
+                {
+                    "body": [
+                        "cong(K5, Q5, K5, D5)",
+                        "cong(Q5, D5, D5, Q5)",
+                        "ncoll(K5, Q5, D5)"
+                    ],
+                    "head": "para(D5, K5, D5, K5)"
+                },
+                {
+                    "body": [
+                        "cong(K5, F5, K5, G5)",
+                        "cong(K5, D5, K5, F5)",
+                        "cong(K5, Q5, K5, D5)"
+                    ],
+                    "head": "cong(K5, Q5, K5, G5)"
+                },
+                {
+                    "body": [
+                        "cong(K5, Q5, K5, G5)",
+                        "cong(Q5, G5, G5, Q5)",
+                        "ncoll(K5, Q5, G5)"
+                    ],
+                    "head": "para(G5, K5, G5, K5)"
+                },
+                {
+                    "body": [
+                        "cong(L5, J5, L5, B5)",
+                        "cong(J5, B5, B5, J5)",
+                        "ncoll(L5, B5, J5)"
+                    ],
+                    "head": "para(J5, L5, J5, L5)"
+                },
+                {
+                    "body": [
+                        "cong(L5, B5, L5, F5)",
+                        "cong(F5, B5, B5, F5)",
+                        "ncoll(L5, B5, F5)"
+                    ],
+                    "head": "para(F5, L5, F5, L5)"
+                },
+                {
+                    "body": [
+                        "cong(L5, P5, L5, B5)",
+                        "cong(P5, B5, B5, P5)",
+                        "ncoll(L5, B5, P5)"
+                    ],
+                    "head": "para(L5, P5, L5, P5)"
+                },
+                {
+                    "body": [
+                        "cong(L5, T5, L5, B5)",
+                        "cong(T5, B5, B5, T5)",
+                        "ncoll(L5, B5, T5)"
+                    ],
+                    "head": "para(L5, T5, L5, T5)"
+                },
+                {
+                    "body": [
+                        "cong(M5, Q5, M5, A5)",
+                        "cong(M5, R5, M5, A5)"
+                    ],
+                    "head": "cong(M5, R5, M5, Q5)"
+                },
+                {
+                    "body": [
+                        "cong(M5, R5, M5, Q5)",
+                        "cong(Q5, R5, R5, Q5)",
+                        "ncoll(M5, R5, Q5)"
+                    ],
+                    "head": "para(M5, Q5, M5, Q5)"
+                },
+                {
+                    "body": [
+                        "cong(M5, H5, M5, A5)",
+                        "cong(M5, R5, M5, A5)"
+                    ],
+                    "head": "cong(M5, R5, M5, H5)"
+                },
+                {
+                    "body": [
+                        "cong(M5, R5, M5, H5)",
+                        "cong(H5, R5, R5, H5)",
+                        "ncoll(M5, R5, H5)"
+                    ],
+                    "head": "para(H5, M5, H5, M5)"
+                },
+                {
+                    "body": [
+                        "cong(M5, G5, M5, H5)",
+                        "cong(M5, H5, M5, A5)",
+                        "cong(M5, R5, M5, A5)"
+                    ],
+                    "head": "cong(M5, R5, M5, G5)"
+                },
+                {
+                    "body": [
+                        "cong(M5, R5, M5, G5)",
+                        "cong(G5, R5, R5, G5)",
+                        "ncoll(M5, R5, G5)"
+                    ],
+                    "head": "para(G5, M5, G5, M5)"
+                },
+                {
+                    "body": [
+                        "cong(M5, R5, M5, A5)",
+                        "cong(A5, R5, R5, A5)",
+                        "ncoll(M5, R5, A5)"
+                    ],
+                    "head": "para(A5, M5, A5, M5)"
+                },
+                {
+                    "body": [
+                        "cong(N5, R5, N5, C5)",
+                        "cong(N5, S5, N5, C5)"
+                    ],
+                    "head": "cong(N5, S5, N5, R5)"
+                },
+                {
+                    "body": [
+                        "cong(N5, S5, N5, R5)",
+                        "cong(S5, R5, R5, S5)",
+                        "ncoll(N5, S5, R5)"
+                    ],
+                    "head": "para(N5, R5, N5, R5)"
+                },
+                {
+                    "body": [
+                        "cong(N5, I5, N5, C5)",
+                        "cong(N5, S5, N5, C5)"
+                    ],
+                    "head": "cong(N5, S5, N5, I5)"
+                },
+                {
+                    "body": [
+                        "cong(N5, S5, N5, I5)",
+                        "cong(S5, I5, I5, S5)",
+                        "ncoll(N5, S5, I5)"
+                    ],
+                    "head": "para(I5, N5, I5, N5)"
+                },
+                {
+                    "body": [
+                        "cong(N5, H5, N5, I5)",
+                        "cong(N5, I5, N5, C5)",
+                        "cong(N5, S5, N5, C5)"
+                    ],
+                    "head": "cong(N5, S5, N5, H5)"
+                },
+                {
+                    "body": [
+                        "cong(N5, S5, N5, H5)",
+                        "cong(S5, H5, H5, S5)",
+                        "ncoll(N5, S5, H5)"
+                    ],
+                    "head": "para(H5, N5, H5, N5)"
+                },
+                {
+                    "body": [
+                        "cong(N5, S5, N5, C5)",
+                        "cong(S5, C5, C5, S5)",
+                        "ncoll(N5, S5, C5)"
+                    ],
+                    "head": "para(C5, N5, C5, N5)"
+                },
+                {
+                    "body": [
+                        "cong(O5, S5, O5, E5)",
+                        "cong(O5, T5, O5, E5)"
+                    ],
+                    "head": "cong(O5, T5, O5, S5)"
+                },
+                {
+                    "body": [
+                        "cong(O5, T5, O5, S5)",
+                        "cong(S5, T5, T5, S5)",
+                        "ncoll(O5, T5, S5)"
+                    ],
+                    "head": "para(O5, S5, O5, S5)"
+                },
+                {
+                    "body": [
+                        "cong(O5, I5, O5, E5)",
+                        "cong(O5, T5, O5, E5)"
+                    ],
+                    "head": "cong(O5, T5, O5, I5)"
+                },
+                {
+                    "body": [
+                        "cong(O5, T5, O5, I5)",
+                        "cong(I5, T5, T5, I5)",
+                        "ncoll(O5, T5, I5)"
+                    ],
+                    "head": "para(I5, O5, I5, O5)"
+                },
+                {
+                    "body": [
+                        "cong(O5, J5, O5, I5)",
+                        "cong(O5, I5, O5, E5)",
+                        "cong(O5, T5, O5, E5)"
+                    ],
+                    "head": "cong(O5, T5, O5, J5)"
+                },
+                {
+                    "body": [
+                        "cong(O5, T5, O5, J5)",
+                        "cong(T5, J5, J5, T5)",
+                        "ncoll(O5, T5, J5)"
+                    ],
+                    "head": "para(J5, O5, J5, O5)"
+                },
+                {
+                    "body": [
+                        "cong(O5, T5, O5, E5)",
+                        "cong(E5, T5, T5, E5)",
+                        "ncoll(O5, T5, E5)"
+                    ],
+                    "head": "para(E5, O5, E5, O5)"
+                },
+                {
+                    "body": [
+                        "cong(K5, Q5, K5, P5)"
+                    ],
+                    "head": "eqratio(P5, Q5, P5, K5, Q5, P5, Q5, K5)"
+                },
+                {
+                    "body": [
+                        "cong(K5, Q5, K5, P5)"
+                    ],
+                    "head": "eqratio(K5, Q5, K5, P5, K5, P5, K5, Q5)"
+                },
+                {
+                    "body": [
+                        "eqratio(P5, Q5, P5, K5, Q5, P5, Q5, K5)",
+                        "eqratio(K5, Q5, K5, P5, K5, P5, K5, Q5)",
+                        "ncoll(K5, Q5, P5)",
+                        "cong(Q5, P5, P5, Q5)"
+                    ],
+                    "head": "para(K5, Q5, K5, Q5)"
+                },
+                {
+                    "body": [
+                        "cong(L5, J5, L5, B5)"
+                    ],
+                    "head": "eqratio(J5, B5, J5, L5, B5, J5, B5, L5)"
+                },
+                {
+                    "body": [
+                        "cong(L5, B5, L5, J5)"
+                    ],
+                    "head": "eqratio(L5, B5, L5, J5, L5, J5, L5, B5)"
+                },
+                {
+                    "body": [
+                        "eqratio(J5, B5, J5, L5, B5, J5, B5, L5)",
+                        "eqratio(L5, B5, L5, J5, L5, J5, L5, B5)",
+                        "ncoll(L5, B5, J5)",
+                        "cong(J5, B5, B5, J5)"
+                    ],
+                    "head": "para(B5, L5, B5, L5)"
+                },
+                {
+                    "body": [
+                        "cong(O5, T5, O5, J5)"
+                    ],
+                    "head": "eqratio(J5, T5, J5, O5, T5, J5, T5, O5)"
+                },
+                {
+                    "body": [
+                        "cong(O5, T5, O5, J5)"
+                    ],
+                    "head": "eqratio(O5, T5, O5, J5, O5, J5, O5, T5)"
+                },
+                {
+                    "body": [
+                        "eqratio(J5, T5, J5, O5, T5, J5, T5, O5)",
+                        "eqratio(O5, T5, O5, J5, O5, J5, O5, T5)",
+                        "ncoll(O5, T5, J5)",
+                        "cong(T5, J5, J5, T5)"
+                    ],
+                    "head": "para(O5, T5, O5, T5)"
+                },
+                {
+                    "body": [
+                        "cong(M5, R5, M5, Q5)"
+                    ],
+                    "head": "eqratio(Q5, R5, Q5, M5, R5, Q5, R5, M5)"
+                },
+                {
+                    "body": [
+                        "cong(M5, R5, M5, Q5)"
+                    ],
+                    "head": "eqratio(M5, R5, M5, Q5, M5, Q5, M5, R5)"
+                },
+                {
+                    "body": [
+                        "eqratio(Q5, R5, Q5, M5, R5, Q5, R5, M5)",
+                        "eqratio(M5, R5, M5, Q5, M5, Q5, M5, R5)",
+                        "ncoll(M5, R5, Q5)",
+                        "cong(Q5, R5, R5, Q5)"
+                    ],
+                    "head": "para(M5, R5, M5, R5)"
+                },
+                {
+                    "body": [
+                        "cong(N5, S5, N5, R5)"
+                    ],
+                    "head": "eqratio(R5, S5, R5, N5, S5, R5, S5, N5)"
+                },
+                {
+                    "body": [
+                        "cong(N5, S5, N5, R5)"
+                    ],
+                    "head": "eqratio(N5, S5, N5, R5, N5, R5, N5, S5)"
+                },
+                {
+                    "body": [
+                        "eqratio(R5, S5, R5, N5, S5, R5, S5, N5)",
+                        "eqratio(N5, S5, N5, R5, N5, R5, N5, S5)",
+                        "ncoll(N5, S5, R5)",
+                        "cong(S5, R5, R5, S5)"
+                    ],
+                    "head": "para(N5, S5, N5, S5)"
+                },
+                {
+                    "body": [
+                        "cong(K6, P6, K6, D6)",
+                        "cong(K6, Q6, K6, D6)"
+                    ],
+                    "head": "cong(K6, Q6, K6, P6)"
+                },
+                {
+                    "body": [
+                        "cong(K6, Q6, K6, P6)",
+                        "cong(Q6, P6, P6, Q6)",
+                        "ncoll(K6, Q6, P6)"
+                    ],
+                    "head": "para(K6, P6, K6, P6)"
+                },
+                {
+                    "body": [
+                        "cong(K6, D6, K6, F6)",
+                        "cong(K6, Q6, K6, D6)"
+                    ],
+                    "head": "cong(K6, Q6, K6, F6)"
+                },
+                {
+                    "body": [
+                        "cong(K6, Q6, K6, F6)",
+                        "cong(Q6, F6, F6, Q6)",
+                        "ncoll(K6, Q6, F6)"
+                    ],
+                    "head": "para(F6, K6, F6, K6)"
+                },
+                {
+                    "body": [
+                        "cong(K6, Q6, K6, D6)",
+                        "cong(Q6, D6, D6, Q6)",
+                        "ncoll(K6, Q6, D6)"
+                    ],
+                    "head": "para(D6, K6, D6, K6)"
+                },
+                {
+                    "body": [
+                        "cong(K6, F6, K6, G6)",
+                        "cong(K6, D6, K6, F6)",
+                        "cong(K6, Q6, K6, D6)"
+                    ],
+                    "head": "cong(K6, Q6, K6, G6)"
+                },
+                {
+                    "body": [
+                        "cong(K6, Q6, K6, G6)",
+                        "cong(Q6, G6, G6, Q6)",
+                        "ncoll(K6, Q6, G6)"
+                    ],
+                    "head": "para(G6, K6, G6, K6)"
+                },
+                {
+                    "body": [
+                        "cong(L6, J6, L6, B6)",
+                        "cong(J6, B6, B6, J6)",
+                        "ncoll(L6, B6, J6)"
+                    ],
+                    "head": "para(J6, L6, J6, L6)"
+                },
+                {
+                    "body": [
+                        "cong(L6, B6, L6, F6)",
+                        "cong(F6, B6, B6, F6)",
+                        "ncoll(L6, B6, F6)"
+                    ],
+                    "head": "para(F6, L6, F6, L6)"
+                },
+                {
+                    "body": [
+                        "cong(L6, P6, L6, B6)",
+                        "cong(P6, B6, B6, P6)",
+                        "ncoll(L6, B6, P6)"
+                    ],
+                    "head": "para(L6, P6, L6, P6)"
+                },
+                {
+                    "body": [
+                        "cong(L6, T6, L6, B6)",
+                        "cong(T6, B6, B6, T6)",
+                        "ncoll(L6, B6, T6)"
+                    ],
+                    "head": "para(L6, T6, L6, T6)"
+                },
+                {
+                    "body": [
+                        "cong(M6, Q6, M6, A6)",
+                        "cong(M6, R6, M6, A6)"
+                    ],
+                    "head": "cong(M6, R6, M6, Q6)"
+                },
+                {
+                    "body": [
+                        "cong(M6, R6, M6, Q6)",
+                        "cong(Q6, R6, R6, Q6)",
+                        "ncoll(M6, R6, Q6)"
+                    ],
+                    "head": "para(M6, Q6, M6, Q6)"
+                },
+                {
+                    "body": [
+                        "cong(M6, H6, M6, A6)",
+                        "cong(M6, R6, M6, A6)"
+                    ],
+                    "head": "cong(M6, R6, M6, H6)"
+                },
+                {
+                    "body": [
+                        "cong(M6, R6, M6, H6)",
+                        "cong(H6, R6, R6, H6)",
+                        "ncoll(M6, R6, H6)"
+                    ],
+                    "head": "para(H6, M6, H6, M6)"
+                },
+                {
+                    "body": [
+                        "cong(M6, G6, M6, H6)",
+                        "cong(M6, H6, M6, A6)",
+                        "cong(M6, R6, M6, A6)"
+                    ],
+                    "head": "cong(M6, R6, M6, G6)"
+                },
+                {
+                    "body": [
+                        "cong(M6, R6, M6, G6)",
+                        "cong(G6, R6, R6, G6)",
+                        "ncoll(M6, R6, G6)"
+                    ],
+                    "head": "para(G6, M6, G6, M6)"
+                },
+                {
+                    "body": [
+                        "cong(M6, R6, M6, A6)",
+                        "cong(A6, R6, R6, A6)",
+                        "ncoll(M6, R6, A6)"
+                    ],
+                    "head": "para(A6, M6, A6, M6)"
+                },
+                {
+                    "body": [
+                        "cong(N6, R6, N6, C6)",
+                        "cong(N6, S6, N6, C6)"
+                    ],
+                    "head": "cong(N6, S6, N6, R6)"
+                },
+                {
+                    "body": [
+                        "cong(N6, S6, N6, R6)",
+                        "cong(S6, R6, R6, S6)",
+                        "ncoll(N6, S6, R6)"
+                    ],
+                    "head": "para(N6, R6, N6, R6)"
+                },
+                {
+                    "body": [
+                        "cong(N6, I6, N6, C6)",
+                        "cong(N6, S6, N6, C6)"
+                    ],
+                    "head": "cong(N6, S6, N6, I6)"
+                },
+                {
+                    "body": [
+                        "cong(N6, S6, N6, I6)",
+                        "cong(S6, I6, I6, S6)",
+                        "ncoll(N6, S6, I6)"
+                    ],
+                    "head": "para(I6, N6, I6, N6)"
+                },
+                {
+                    "body": [
+                        "cong(N6, H6, N6, I6)",
+                        "cong(N6, I6, N6, C6)",
+                        "cong(N6, S6, N6, C6)"
+                    ],
+                    "head": "cong(N6, S6, N6, H6)"
+                },
+                {
+                    "body": [
+                        "cong(N6, S6, N6, H6)",
+                        "cong(S6, H6, H6, S6)",
+                        "ncoll(N6, S6, H6)"
+                    ],
+                    "head": "para(H6, N6, H6, N6)"
+                },
+                {
+                    "body": [
+                        "cong(N6, S6, N6, C6)",
+                        "cong(S6, C6, C6, S6)",
+                        "ncoll(N6, S6, C6)"
+                    ],
+                    "head": "para(C6, N6, C6, N6)"
+                },
+                {
+                    "body": [
+                        "cong(O6, S6, O6, E6)",
+                        "cong(O6, T6, O6, E6)"
+                    ],
+                    "head": "cong(O6, T6, O6, S6)"
+                },
+                {
+                    "body": [
+                        "cong(O6, T6, O6, S6)",
+                        "cong(S6, T6, T6, S6)",
+                        "ncoll(O6, T6, S6)"
+                    ],
+                    "head": "para(O6, S6, O6, S6)"
+                },
+                {
+                    "body": [
+                        "cong(O6, I6, O6, E6)",
+                        "cong(O6, T6, O6, E6)"
+                    ],
+                    "head": "cong(O6, T6, O6, I6)"
+                },
+                {
+                    "body": [
+                        "cong(O6, T6, O6, I6)",
+                        "cong(I6, T6, T6, I6)",
+                        "ncoll(O6, T6, I6)"
+                    ],
+                    "head": "para(I6, O6, I6, O6)"
+                },
+                {
+                    "body": [
+                        "cong(O6, J6, O6, I6)",
+                        "cong(O6, I6, O6, E6)",
+                        "cong(O6, T6, O6, E6)"
+                    ],
+                    "head": "cong(O6, T6, O6, J6)"
+                },
+                {
+                    "body": [
+                        "cong(O6, T6, O6, J6)",
+                        "cong(T6, J6, J6, T6)",
+                        "ncoll(O6, T6, J6)"
+                    ],
+                    "head": "para(J6, O6, J6, O6)"
+                },
+                {
+                    "body": [
+                        "cong(O6, T6, O6, E6)",
+                        "cong(E6, T6, T6, E6)",
+                        "ncoll(O6, T6, E6)"
+                    ],
+                    "head": "para(E6, O6, E6, O6)"
+                },
+                {
+                    "body": [
+                        "cong(K6, Q6, K6, P6)"
+                    ],
+                    "head": "eqratio(P6, Q6, P6, K6, Q6, P6, Q6, K6)"
+                },
+                {
+                    "body": [
+                        "cong(K6, Q6, K6, P6)"
+                    ],
+                    "head": "eqratio(K6, Q6, K6, P6, K6, P6, K6, Q6)"
+                },
+                {
+                    "body": [
+                        "eqratio(P6, Q6, P6, K6, Q6, P6, Q6, K6)",
+                        "eqratio(K6, Q6, K6, P6, K6, P6, K6, Q6)",
+                        "ncoll(K6, Q6, P6)",
+                        "cong(Q6, P6, P6, Q6)"
+                    ],
+                    "head": "para(K6, Q6, K6, Q6)"
+                },
+                {
+                    "body": [
+                        "cong(L6, J6, L6, B6)"
+                    ],
+                    "head": "eqratio(J6, B6, J6, L6, B6, J6, B6, L6)"
+                },
+                {
+                    "body": [
+                        "cong(L6, B6, L6, J6)"
+                    ],
+                    "head": "eqratio(L6, B6, L6, J6, L6, J6, L6, B6)"
+                },
+                {
+                    "body": [
+                        "eqratio(J6, B6, J6, L6, B6, J6, B6, L6)",
+                        "eqratio(L6, B6, L6, J6, L6, J6, L6, B6)",
+                        "ncoll(L6, B6, J6)",
+                        "cong(J6, B6, B6, J6)"
+                    ],
+                    "head": "para(B6, L6, B6, L6)"
+                },
+                {
+                    "body": [
+                        "cong(O6, T6, O6, J6)"
+                    ],
+                    "head": "eqratio(J6, T6, J6, O6, T6, J6, T6, O6)"
+                },
+                {
+                    "body": [
+                        "cong(O6, T6, O6, J6)"
+                    ],
+                    "head": "eqratio(O6, T6, O6, J6, O6, J6, O6, T6)"
+                },
+                {
+                    "body": [
+                        "eqratio(J6, T6, J6, O6, T6, J6, T6, O6)",
+                        "eqratio(O6, T6, O6, J6, O6, J6, O6, T6)",
+                        "ncoll(O6, T6, J6)",
+                        "cong(T6, J6, J6, T6)"
+                    ],
+                    "head": "para(O6, T6, O6, T6)"
+                },
+                {
+                    "body": [
+                        "cong(M6, R6, M6, Q6)"
+                    ],
+                    "head": "eqratio(Q6, R6, Q6, M6, R6, Q6, R6, M6)"
+                },
+                {
+                    "body": [
+                        "cong(M6, R6, M6, Q6)"
+                    ],
+                    "head": "eqratio(M6, R6, M6, Q6, M6, Q6, M6, R6)"
+                },
+                {
+                    "body": [
+                        "eqratio(Q6, R6, Q6, M6, R6, Q6, R6, M6)",
+                        "eqratio(M6, R6, M6, Q6, M6, Q6, M6, R6)",
+                        "ncoll(M6, R6, Q6)",
+                        "cong(Q6, R6, R6, Q6)"
+                    ],
+                    "head": "para(M6, R6, M6, R6)"
+                },
+                {
+                    "body": [
+                        "cong(N6, S6, N6, R6)"
+                    ],
+                    "head": "eqratio(R6, S6, R6, N6, S6, R6, S6, N6)"
+                },
+                {
+                    "body": [
+                        "cong(N6, S6, N6, R6)"
+                    ],
+                    "head": "eqratio(N6, S6, N6, R6, N6, R6, N6, S6)"
+                },
+                {
+                    "body": [
+                        "eqratio(R6, S6, R6, N6, S6, R6, S6, N6)",
+                        "eqratio(N6, S6, N6, R6, N6, R6, N6, S6)",
+                        "ncoll(N6, S6, R6)",
+                        "cong(S6, R6, R6, S6)"
+                    ],
+                    "head": "para(N6, S6, N6, S6)"
+                },
+                {
+                    "body": [
+                        "cong(K7, P7, K7, D7)",
+                        "cong(K7, Q7, K7, D7)"
+                    ],
+                    "head": "cong(K7, Q7, K7, P7)"
+                },
+                {
+                    "body": [
+                        "cong(K7, Q7, K7, P7)",
+                        "cong(Q7, P7, P7, Q7)",
+                        "ncoll(K7, Q7, P7)"
+                    ],
+                    "head": "para(K7, P7, K7, P7)"
+                },
+                {
+                    "body": [
+                        "cong(K7, D7, K7, F7)",
+                        "cong(K7, Q7, K7, D7)"
+                    ],
+                    "head": "cong(K7, Q7, K7, F7)"
+                },
+                {
+                    "body": [
+                        "cong(K7, Q7, K7, F7)",
+                        "cong(Q7, F7, F7, Q7)",
+                        "ncoll(K7, Q7, F7)"
+                    ],
+                    "head": "para(F7, K7, F7, K7)"
+                },
+                {
+                    "body": [
+                        "cong(K7, Q7, K7, D7)",
+                        "cong(Q7, D7, D7, Q7)",
+                        "ncoll(K7, Q7, D7)"
+                    ],
+                    "head": "para(D7, K7, D7, K7)"
+                },
+                {
+                    "body": [
+                        "cong(K7, F7, K7, G7)",
+                        "cong(K7, D7, K7, F7)",
+                        "cong(K7, Q7, K7, D7)"
+                    ],
+                    "head": "cong(K7, Q7, K7, G7)"
+                },
+                {
+                    "body": [
+                        "cong(K7, Q7, K7, G7)",
+                        "cong(Q7, G7, G7, Q7)",
+                        "ncoll(K7, Q7, G7)"
+                    ],
+                    "head": "para(G7, K7, G7, K7)"
+                },
+                {
+                    "body": [
+                        "cong(L7, J7, L7, B7)",
+                        "cong(J7, B7, B7, J7)",
+                        "ncoll(L7, B7, J7)"
+                    ],
+                    "head": "para(J7, L7, J7, L7)"
+                },
+                {
+                    "body": [
+                        "cong(L7, B7, L7, F7)",
+                        "cong(F7, B7, B7, F7)",
+                        "ncoll(L7, B7, F7)"
+                    ],
+                    "head": "para(F7, L7, F7, L7)"
+                },
+                {
+                    "body": [
+                        "cong(L7, P7, L7, B7)",
+                        "cong(P7, B7, B7, P7)",
+                        "ncoll(L7, B7, P7)"
+                    ],
+                    "head": "para(L7, P7, L7, P7)"
+                },
+                {
+                    "body": [
+                        "cong(L7, T7, L7, B7)",
+                        "cong(T7, B7, B7, T7)",
+                        "ncoll(L7, B7, T7)"
+                    ],
+                    "head": "para(L7, T7, L7, T7)"
+                },
+                {
+                    "body": [
+                        "cong(M7, Q7, M7, A7)",
+                        "cong(M7, R7, M7, A7)"
+                    ],
+                    "head": "cong(M7, R7, M7, Q7)"
+                },
+                {
+                    "body": [
+                        "cong(M7, R7, M7, Q7)",
+                        "cong(Q7, R7, R7, Q7)",
+                        "ncoll(M7, R7, Q7)"
+                    ],
+                    "head": "para(M7, Q7, M7, Q7)"
+                },
+                {
+                    "body": [
+                        "cong(M7, H7, M7, A7)",
+                        "cong(M7, R7, M7, A7)"
+                    ],
+                    "head": "cong(M7, R7, M7, H7)"
+                },
+                {
+                    "body": [
+                        "cong(M7, R7, M7, H7)",
+                        "cong(H7, R7, R7, H7)",
+                        "ncoll(M7, R7, H7)"
+                    ],
+                    "head": "para(H7, M7, H7, M7)"
+                },
+                {
+                    "body": [
+                        "cong(M7, G7, M7, H7)",
+                        "cong(M7, H7, M7, A7)",
+                        "cong(M7, R7, M7, A7)"
+                    ],
+                    "head": "cong(M7, R7, M7, G7)"
+                },
+                {
+                    "body": [
+                        "cong(M7, R7, M7, G7)",
+                        "cong(G7, R7, R7, G7)",
+                        "ncoll(M7, R7, G7)"
+                    ],
+                    "head": "para(G7, M7, G7, M7)"
+                },
+                {
+                    "body": [
+                        "cong(M7, R7, M7, A7)",
+                        "cong(A7, R7, R7, A7)",
+                        "ncoll(M7, R7, A7)"
+                    ],
+                    "head": "para(A7, M7, A7, M7)"
+                },
+                {
+                    "body": [
+                        "cong(N7, R7, N7, C7)",
+                        "cong(N7, S7, N7, C7)"
+                    ],
+                    "head": "cong(N7, S7, N7, R7)"
+                },
+                {
+                    "body": [
+                        "cong(N7, S7, N7, R7)",
+                        "cong(S7, R7, R7, S7)",
+                        "ncoll(N7, S7, R7)"
+                    ],
+                    "head": "para(N7, R7, N7, R7)"
+                },
+                {
+                    "body": [
+                        "cong(N7, I7, N7, C7)",
+                        "cong(N7, S7, N7, C7)"
+                    ],
+                    "head": "cong(N7, S7, N7, I7)"
+                },
+                {
+                    "body": [
+                        "cong(N7, S7, N7, I7)",
+                        "cong(S7, I7, I7, S7)",
+                        "ncoll(N7, S7, I7)"
+                    ],
+                    "head": "para(I7, N7, I7, N7)"
+                },
+                {
+                    "body": [
+                        "cong(N7, H7, N7, I7)",
+                        "cong(N7, I7, N7, C7)",
+                        "cong(N7, S7, N7, C7)"
+                    ],
+                    "head": "cong(N7, S7, N7, H7)"
+                },
+                {
+                    "body": [
+                        "cong(N7, S7, N7, H7)",
+                        "cong(S7, H7, H7, S7)",
+                        "ncoll(N7, S7, H7)"
+                    ],
+                    "head": "para(H7, N7, H7, N7)"
+                },
+                {
+                    "body": [
+                        "cong(N7, S7, N7, C7)",
+                        "cong(S7, C7, C7, S7)",
+                        "ncoll(N7, S7, C7)"
+                    ],
+                    "head": "para(C7, N7, C7, N7)"
+                },
+                {
+                    "body": [
+                        "cong(O7, S7, O7, E7)",
+                        "cong(O7, T7, O7, E7)"
+                    ],
+                    "head": "cong(O7, T7, O7, S7)"
+                },
+                {
+                    "body": [
+                        "cong(O7, T7, O7, S7)",
+                        "cong(S7, T7, T7, S7)",
+                        "ncoll(O7, T7, S7)"
+                    ],
+                    "head": "para(O7, S7, O7, S7)"
+                },
+                {
+                    "body": [
+                        "cong(O7, I7, O7, E7)",
+                        "cong(O7, T7, O7, E7)"
+                    ],
+                    "head": "cong(O7, T7, O7, I7)"
+                },
+                {
+                    "body": [
+                        "cong(O7, T7, O7, I7)",
+                        "cong(I7, T7, T7, I7)",
+                        "ncoll(O7, T7, I7)"
+                    ],
+                    "head": "para(I7, O7, I7, O7)"
+                },
+                {
+                    "body": [
+                        "cong(O7, J7, O7, I7)",
+                        "cong(O7, I7, O7, E7)",
+                        "cong(O7, T7, O7, E7)"
+                    ],
+                    "head": "cong(O7, T7, O7, J7)"
+                },
+                {
+                    "body": [
+                        "cong(O7, T7, O7, J7)",
+                        "cong(T7, J7, J7, T7)",
+                        "ncoll(O7, T7, J7)"
+                    ],
+                    "head": "para(J7, O7, J7, O7)"
+                },
+                {
+                    "body": [
+                        "cong(O7, T7, O7, E7)",
+                        "cong(E7, T7, T7, E7)",
+                        "ncoll(O7, T7, E7)"
+                    ],
+                    "head": "para(E7, O7, E7, O7)"
+                },
+                {
+                    "body": [
+                        "cong(K7, Q7, K7, P7)"
+                    ],
+                    "head": "eqratio(P7, Q7, P7, K7, Q7, P7, Q7, K7)"
+                },
+                {
+                    "body": [
+                        "cong(K7, Q7, K7, P7)"
+                    ],
+                    "head": "eqratio(K7, Q7, K7, P7, K7, P7, K7, Q7)"
+                },
+                {
+                    "body": [
+                        "eqratio(P7, Q7, P7, K7, Q7, P7, Q7, K7)",
+                        "eqratio(K7, Q7, K7, P7, K7, P7, K7, Q7)",
+                        "ncoll(K7, Q7, P7)",
+                        "cong(Q7, P7, P7, Q7)"
+                    ],
+                    "head": "para(K7, Q7, K7, Q7)"
+                },
+                {
+                    "body": [
+                        "cong(L7, J7, L7, B7)"
+                    ],
+                    "head": "eqratio(J7, B7, J7, L7, B7, J7, B7, L7)"
+                },
+                {
+                    "body": [
+                        "cong(L7, B7, L7, J7)"
+                    ],
+                    "head": "eqratio(L7, B7, L7, J7, L7, J7, L7, B7)"
+                },
+                {
+                    "body": [
+                        "eqratio(J7, B7, J7, L7, B7, J7, B7, L7)",
+                        "eqratio(L7, B7, L7, J7, L7, J7, L7, B7)",
+                        "ncoll(L7, B7, J7)",
+                        "cong(J7, B7, B7, J7)"
+                    ],
+                    "head": "para(B7, L7, B7, L7)"
+                },
+                {
+                    "body": [
+                        "cong(O7, T7, O7, J7)"
+                    ],
+                    "head": "eqratio(J7, T7, J7, O7, T7, J7, T7, O7)"
+                },
+                {
+                    "body": [
+                        "cong(O7, T7, O7, J7)"
+                    ],
+                    "head": "eqratio(O7, T7, O7, J7, O7, J7, O7, T7)"
+                },
+                {
+                    "body": [
+                        "eqratio(J7, T7, J7, O7, T7, J7, T7, O7)",
+                        "eqratio(O7, T7, O7, J7, O7, J7, O7, T7)",
+                        "ncoll(O7, T7, J7)",
+                        "cong(T7, J7, J7, T7)"
+                    ],
+                    "head": "para(O7, T7, O7, T7)"
+                },
+                {
+                    "body": [
+                        "cong(M7, R7, M7, Q7)"
+                    ],
+                    "head": "eqratio(Q7, R7, Q7, M7, R7, Q7, R7, M7)"
+                },
+                {
+                    "body": [
+                        "cong(M7, R7, M7, Q7)"
+                    ],
+                    "head": "eqratio(M7, R7, M7, Q7, M7, Q7, M7, R7)"
+                },
+                {
+                    "body": [
+                        "eqratio(Q7, R7, Q7, M7, R7, Q7, R7, M7)",
+                        "eqratio(M7, R7, M7, Q7, M7, Q7, M7, R7)",
+                        "ncoll(M7, R7, Q7)",
+                        "cong(Q7, R7, R7, Q7)"
+                    ],
+                    "head": "para(M7, R7, M7, R7)"
+                },
+                {
+                    "body": [
+                        "cong(N7, S7, N7, R7)"
+                    ],
+                    "head": "eqratio(R7, S7, R7, N7, S7, R7, S7, N7)"
+                },
+                {
+                    "body": [
+                        "cong(N7, S7, N7, R7)"
+                    ],
+                    "head": "eqratio(N7, S7, N7, R7, N7, R7, N7, S7)"
+                },
+                {
+                    "body": [
+                        "eqratio(R7, S7, R7, N7, S7, R7, S7, N7)",
+                        "eqratio(N7, S7, N7, R7, N7, R7, N7, S7)",
+                        "ncoll(N7, S7, R7)",
+                        "cong(S7, R7, R7, S7)"
+                    ],
+                    "head": "para(N7, S7, N7, S7)"
+                }
+            ]
+        },
+        "eval": {
+            "background_knowledge": [
+                "cong(F8, B8, B8, F8)",
+                "cong(J8, B8, B8, J8)",
+                "cong(K8, D8, K8, F8)",
+                "cong(K8, F8, K8, G8)",
+                "cong(L8, J8, L8, B8)",
+                "ncoll(L8, B8, J8)",
+                "cong(L8, B8, L8, F8)",
+                "ncoll(L8, B8, F8)",
+                "cong(M8, H8, M8, A8)",
+                "cong(M8, G8, M8, H8)",
+                "cong(N8, I8, N8, C8)",
+                "cong(N8, H8, N8, I8)",
+                "cong(O8, I8, O8, E8)",
+                "cong(O8, J8, O8, I8)",
+                "cong(K8, P8, K8, D8)",
+                "cong(L8, P8, L8, B8)",
+                "cong(P8, B8, B8, P8)",
+                "ncoll(L8, B8, P8)",
+                "cong(K8, Q8, K8, D8)",
+                "cong(Q8, P8, P8, Q8)",
+                "ncoll(K8, Q8, P8)",
+                "cong(Q8, F8, F8, Q8)",
+                "ncoll(K8, Q8, F8)",
+                "cong(Q8, D8, D8, Q8)",
+                "ncoll(K8, Q8, D8)",
+                "cong(Q8, G8, G8, Q8)",
+                "ncoll(K8, Q8, G8)",
+                "cong(M8, Q8, M8, A8)",
+                "cong(M8, R8, M8, A8)",
+                "cong(R8, Q8, Q8, R8)",
+                "ncoll(M8, R8, Q8)",
+                "cong(R8, H8, H8, R8)",
+                "ncoll(M8, R8, H8)",
+                "cong(R8, G8, G8, R8)",
+                "ncoll(M8, R8, G8)",
+                "cong(R8, A8, A8, R8)",
+                "ncoll(M8, R8, A8)",
+                "cong(N8, R8, N8, C8)",
+                "cong(N8, S8, N8, C8)",
+                "cong(S8, R8, R8, S8)",
+                "ncoll(N8, S8, R8)",
+                "cong(S8, I8, I8, S8)",
+                "ncoll(N8, S8, I8)",
+                "cong(S8, H8, H8, S8)",
+                "ncoll(N8, S8, H8)",
+                "cong(S8, C8, C8, S8)",
+                "ncoll(N8, S8, C8)",
+                "cong(O8, S8, O8, E8)",
+                "cong(L8, T8, L8, B8)",
+                "cong(T8, B8, B8, T8)",
+                "ncoll(L8, B8, T8)",
+                "cong(O8, T8, O8, E8)",
+                "cong(S8, T8, T8, S8)",
+                "ncoll(O8, T8, S8)",
+                "cong(I8, T8, T8, I8)",
+                "ncoll(O8, T8, I8)",
+                "cong(J8, T8, T8, J8)",
+                "ncoll(O8, T8, J8)",
+                "cong(E8, T8, T8, E8)",
+                "ncoll(O8, T8, E8)",
+                "cong(F9, B9, B9, F9)",
+                "cong(J9, B9, B9, J9)",
+                "cong(K9, D9, K9, F9)",
+                "cong(K9, F9, K9, G9)",
+                "cong(L9, J9, L9, B9)",
+                "ncoll(L9, B9, J9)",
+                "cong(L9, B9, L9, F9)",
+                "ncoll(L9, B9, F9)",
+                "cong(M9, H9, M9, A9)",
+                "cong(M9, G9, M9, H9)",
+                "cong(N9, I9, N9, C9)",
+                "cong(N9, H9, N9, I9)",
+                "cong(O9, I9, O9, E9)",
+                "cong(O9, J9, O9, I9)",
+                "cong(K9, P9, K9, D9)",
+                "cong(L9, P9, L9, B9)",
+                "cong(P9, B9, B9, P9)",
+                "ncoll(L9, B9, P9)",
+                "cong(K9, Q9, K9, D9)",
+                "cong(Q9, P9, P9, Q9)",
+                "ncoll(K9, Q9, P9)",
+                "cong(Q9, F9, F9, Q9)",
+                "ncoll(K9, Q9, F9)",
+                "cong(Q9, D9, D9, Q9)",
+                "ncoll(K9, Q9, D9)",
+                "cong(Q9, G9, G9, Q9)",
+                "ncoll(K9, Q9, G9)",
+                "cong(M9, Q9, M9, A9)",
+                "cong(M9, R9, M9, A9)",
+                "cong(R9, Q9, Q9, R9)",
+                "ncoll(M9, R9, Q9)",
+                "cong(R9, H9, H9, R9)",
+                "ncoll(M9, R9, H9)",
+                "cong(R9, G9, G9, R9)",
+                "ncoll(M9, R9, G9)",
+                "cong(R9, A9, A9, R9)",
+                "ncoll(M9, R9, A9)",
+                "cong(N9, R9, N9, C9)",
+                "cong(N9, S9, N9, C9)",
+                "cong(S9, R9, R9, S9)",
+                "ncoll(N9, S9, R9)",
+                "cong(S9, I9, I9, S9)",
+                "ncoll(N9, S9, I9)",
+                "cong(S9, H9, H9, S9)",
+                "ncoll(N9, S9, H9)",
+                "cong(S9, C9, C9, S9)",
+                "ncoll(N9, S9, C9)",
+                "cong(O9, S9, O9, E9)",
+                "cong(L9, T9, L9, B9)",
+                "cong(T9, B9, B9, T9)",
+                "ncoll(L9, B9, T9)",
+                "cong(O9, T9, O9, E9)",
+                "cong(S9, T9, T9, S9)",
+                "ncoll(O9, T9, S9)",
+                "cong(I9, T9, T9, I9)",
+                "ncoll(O9, T9, I9)",
+                "cong(J9, T9, T9, J9)",
+                "ncoll(O9, T9, J9)",
+                "cong(E9, T9, T9, E9)",
+                "ncoll(O9, T9, E9)"
+            ],
+            "positive_examples": [
+                "para(K8, P8, K8, P8)",
+                "para(F8, K8, F8, K8)",
+                "para(D8, K8, D8, K8)",
+                "para(G8, K8, G8, K8)",
+                "para(J8, L8, J8, L8)",
+                "para(F8, L8, F8, L8)",
+                "para(L8, P8, L8, P8)",
+                "para(L8, T8, L8, T8)",
+                "para(M8, Q8, M8, Q8)",
+                "para(H8, M8, H8, M8)",
+                "para(G8, M8, G8, M8)",
+                "para(A8, M8, A8, M8)",
+                "para(N8, R8, N8, R8)",
+                "para(I8, N8, I8, N8)",
+                "para(H8, N8, H8, N8)",
+                "para(C8, N8, C8, N8)",
+                "para(O8, S8, O8, S8)",
+                "para(I8, O8, I8, O8)",
+                "para(J8, O8, J8, O8)",
+                "para(E8, O8, E8, O8)",
+                "para(K8, Q8, K8, Q8)",
+                "para(B8, L8, B8, L8)",
+                "para(O8, T8, O8, T8)",
+                "para(M8, R8, M8, R8)",
+                "para(N8, S8, N8, S8)",
+                "para(K9, P9, K9, P9)",
+                "para(F9, K9, F9, K9)",
+                "para(D9, K9, D9, K9)",
+                "para(G9, K9, G9, K9)",
+                "para(J9, L9, J9, L9)",
+                "para(F9, L9, F9, L9)",
+                "para(L9, P9, L9, P9)",
+                "para(L9, T9, L9, T9)",
+                "para(M9, Q9, M9, Q9)",
+                "para(H9, M9, H9, M9)",
+                "para(G9, M9, G9, M9)",
+                "para(A9, M9, A9, M9)",
+                "para(N9, R9, N9, R9)",
+                "para(I9, N9, I9, N9)",
+                "para(H9, N9, H9, N9)",
+                "para(C9, N9, C9, N9)",
+                "para(O9, S9, O9, S9)",
+                "para(I9, O9, I9, O9)",
+                "para(J9, O9, J9, O9)",
+                "para(E9, O9, E9, O9)",
+                "para(K9, Q9, K9, Q9)",
+                "para(B9, L9, B9, L9)",
+                "para(O9, T9, O9, T9)",
+                "para(M9, R9, M9, R9)",
+                "para(N9, S9, N9, S9)"
+            ],
+            "proof_steps": [
+                {
+                    "body": [
+                        "cong(K8, P8, K8, D8)",
+                        "cong(K8, Q8, K8, D8)"
+                    ],
+                    "head": "cong(K8, Q8, K8, P8)"
+                },
+                {
+                    "body": [
+                        "cong(K8, Q8, K8, P8)",
+                        "cong(Q8, P8, P8, Q8)",
+                        "ncoll(K8, Q8, P8)"
+                    ],
+                    "head": "para(K8, P8, K8, P8)"
+                },
+                {
+                    "body": [
+                        "cong(K8, D8, K8, F8)",
+                        "cong(K8, Q8, K8, D8)"
+                    ],
+                    "head": "cong(K8, Q8, K8, F8)"
+                },
+                {
+                    "body": [
+                        "cong(K8, Q8, K8, F8)",
+                        "cong(Q8, F8, F8, Q8)",
+                        "ncoll(K8, Q8, F8)"
+                    ],
+                    "head": "para(F8, K8, F8, K8)"
+                },
+                {
+                    "body": [
+                        "cong(K8, Q8, K8, D8)",
+                        "cong(Q8, D8, D8, Q8)",
+                        "ncoll(K8, Q8, D8)"
+                    ],
+                    "head": "para(D8, K8, D8, K8)"
+                },
+                {
+                    "body": [
+                        "cong(K8, F8, K8, G8)",
+                        "cong(K8, D8, K8, F8)",
+                        "cong(K8, Q8, K8, D8)"
+                    ],
+                    "head": "cong(K8, Q8, K8, G8)"
+                },
+                {
+                    "body": [
+                        "cong(K8, Q8, K8, G8)",
+                        "cong(Q8, G8, G8, Q8)",
+                        "ncoll(K8, Q8, G8)"
+                    ],
+                    "head": "para(G8, K8, G8, K8)"
+                },
+                {
+                    "body": [
+                        "cong(L8, J8, L8, B8)",
+                        "cong(J8, B8, B8, J8)",
+                        "ncoll(L8, B8, J8)"
+                    ],
+                    "head": "para(J8, L8, J8, L8)"
+                },
+                {
+                    "body": [
+                        "cong(L8, B8, L8, F8)",
+                        "cong(F8, B8, B8, F8)",
+                        "ncoll(L8, B8, F8)"
+                    ],
+                    "head": "para(F8, L8, F8, L8)"
+                },
+                {
+                    "body": [
+                        "cong(L8, P8, L8, B8)",
+                        "cong(P8, B8, B8, P8)",
+                        "ncoll(L8, B8, P8)"
+                    ],
+                    "head": "para(L8, P8, L8, P8)"
+                },
+                {
+                    "body": [
+                        "cong(L8, T8, L8, B8)",
+                        "cong(T8, B8, B8, T8)",
+                        "ncoll(L8, B8, T8)"
+                    ],
+                    "head": "para(L8, T8, L8, T8)"
+                },
+                {
+                    "body": [
+                        "cong(M8, Q8, M8, A8)",
+                        "cong(M8, R8, M8, A8)"
+                    ],
+                    "head": "cong(M8, R8, M8, Q8)"
+                },
+                {
+                    "body": [
+                        "cong(M8, R8, M8, Q8)",
+                        "cong(R8, Q8, Q8, R8)",
+                        "ncoll(M8, R8, Q8)"
+                    ],
+                    "head": "para(M8, Q8, M8, Q8)"
+                },
+                {
+                    "body": [
+                        "cong(M8, H8, M8, A8)",
+                        "cong(M8, R8, M8, A8)"
+                    ],
+                    "head": "cong(M8, R8, M8, H8)"
+                },
+                {
+                    "body": [
+                        "cong(M8, R8, M8, H8)",
+                        "cong(R8, H8, H8, R8)",
+                        "ncoll(M8, R8, H8)"
+                    ],
+                    "head": "para(H8, M8, H8, M8)"
+                },
+                {
+                    "body": [
+                        "cong(M8, G8, M8, H8)",
+                        "cong(M8, H8, M8, A8)",
+                        "cong(M8, R8, M8, A8)"
+                    ],
+                    "head": "cong(M8, R8, M8, G8)"
+                },
+                {
+                    "body": [
+                        "cong(M8, R8, M8, G8)",
+                        "cong(R8, G8, G8, R8)",
+                        "ncoll(M8, R8, G8)"
+                    ],
+                    "head": "para(G8, M8, G8, M8)"
+                },
+                {
+                    "body": [
+                        "cong(M8, R8, M8, A8)",
+                        "cong(R8, A8, A8, R8)",
+                        "ncoll(M8, R8, A8)"
+                    ],
+                    "head": "para(A8, M8, A8, M8)"
+                },
+                {
+                    "body": [
+                        "cong(N8, R8, N8, C8)",
+                        "cong(N8, S8, N8, C8)"
+                    ],
+                    "head": "cong(N8, S8, N8, R8)"
+                },
+                {
+                    "body": [
+                        "cong(N8, S8, N8, R8)",
+                        "cong(S8, R8, R8, S8)",
+                        "ncoll(N8, S8, R8)"
+                    ],
+                    "head": "para(N8, R8, N8, R8)"
+                },
+                {
+                    "body": [
+                        "cong(N8, I8, N8, C8)",
+                        "cong(N8, S8, N8, C8)"
+                    ],
+                    "head": "cong(N8, S8, N8, I8)"
+                },
+                {
+                    "body": [
+                        "cong(N8, S8, N8, I8)",
+                        "cong(S8, I8, I8, S8)",
+                        "ncoll(N8, S8, I8)"
+                    ],
+                    "head": "para(I8, N8, I8, N8)"
+                },
+                {
+                    "body": [
+                        "cong(N8, H8, N8, I8)",
+                        "cong(N8, I8, N8, C8)",
+                        "cong(N8, S8, N8, C8)"
+                    ],
+                    "head": "cong(N8, S8, N8, H8)"
+                },
+                {
+                    "body": [
+                        "cong(N8, S8, N8, H8)",
+                        "cong(S8, H8, H8, S8)",
+                        "ncoll(N8, S8, H8)"
+                    ],
+                    "head": "para(H8, N8, H8, N8)"
+                },
+                {
+                    "body": [
+                        "cong(N8, S8, N8, C8)",
+                        "cong(S8, C8, C8, S8)",
+                        "ncoll(N8, S8, C8)"
+                    ],
+                    "head": "para(C8, N8, C8, N8)"
+                },
+                {
+                    "body": [
+                        "cong(O8, S8, O8, E8)",
+                        "cong(O8, T8, O8, E8)"
+                    ],
+                    "head": "cong(O8, T8, O8, S8)"
+                },
+                {
+                    "body": [
+                        "cong(O8, T8, O8, S8)",
+                        "cong(S8, T8, T8, S8)",
+                        "ncoll(O8, T8, S8)"
+                    ],
+                    "head": "para(O8, S8, O8, S8)"
+                },
+                {
+                    "body": [
+                        "cong(O8, I8, O8, E8)",
+                        "cong(O8, T8, O8, E8)"
+                    ],
+                    "head": "cong(O8, T8, O8, I8)"
+                },
+                {
+                    "body": [
+                        "cong(O8, T8, O8, I8)",
+                        "cong(I8, T8, T8, I8)",
+                        "ncoll(O8, T8, I8)"
+                    ],
+                    "head": "para(I8, O8, I8, O8)"
+                },
+                {
+                    "body": [
+                        "cong(O8, J8, O8, I8)",
+                        "cong(O8, I8, O8, E8)",
+                        "cong(O8, T8, O8, E8)"
+                    ],
+                    "head": "cong(O8, T8, O8, J8)"
+                },
+                {
+                    "body": [
+                        "cong(O8, T8, O8, J8)",
+                        "cong(J8, T8, T8, J8)",
+                        "ncoll(O8, T8, J8)"
+                    ],
+                    "head": "para(J8, O8, J8, O8)"
+                },
+                {
+                    "body": [
+                        "cong(O8, T8, O8, E8)",
+                        "cong(E8, T8, T8, E8)",
+                        "ncoll(O8, T8, E8)"
+                    ],
+                    "head": "para(E8, O8, E8, O8)"
+                },
+                {
+                    "body": [
+                        "cong(K8, Q8, K8, P8)"
+                    ],
+                    "head": "eqratio(P8, Q8, P8, K8, Q8, P8, Q8, K8)"
+                },
+                {
+                    "body": [
+                        "cong(K8, Q8, K8, P8)"
+                    ],
+                    "head": "eqratio(K8, Q8, K8, P8, K8, P8, K8, Q8)"
+                },
+                {
+                    "body": [
+                        "eqratio(P8, Q8, P8, K8, Q8, P8, Q8, K8)",
+                        "eqratio(K8, Q8, K8, P8, K8, P8, K8, Q8)",
+                        "ncoll(K8, Q8, P8)",
+                        "cong(Q8, P8, P8, Q8)"
+                    ],
+                    "head": "para(K8, Q8, K8, Q8)"
+                },
+                {
+                    "body": [
+                        "cong(L8, J8, L8, B8)"
+                    ],
+                    "head": "eqratio(J8, B8, J8, L8, B8, J8, B8, L8)"
+                },
+                {
+                    "body": [
+                        "cong(L8, B8, L8, J8)"
+                    ],
+                    "head": "eqratio(L8, B8, L8, J8, L8, J8, L8, B8)"
+                },
+                {
+                    "body": [
+                        "eqratio(J8, B8, J8, L8, B8, J8, B8, L8)",
+                        "eqratio(L8, B8, L8, J8, L8, J8, L8, B8)",
+                        "ncoll(L8, B8, J8)",
+                        "cong(J8, B8, B8, J8)"
+                    ],
+                    "head": "para(B8, L8, B8, L8)"
+                },
+                {
+                    "body": [
+                        "cong(O8, T8, O8, J8)"
+                    ],
+                    "head": "eqratio(J8, T8, J8, O8, T8, J8, T8, O8)"
+                },
+                {
+                    "body": [
+                        "cong(O8, T8, O8, J8)"
+                    ],
+                    "head": "eqratio(O8, T8, O8, J8, O8, J8, O8, T8)"
+                },
+                {
+                    "body": [
+                        "eqratio(J8, T8, J8, O8, T8, J8, T8, O8)",
+                        "eqratio(O8, T8, O8, J8, O8, J8, O8, T8)",
+                        "ncoll(O8, T8, J8)",
+                        "cong(J8, T8, T8, J8)"
+                    ],
+                    "head": "para(O8, T8, O8, T8)"
+                },
+                {
+                    "body": [
+                        "cong(M8, R8, M8, Q8)"
+                    ],
+                    "head": "eqratio(Q8, R8, Q8, M8, R8, Q8, R8, M8)"
+                },
+                {
+                    "body": [
+                        "cong(M8, R8, M8, Q8)"
+                    ],
+                    "head": "eqratio(M8, R8, M8, Q8, M8, Q8, M8, R8)"
+                },
+                {
+                    "body": [
+                        "eqratio(Q8, R8, Q8, M8, R8, Q8, R8, M8)",
+                        "eqratio(M8, R8, M8, Q8, M8, Q8, M8, R8)",
+                        "ncoll(M8, R8, Q8)",
+                        "cong(R8, Q8, Q8, R8)"
+                    ],
+                    "head": "para(M8, R8, M8, R8)"
+                },
+                {
+                    "body": [
+                        "cong(N8, S8, N8, R8)"
+                    ],
+                    "head": "eqratio(R8, S8, R8, N8, S8, R8, S8, N8)"
+                },
+                {
+                    "body": [
+                        "cong(N8, S8, N8, R8)"
+                    ],
+                    "head": "eqratio(N8, S8, N8, R8, N8, R8, N8, S8)"
+                },
+                {
+                    "body": [
+                        "eqratio(R8, S8, R8, N8, S8, R8, S8, N8)",
+                        "eqratio(N8, S8, N8, R8, N8, R8, N8, S8)",
+                        "ncoll(N8, S8, R8)",
+                        "cong(S8, R8, R8, S8)"
+                    ],
+                    "head": "para(N8, S8, N8, S8)"
+                },
+                {
+                    "body": [
+                        "cong(K9, P9, K9, D9)",
+                        "cong(K9, Q9, K9, D9)"
+                    ],
+                    "head": "cong(K9, Q9, K9, P9)"
+                },
+                {
+                    "body": [
+                        "cong(K9, Q9, K9, P9)",
+                        "cong(Q9, P9, P9, Q9)",
+                        "ncoll(K9, Q9, P9)"
+                    ],
+                    "head": "para(K9, P9, K9, P9)"
+                },
+                {
+                    "body": [
+                        "cong(K9, D9, K9, F9)",
+                        "cong(K9, Q9, K9, D9)"
+                    ],
+                    "head": "cong(K9, Q9, K9, F9)"
+                },
+                {
+                    "body": [
+                        "cong(K9, Q9, K9, F9)",
+                        "cong(Q9, F9, F9, Q9)",
+                        "ncoll(K9, Q9, F9)"
+                    ],
+                    "head": "para(F9, K9, F9, K9)"
+                },
+                {
+                    "body": [
+                        "cong(K9, Q9, K9, D9)",
+                        "cong(Q9, D9, D9, Q9)",
+                        "ncoll(K9, Q9, D9)"
+                    ],
+                    "head": "para(D9, K9, D9, K9)"
+                },
+                {
+                    "body": [
+                        "cong(K9, F9, K9, G9)",
+                        "cong(K9, D9, K9, F9)",
+                        "cong(K9, Q9, K9, D9)"
+                    ],
+                    "head": "cong(K9, Q9, K9, G9)"
+                },
+                {
+                    "body": [
+                        "cong(K9, Q9, K9, G9)",
+                        "cong(Q9, G9, G9, Q9)",
+                        "ncoll(K9, Q9, G9)"
+                    ],
+                    "head": "para(G9, K9, G9, K9)"
+                },
+                {
+                    "body": [
+                        "cong(L9, J9, L9, B9)",
+                        "cong(J9, B9, B9, J9)",
+                        "ncoll(L9, B9, J9)"
+                    ],
+                    "head": "para(J9, L9, J9, L9)"
+                },
+                {
+                    "body": [
+                        "cong(L9, B9, L9, F9)",
+                        "cong(F9, B9, B9, F9)",
+                        "ncoll(L9, B9, F9)"
+                    ],
+                    "head": "para(F9, L9, F9, L9)"
+                },
+                {
+                    "body": [
+                        "cong(L9, P9, L9, B9)",
+                        "cong(P9, B9, B9, P9)",
+                        "ncoll(L9, B9, P9)"
+                    ],
+                    "head": "para(L9, P9, L9, P9)"
+                },
+                {
+                    "body": [
+                        "cong(L9, T9, L9, B9)",
+                        "cong(T9, B9, B9, T9)",
+                        "ncoll(L9, B9, T9)"
+                    ],
+                    "head": "para(L9, T9, L9, T9)"
+                },
+                {
+                    "body": [
+                        "cong(M9, Q9, M9, A9)",
+                        "cong(M9, R9, M9, A9)"
+                    ],
+                    "head": "cong(M9, R9, M9, Q9)"
+                },
+                {
+                    "body": [
+                        "cong(M9, R9, M9, Q9)",
+                        "cong(R9, Q9, Q9, R9)",
+                        "ncoll(M9, R9, Q9)"
+                    ],
+                    "head": "para(M9, Q9, M9, Q9)"
+                },
+                {
+                    "body": [
+                        "cong(M9, H9, M9, A9)",
+                        "cong(M9, R9, M9, A9)"
+                    ],
+                    "head": "cong(M9, R9, M9, H9)"
+                },
+                {
+                    "body": [
+                        "cong(M9, R9, M9, H9)",
+                        "cong(R9, H9, H9, R9)",
+                        "ncoll(M9, R9, H9)"
+                    ],
+                    "head": "para(H9, M9, H9, M9)"
+                },
+                {
+                    "body": [
+                        "cong(M9, G9, M9, H9)",
+                        "cong(M9, H9, M9, A9)",
+                        "cong(M9, R9, M9, A9)"
+                    ],
+                    "head": "cong(M9, R9, M9, G9)"
+                },
+                {
+                    "body": [
+                        "cong(M9, R9, M9, G9)",
+                        "cong(R9, G9, G9, R9)",
+                        "ncoll(M9, R9, G9)"
+                    ],
+                    "head": "para(G9, M9, G9, M9)"
+                },
+                {
+                    "body": [
+                        "cong(M9, R9, M9, A9)",
+                        "cong(R9, A9, A9, R9)",
+                        "ncoll(M9, R9, A9)"
+                    ],
+                    "head": "para(A9, M9, A9, M9)"
+                },
+                {
+                    "body": [
+                        "cong(N9, R9, N9, C9)",
+                        "cong(N9, S9, N9, C9)"
+                    ],
+                    "head": "cong(N9, S9, N9, R9)"
+                },
+                {
+                    "body": [
+                        "cong(N9, S9, N9, R9)",
+                        "cong(S9, R9, R9, S9)",
+                        "ncoll(N9, S9, R9)"
+                    ],
+                    "head": "para(N9, R9, N9, R9)"
+                },
+                {
+                    "body": [
+                        "cong(N9, I9, N9, C9)",
+                        "cong(N9, S9, N9, C9)"
+                    ],
+                    "head": "cong(N9, S9, N9, I9)"
+                },
+                {
+                    "body": [
+                        "cong(N9, S9, N9, I9)",
+                        "cong(S9, I9, I9, S9)",
+                        "ncoll(N9, S9, I9)"
+                    ],
+                    "head": "para(I9, N9, I9, N9)"
+                },
+                {
+                    "body": [
+                        "cong(N9, H9, N9, I9)",
+                        "cong(N9, I9, N9, C9)",
+                        "cong(N9, S9, N9, C9)"
+                    ],
+                    "head": "cong(N9, S9, N9, H9)"
+                },
+                {
+                    "body": [
+                        "cong(N9, S9, N9, H9)",
+                        "cong(S9, H9, H9, S9)",
+                        "ncoll(N9, S9, H9)"
+                    ],
+                    "head": "para(H9, N9, H9, N9)"
+                },
+                {
+                    "body": [
+                        "cong(N9, S9, N9, C9)",
+                        "cong(S9, C9, C9, S9)",
+                        "ncoll(N9, S9, C9)"
+                    ],
+                    "head": "para(C9, N9, C9, N9)"
+                },
+                {
+                    "body": [
+                        "cong(O9, S9, O9, E9)",
+                        "cong(O9, T9, O9, E9)"
+                    ],
+                    "head": "cong(O9, T9, O9, S9)"
+                },
+                {
+                    "body": [
+                        "cong(O9, T9, O9, S9)",
+                        "cong(S9, T9, T9, S9)",
+                        "ncoll(O9, T9, S9)"
+                    ],
+                    "head": "para(O9, S9, O9, S9)"
+                },
+                {
+                    "body": [
+                        "cong(O9, I9, O9, E9)",
+                        "cong(O9, T9, O9, E9)"
+                    ],
+                    "head": "cong(O9, T9, O9, I9)"
+                },
+                {
+                    "body": [
+                        "cong(O9, T9, O9, I9)",
+                        "cong(I9, T9, T9, I9)",
+                        "ncoll(O9, T9, I9)"
+                    ],
+                    "head": "para(I9, O9, I9, O9)"
+                },
+                {
+                    "body": [
+                        "cong(O9, J9, O9, I9)",
+                        "cong(O9, I9, O9, E9)",
+                        "cong(O9, T9, O9, E9)"
+                    ],
+                    "head": "cong(O9, T9, O9, J9)"
+                },
+                {
+                    "body": [
+                        "cong(O9, T9, O9, J9)",
+                        "cong(J9, T9, T9, J9)",
+                        "ncoll(O9, T9, J9)"
+                    ],
+                    "head": "para(J9, O9, J9, O9)"
+                },
+                {
+                    "body": [
+                        "cong(O9, T9, O9, E9)",
+                        "cong(E9, T9, T9, E9)",
+                        "ncoll(O9, T9, E9)"
+                    ],
+                    "head": "para(E9, O9, E9, O9)"
+                },
+                {
+                    "body": [
+                        "cong(K9, Q9, K9, P9)"
+                    ],
+                    "head": "eqratio(P9, Q9, P9, K9, Q9, P9, Q9, K9)"
+                },
+                {
+                    "body": [
+                        "cong(K9, Q9, K9, P9)"
+                    ],
+                    "head": "eqratio(K9, Q9, K9, P9, K9, P9, K9, Q9)"
+                },
+                {
+                    "body": [
+                        "eqratio(P9, Q9, P9, K9, Q9, P9, Q9, K9)",
+                        "eqratio(K9, Q9, K9, P9, K9, P9, K9, Q9)",
+                        "ncoll(K9, Q9, P9)",
+                        "cong(Q9, P9, P9, Q9)"
+                    ],
+                    "head": "para(K9, Q9, K9, Q9)"
+                },
+                {
+                    "body": [
+                        "cong(L9, J9, L9, B9)"
+                    ],
+                    "head": "eqratio(J9, B9, J9, L9, B9, J9, B9, L9)"
+                },
+                {
+                    "body": [
+                        "cong(L9, B9, L9, J9)"
+                    ],
+                    "head": "eqratio(L9, B9, L9, J9, L9, J9, L9, B9)"
+                },
+                {
+                    "body": [
+                        "eqratio(J9, B9, J9, L9, B9, J9, B9, L9)",
+                        "eqratio(L9, B9, L9, J9, L9, J9, L9, B9)",
+                        "ncoll(L9, B9, J9)",
+                        "cong(J9, B9, B9, J9)"
+                    ],
+                    "head": "para(B9, L9, B9, L9)"
+                },
+                {
+                    "body": [
+                        "cong(O9, T9, O9, J9)"
+                    ],
+                    "head": "eqratio(J9, T9, J9, O9, T9, J9, T9, O9)"
+                },
+                {
+                    "body": [
+                        "cong(O9, T9, O9, J9)"
+                    ],
+                    "head": "eqratio(O9, T9, O9, J9, O9, J9, O9, T9)"
+                },
+                {
+                    "body": [
+                        "eqratio(J9, T9, J9, O9, T9, J9, T9, O9)",
+                        "eqratio(O9, T9, O9, J9, O9, J9, O9, T9)",
+                        "ncoll(O9, T9, J9)",
+                        "cong(J9, T9, T9, J9)"
+                    ],
+                    "head": "para(O9, T9, O9, T9)"
+                },
+                {
+                    "body": [
+                        "cong(M9, R9, M9, Q9)"
+                    ],
+                    "head": "eqratio(Q9, R9, Q9, M9, R9, Q9, R9, M9)"
+                },
+                {
+                    "body": [
+                        "cong(M9, R9, M9, Q9)"
+                    ],
+                    "head": "eqratio(M9, R9, M9, Q9, M9, Q9, M9, R9)"
+                },
+                {
+                    "body": [
+                        "eqratio(Q9, R9, Q9, M9, R9, Q9, R9, M9)",
+                        "eqratio(M9, R9, M9, Q9, M9, Q9, M9, R9)",
+                        "ncoll(M9, R9, Q9)",
+                        "cong(R9, Q9, Q9, R9)"
+                    ],
+                    "head": "para(M9, R9, M9, R9)"
+                },
+                {
+                    "body": [
+                        "cong(N9, S9, N9, R9)"
+                    ],
+                    "head": "eqratio(R9, S9, R9, N9, S9, R9, S9, N9)"
+                },
+                {
+                    "body": [
+                        "cong(N9, S9, N9, R9)"
+                    ],
+                    "head": "eqratio(N9, S9, N9, R9, N9, R9, N9, S9)"
+                },
+                {
+                    "body": [
+                        "eqratio(R9, S9, R9, N9, S9, R9, S9, N9)",
+                        "eqratio(N9, S9, N9, R9, N9, R9, N9, S9)",
+                        "ncoll(N9, S9, R9)",
+                        "cong(S9, R9, R9, S9)"
+                    ],
+                    "head": "para(N9, S9, N9, S9)"
+                }
+            ]
+        }
+    }
+}

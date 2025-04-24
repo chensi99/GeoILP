@@ -1,0 +1,1926 @@
+{
+    "meta_data": {
+        "is_multitask": false,
+        "target_predicates": [
+            "para"
+        ]
+    },
+    "data": {
+        "train": {
+            "background_knowledge": [
+                "cong(B0, C0, B0, A0)",
+                "cong(B0, C0, B0, D0)",
+                "cong(A0, D0, D0, A0)",
+                "ncoll(B0, D0, A0)",
+                "cong(C0, D0, D0, C0)",
+                "ncoll(B0, D0, C0)",
+                "cong(A0, C0, A0, D0)",
+                "ncoll(A0, D0, C0)",
+                "cong(A0, E0, A0, C0)",
+                "cong(E0, D0, D0, E0)",
+                "ncoll(A0, E0, D0)",
+                "cong(E0, C0, C0, E0)",
+                "ncoll(A0, E0, C0)",
+                "perp(C0, E0, B0, C0)",
+                "ncoll(C0, E0, D0)",
+                "cong(B1, C1, B1, A1)",
+                "cong(B1, C1, B1, D1)",
+                "cong(A1, D1, D1, A1)",
+                "ncoll(B1, D1, A1)",
+                "cong(C1, D1, D1, C1)",
+                "ncoll(B1, D1, C1)",
+                "cong(A1, C1, A1, D1)",
+                "ncoll(A1, D1, C1)",
+                "cong(A1, E1, A1, C1)",
+                "cong(E1, D1, D1, E1)",
+                "ncoll(A1, E1, D1)",
+                "cong(E1, C1, C1, E1)",
+                "ncoll(A1, E1, C1)",
+                "perp(C1, E1, B1, C1)",
+                "ncoll(C1, E1, D1)",
+                "cong(B2, C2, B2, A2)",
+                "cong(B2, C2, B2, D2)",
+                "cong(A2, D2, D2, A2)",
+                "ncoll(B2, D2, A2)",
+                "cong(C2, D2, D2, C2)",
+                "ncoll(B2, D2, C2)",
+                "cong(A2, C2, A2, D2)",
+                "ncoll(A2, D2, C2)",
+                "cong(A2, E2, A2, C2)",
+                "cong(E2, D2, D2, E2)",
+                "ncoll(A2, E2, D2)",
+                "cong(E2, C2, C2, E2)",
+                "ncoll(A2, E2, C2)",
+                "perp(C2, E2, B2, C2)",
+                "ncoll(C2, E2, D2)",
+                "cong(B3, C3, B3, A3)",
+                "cong(B3, C3, B3, D3)",
+                "cong(A3, D3, D3, A3)",
+                "ncoll(B3, D3, A3)",
+                "cong(C3, D3, D3, C3)",
+                "ncoll(B3, D3, C3)",
+                "cong(A3, C3, A3, D3)",
+                "ncoll(A3, D3, C3)",
+                "cong(A3, E3, A3, C3)",
+                "cong(E3, D3, D3, E3)",
+                "ncoll(A3, E3, D3)",
+                "cong(E3, C3, C3, E3)",
+                "ncoll(A3, E3, C3)",
+                "perp(C3, E3, B3, C3)",
+                "ncoll(C3, E3, D3)",
+                "cong(B4, C4, B4, A4)",
+                "cong(B4, C4, B4, D4)",
+                "cong(A4, D4, D4, A4)",
+                "ncoll(B4, D4, A4)",
+                "cong(C4, D4, D4, C4)",
+                "ncoll(B4, D4, C4)",
+                "cong(A4, C4, A4, D4)",
+                "ncoll(A4, D4, C4)",
+                "cong(A4, E4, A4, C4)",
+                "cong(E4, D4, D4, E4)",
+                "ncoll(A4, E4, D4)",
+                "cong(E4, C4, C4, E4)",
+                "ncoll(A4, E4, C4)",
+                "perp(C4, E4, B4, C4)",
+                "ncoll(C4, E4, D4)",
+                "cong(B5, C5, B5, A5)",
+                "cong(B5, C5, B5, D5)",
+                "cong(A5, D5, D5, A5)",
+                "ncoll(B5, D5, A5)",
+                "cong(C5, D5, D5, C5)",
+                "ncoll(B5, D5, C5)",
+                "cong(A5, C5, A5, D5)",
+                "ncoll(A5, D5, C5)",
+                "cong(A5, E5, A5, C5)",
+                "cong(E5, D5, D5, E5)",
+                "ncoll(A5, E5, D5)",
+                "cong(E5, C5, C5, E5)",
+                "ncoll(A5, E5, C5)",
+                "perp(C5, E5, B5, C5)",
+                "ncoll(C5, E5, D5)",
+                "cong(B6, C6, B6, A6)",
+                "cong(B6, C6, B6, D6)",
+                "cong(A6, D6, D6, A6)",
+                "ncoll(B6, D6, A6)",
+                "cong(C6, D6, D6, C6)",
+                "ncoll(B6, D6, C6)",
+                "cong(A6, C6, A6, D6)",
+                "ncoll(A6, D6, C6)",
+                "cong(A6, E6, A6, C6)",
+                "cong(E6, D6, D6, E6)",
+                "ncoll(A6, E6, D6)",
+                "cong(E6, C6, C6, E6)",
+                "ncoll(A6, E6, C6)",
+                "perp(C6, E6, B6, C6)",
+                "ncoll(C6, E6, D6)",
+                "cong(B7, C7, B7, A7)",
+                "cong(B7, C7, B7, D7)",
+                "cong(A7, D7, D7, A7)",
+                "ncoll(B7, D7, A7)",
+                "cong(C7, D7, D7, C7)",
+                "ncoll(B7, D7, C7)",
+                "cong(A7, C7, A7, D7)",
+                "ncoll(A7, D7, C7)",
+                "cong(A7, E7, A7, C7)",
+                "cong(E7, D7, D7, E7)",
+                "ncoll(A7, E7, D7)",
+                "cong(E7, C7, C7, E7)",
+                "ncoll(A7, E7, C7)",
+                "perp(C7, E7, B7, C7)",
+                "ncoll(C7, E7, D7)"
+            ],
+            "positive_examples": [
+                "para(A0, B0, A0, B0)",
+                "para(B0, C0, B0, C0)",
+                "para(A0, D0, A0, D0)",
+                "para(A0, C0, A0, C0)",
+                "para(B0, D0, B0, D0)",
+                "para(A0, E0, A0, E0)",
+                "para(C0, D0, C0, D0)",
+                "para(C0, E0, C0, E0)",
+                "para(A1, B1, A1, B1)",
+                "para(B1, C1, B1, C1)",
+                "para(A1, D1, A1, D1)",
+                "para(A1, C1, A1, C1)",
+                "para(B1, D1, B1, D1)",
+                "para(A1, E1, A1, E1)",
+                "para(C1, D1, C1, D1)",
+                "para(C1, E1, C1, E1)",
+                "para(A2, B2, A2, B2)",
+                "para(B2, C2, B2, C2)",
+                "para(A2, D2, A2, D2)",
+                "para(A2, C2, A2, C2)",
+                "para(B2, D2, B2, D2)",
+                "para(A2, E2, A2, E2)",
+                "para(C2, D2, C2, D2)",
+                "para(C2, E2, C2, E2)",
+                "para(A3, B3, A3, B3)",
+                "para(B3, C3, B3, C3)",
+                "para(A3, D3, A3, D3)",
+                "para(A3, C3, A3, C3)",
+                "para(B3, D3, B3, D3)",
+                "para(A3, E3, A3, E3)",
+                "para(C3, D3, C3, D3)",
+                "para(C3, E3, C3, E3)",
+                "para(A4, B4, A4, B4)",
+                "para(B4, C4, B4, C4)",
+                "para(A4, D4, A4, D4)",
+                "para(A4, C4, A4, C4)",
+                "para(B4, D4, B4, D4)",
+                "para(A4, E4, A4, E4)",
+                "para(C4, D4, C4, D4)",
+                "para(C4, E4, C4, E4)",
+                "para(A5, B5, A5, B5)",
+                "para(B5, C5, B5, C5)",
+                "para(A5, D5, A5, D5)",
+                "para(A5, C5, A5, C5)",
+                "para(B5, D5, B5, D5)",
+                "para(A5, E5, A5, E5)",
+                "para(C5, D5, C5, D5)",
+                "para(C5, E5, C5, E5)",
+                "para(A6, B6, A6, B6)",
+                "para(B6, C6, B6, C6)",
+                "para(A6, D6, A6, D6)",
+                "para(A6, C6, A6, C6)",
+                "para(B6, D6, B6, D6)",
+                "para(A6, E6, A6, E6)",
+                "para(C6, D6, C6, D6)",
+                "para(C6, E6, C6, E6)",
+                "para(A7, B7, A7, B7)",
+                "para(B7, C7, B7, C7)",
+                "para(A7, D7, A7, D7)",
+                "para(A7, C7, A7, C7)",
+                "para(B7, D7, B7, D7)",
+                "para(A7, E7, A7, E7)",
+                "para(C7, D7, C7, D7)",
+                "para(C7, E7, C7, E7)"
+            ],
+            "proof_steps": [
+                {
+                    "body": [
+                        "cong(B0, C0, B0, A0)",
+                        "cong(B0, C0, B0, D0)"
+                    ],
+                    "head": "cong(B0, D0, B0, A0)"
+                },
+                {
+                    "body": [
+                        "cong(B0, D0, B0, A0)",
+                        "cong(A0, D0, D0, A0)",
+                        "ncoll(B0, D0, A0)"
+                    ],
+                    "head": "para(A0, B0, A0, B0)"
+                },
+                {
+                    "body": [
+                        "cong(B0, C0, B0, D0)",
+                        "cong(C0, D0, D0, C0)",
+                        "ncoll(B0, D0, C0)"
+                    ],
+                    "head": "para(B0, C0, B0, C0)"
+                },
+                {
+                    "body": [
+                        "cong(A0, C0, A0, D0)",
+                        "cong(A0, E0, A0, C0)"
+                    ],
+                    "head": "cong(A0, E0, A0, D0)"
+                },
+                {
+                    "body": [
+                        "cong(A0, E0, A0, D0)",
+                        "cong(E0, D0, D0, E0)",
+                        "ncoll(A0, E0, D0)"
+                    ],
+                    "head": "para(A0, D0, A0, D0)"
+                },
+                {
+                    "body": [
+                        "cong(A0, E0, A0, C0)",
+                        "cong(E0, C0, C0, E0)",
+                        "ncoll(A0, E0, C0)"
+                    ],
+                    "head": "para(A0, C0, A0, C0)"
+                },
+                {
+                    "body": [
+                        "cong(A0, B0, D0, B0)"
+                    ],
+                    "head": "eqratio(A0, D0, A0, B0, D0, A0, D0, B0)"
+                },
+                {
+                    "body": [
+                        "cong(B0, D0, B0, A0)"
+                    ],
+                    "head": "eqratio(B0, D0, B0, A0, B0, A0, B0, D0)"
+                },
+                {
+                    "body": [
+                        "eqratio(A0, D0, A0, B0, D0, A0, D0, B0)",
+                        "eqratio(B0, D0, B0, A0, B0, A0, B0, D0)",
+                        "ncoll(B0, D0, A0)",
+                        "cong(A0, D0, D0, A0)"
+                    ],
+                    "head": "para(B0, D0, B0, D0)"
+                },
+                {
+                    "body": [
+                        "cong(A0, E0, A0, D0)"
+                    ],
+                    "head": "eqratio(D0, E0, D0, A0, E0, D0, E0, A0)"
+                },
+                {
+                    "body": [
+                        "cong(A0, E0, A0, D0)"
+                    ],
+                    "head": "eqratio(A0, E0, A0, D0, A0, D0, A0, E0)"
+                },
+                {
+                    "body": [
+                        "eqratio(D0, E0, D0, A0, E0, D0, E0, A0)",
+                        "eqratio(A0, E0, A0, D0, A0, D0, A0, E0)",
+                        "ncoll(A0, E0, D0)",
+                        "cong(E0, D0, D0, E0)"
+                    ],
+                    "head": "para(A0, E0, A0, E0)"
+                },
+                {
+                    "body": [
+                        "cong(A0, C0, A0, D0)",
+                        "ncoll(A0, D0, C0)"
+                    ],
+                    "head": "eqangle(A0, D0, C0, D0, C0, D0, A0, C0)"
+                },
+                {
+                    "body": [
+                        "cong(B0, C0, B0, D0)",
+                        "cong(B0, C0, B0, A0)"
+                    ],
+                    "head": "circle(B0, C0, D0, A0)"
+                },
+                {
+                    "body": [
+                        "circle(B0, C0, D0, A0)",
+                        "perp(C0, E0, B0, C0)"
+                    ],
+                    "head": "eqangle(A0, C0, C0, E0, A0, D0, C0, D0)"
+                },
+                {
+                    "body": [
+                        "cong(A0, E0, A0, C0)",
+                        "ncoll(A0, E0, C0)"
+                    ],
+                    "head": "eqangle(C0, E0, A0, E0, A0, C0, C0, E0)"
+                },
+                {
+                    "body": [
+                        "eqangle(A0, D0, C0, D0, C0, D0, A0, C0)",
+                        "eqangle(A0, C0, C0, E0, A0, D0, C0, D0)",
+                        "eqangle(C0, E0, A0, E0, A0, C0, C0, E0)"
+                    ],
+                    "head": "eqangle(C0, E0, A0, E0, C0, D0, A0, C0)"
+                },
+                {
+                    "body": [
+                        "eqangle(C0, E0, A0, E0, C0, D0, A0, C0)",
+                        "eqangle(C0, E0, A0, C0, C0, D0, A0, D0)",
+                        "ncoll(A0, E0, C0)"
+                    ],
+                    "head": "eqratio(E0, A0, C0, A0, E0, C0, C0, D0)"
+                },
+                {
+                    "body": [
+                        "eqratio(E0, A0, C0, A0, E0, C0, C0, D0)",
+                        "cong(A0, E0, A0, C0)"
+                    ],
+                    "head": "cong(E0, C0, C0, D0)"
+                },
+                {
+                    "body": [
+                        "cong(E0, C0, C0, D0)",
+                        "cong(E0, D0, D0, E0)",
+                        "ncoll(C0, E0, D0)"
+                    ],
+                    "head": "para(C0, D0, C0, D0)"
+                },
+                {
+                    "body": [
+                        "cong(E0, C0, D0, C0)"
+                    ],
+                    "head": "eqratio(E0, D0, E0, C0, D0, E0, D0, C0)"
+                },
+                {
+                    "body": [
+                        "cong(C0, D0, C0, E0)"
+                    ],
+                    "head": "eqratio(C0, D0, C0, E0, C0, E0, C0, D0)"
+                },
+                {
+                    "body": [
+                        "eqratio(E0, D0, E0, C0, D0, E0, D0, C0)",
+                        "eqratio(C0, D0, C0, E0, C0, E0, C0, D0)",
+                        "ncoll(C0, E0, D0)"
+                    ],
+                    "head": "para(C0, E0, C0, E0)"
+                },
+                {
+                    "body": [
+                        "cong(B1, C1, B1, A1)",
+                        "cong(B1, C1, B1, D1)"
+                    ],
+                    "head": "cong(B1, D1, B1, A1)"
+                },
+                {
+                    "body": [
+                        "cong(B1, D1, B1, A1)",
+                        "cong(A1, D1, D1, A1)",
+                        "ncoll(B1, D1, A1)"
+                    ],
+                    "head": "para(A1, B1, A1, B1)"
+                },
+                {
+                    "body": [
+                        "cong(B1, C1, B1, D1)",
+                        "cong(C1, D1, D1, C1)",
+                        "ncoll(B1, D1, C1)"
+                    ],
+                    "head": "para(B1, C1, B1, C1)"
+                },
+                {
+                    "body": [
+                        "cong(A1, C1, A1, D1)",
+                        "cong(A1, E1, A1, C1)"
+                    ],
+                    "head": "cong(A1, E1, A1, D1)"
+                },
+                {
+                    "body": [
+                        "cong(A1, E1, A1, D1)",
+                        "cong(E1, D1, D1, E1)",
+                        "ncoll(A1, E1, D1)"
+                    ],
+                    "head": "para(A1, D1, A1, D1)"
+                },
+                {
+                    "body": [
+                        "cong(A1, E1, A1, C1)",
+                        "cong(E1, C1, C1, E1)",
+                        "ncoll(A1, E1, C1)"
+                    ],
+                    "head": "para(A1, C1, A1, C1)"
+                },
+                {
+                    "body": [
+                        "cong(A1, B1, D1, B1)"
+                    ],
+                    "head": "eqratio(A1, D1, A1, B1, D1, A1, D1, B1)"
+                },
+                {
+                    "body": [
+                        "cong(B1, D1, B1, A1)"
+                    ],
+                    "head": "eqratio(B1, D1, B1, A1, B1, A1, B1, D1)"
+                },
+                {
+                    "body": [
+                        "eqratio(A1, D1, A1, B1, D1, A1, D1, B1)",
+                        "eqratio(B1, D1, B1, A1, B1, A1, B1, D1)",
+                        "ncoll(B1, D1, A1)",
+                        "cong(A1, D1, D1, A1)"
+                    ],
+                    "head": "para(B1, D1, B1, D1)"
+                },
+                {
+                    "body": [
+                        "cong(A1, E1, A1, D1)"
+                    ],
+                    "head": "eqratio(D1, E1, D1, A1, E1, D1, E1, A1)"
+                },
+                {
+                    "body": [
+                        "cong(A1, E1, A1, D1)"
+                    ],
+                    "head": "eqratio(A1, E1, A1, D1, A1, D1, A1, E1)"
+                },
+                {
+                    "body": [
+                        "eqratio(D1, E1, D1, A1, E1, D1, E1, A1)",
+                        "eqratio(A1, E1, A1, D1, A1, D1, A1, E1)",
+                        "ncoll(A1, E1, D1)",
+                        "cong(E1, D1, D1, E1)"
+                    ],
+                    "head": "para(A1, E1, A1, E1)"
+                },
+                {
+                    "body": [
+                        "cong(A1, C1, A1, D1)",
+                        "ncoll(A1, D1, C1)"
+                    ],
+                    "head": "eqangle(A1, D1, C1, D1, C1, D1, A1, C1)"
+                },
+                {
+                    "body": [
+                        "cong(B1, C1, B1, D1)",
+                        "cong(B1, C1, B1, A1)"
+                    ],
+                    "head": "circle(B1, C1, D1, A1)"
+                },
+                {
+                    "body": [
+                        "circle(B1, C1, D1, A1)",
+                        "perp(C1, E1, B1, C1)"
+                    ],
+                    "head": "eqangle(A1, C1, C1, E1, A1, D1, C1, D1)"
+                },
+                {
+                    "body": [
+                        "cong(A1, E1, A1, C1)",
+                        "ncoll(A1, E1, C1)"
+                    ],
+                    "head": "eqangle(C1, E1, A1, E1, A1, C1, C1, E1)"
+                },
+                {
+                    "body": [
+                        "eqangle(A1, D1, C1, D1, C1, D1, A1, C1)",
+                        "eqangle(A1, C1, C1, E1, A1, D1, C1, D1)",
+                        "eqangle(C1, E1, A1, E1, A1, C1, C1, E1)"
+                    ],
+                    "head": "eqangle(C1, E1, A1, E1, C1, D1, A1, C1)"
+                },
+                {
+                    "body": [
+                        "eqangle(C1, E1, A1, E1, C1, D1, A1, C1)",
+                        "eqangle(C1, E1, A1, C1, C1, D1, A1, D1)",
+                        "ncoll(A1, E1, C1)"
+                    ],
+                    "head": "eqratio(E1, A1, C1, A1, E1, C1, C1, D1)"
+                },
+                {
+                    "body": [
+                        "eqratio(E1, A1, C1, A1, E1, C1, C1, D1)",
+                        "cong(A1, E1, A1, C1)"
+                    ],
+                    "head": "cong(E1, C1, C1, D1)"
+                },
+                {
+                    "body": [
+                        "cong(E1, C1, C1, D1)",
+                        "cong(E1, D1, D1, E1)",
+                        "ncoll(C1, E1, D1)"
+                    ],
+                    "head": "para(C1, D1, C1, D1)"
+                },
+                {
+                    "body": [
+                        "cong(E1, C1, D1, C1)"
+                    ],
+                    "head": "eqratio(E1, D1, E1, C1, D1, E1, D1, C1)"
+                },
+                {
+                    "body": [
+                        "cong(C1, D1, C1, E1)"
+                    ],
+                    "head": "eqratio(C1, D1, C1, E1, C1, E1, C1, D1)"
+                },
+                {
+                    "body": [
+                        "eqratio(E1, D1, E1, C1, D1, E1, D1, C1)",
+                        "eqratio(C1, D1, C1, E1, C1, E1, C1, D1)",
+                        "ncoll(C1, E1, D1)"
+                    ],
+                    "head": "para(C1, E1, C1, E1)"
+                },
+                {
+                    "body": [
+                        "cong(B2, C2, B2, A2)",
+                        "cong(B2, C2, B2, D2)"
+                    ],
+                    "head": "cong(B2, D2, B2, A2)"
+                },
+                {
+                    "body": [
+                        "cong(B2, D2, B2, A2)",
+                        "cong(A2, D2, D2, A2)",
+                        "ncoll(B2, D2, A2)"
+                    ],
+                    "head": "para(A2, B2, A2, B2)"
+                },
+                {
+                    "body": [
+                        "cong(B2, C2, B2, D2)",
+                        "cong(C2, D2, D2, C2)",
+                        "ncoll(B2, D2, C2)"
+                    ],
+                    "head": "para(B2, C2, B2, C2)"
+                },
+                {
+                    "body": [
+                        "cong(A2, C2, A2, D2)",
+                        "cong(A2, E2, A2, C2)"
+                    ],
+                    "head": "cong(A2, E2, A2, D2)"
+                },
+                {
+                    "body": [
+                        "cong(A2, E2, A2, D2)",
+                        "cong(E2, D2, D2, E2)",
+                        "ncoll(A2, E2, D2)"
+                    ],
+                    "head": "para(A2, D2, A2, D2)"
+                },
+                {
+                    "body": [
+                        "cong(A2, E2, A2, C2)",
+                        "cong(E2, C2, C2, E2)",
+                        "ncoll(A2, E2, C2)"
+                    ],
+                    "head": "para(A2, C2, A2, C2)"
+                },
+                {
+                    "body": [
+                        "cong(A2, B2, D2, B2)"
+                    ],
+                    "head": "eqratio(A2, D2, A2, B2, D2, A2, D2, B2)"
+                },
+                {
+                    "body": [
+                        "cong(B2, D2, B2, A2)"
+                    ],
+                    "head": "eqratio(B2, D2, B2, A2, B2, A2, B2, D2)"
+                },
+                {
+                    "body": [
+                        "eqratio(A2, D2, A2, B2, D2, A2, D2, B2)",
+                        "eqratio(B2, D2, B2, A2, B2, A2, B2, D2)",
+                        "ncoll(B2, D2, A2)",
+                        "cong(A2, D2, D2, A2)"
+                    ],
+                    "head": "para(B2, D2, B2, D2)"
+                },
+                {
+                    "body": [
+                        "cong(A2, E2, A2, D2)"
+                    ],
+                    "head": "eqratio(D2, E2, D2, A2, E2, D2, E2, A2)"
+                },
+                {
+                    "body": [
+                        "cong(A2, E2, A2, D2)"
+                    ],
+                    "head": "eqratio(A2, E2, A2, D2, A2, D2, A2, E2)"
+                },
+                {
+                    "body": [
+                        "eqratio(D2, E2, D2, A2, E2, D2, E2, A2)",
+                        "eqratio(A2, E2, A2, D2, A2, D2, A2, E2)",
+                        "ncoll(A2, E2, D2)",
+                        "cong(E2, D2, D2, E2)"
+                    ],
+                    "head": "para(A2, E2, A2, E2)"
+                },
+                {
+                    "body": [
+                        "cong(A2, C2, A2, D2)",
+                        "ncoll(A2, D2, C2)"
+                    ],
+                    "head": "eqangle(A2, D2, C2, D2, C2, D2, A2, C2)"
+                },
+                {
+                    "body": [
+                        "cong(B2, C2, B2, D2)",
+                        "cong(B2, C2, B2, A2)"
+                    ],
+                    "head": "circle(B2, C2, D2, A2)"
+                },
+                {
+                    "body": [
+                        "circle(B2, C2, D2, A2)",
+                        "perp(C2, E2, B2, C2)"
+                    ],
+                    "head": "eqangle(A2, C2, C2, E2, A2, D2, C2, D2)"
+                },
+                {
+                    "body": [
+                        "cong(A2, E2, A2, C2)",
+                        "ncoll(A2, E2, C2)"
+                    ],
+                    "head": "eqangle(C2, E2, A2, E2, A2, C2, C2, E2)"
+                },
+                {
+                    "body": [
+                        "eqangle(A2, D2, C2, D2, C2, D2, A2, C2)",
+                        "eqangle(A2, C2, C2, E2, A2, D2, C2, D2)",
+                        "eqangle(C2, E2, A2, E2, A2, C2, C2, E2)"
+                    ],
+                    "head": "eqangle(C2, E2, A2, E2, C2, D2, A2, C2)"
+                },
+                {
+                    "body": [
+                        "eqangle(C2, E2, A2, E2, C2, D2, A2, C2)",
+                        "eqangle(C2, E2, A2, C2, C2, D2, A2, D2)",
+                        "ncoll(A2, E2, C2)"
+                    ],
+                    "head": "eqratio(E2, A2, C2, A2, E2, C2, C2, D2)"
+                },
+                {
+                    "body": [
+                        "eqratio(E2, A2, C2, A2, E2, C2, C2, D2)",
+                        "cong(A2, E2, A2, C2)"
+                    ],
+                    "head": "cong(E2, C2, C2, D2)"
+                },
+                {
+                    "body": [
+                        "cong(E2, C2, C2, D2)",
+                        "cong(E2, D2, D2, E2)",
+                        "ncoll(C2, E2, D2)"
+                    ],
+                    "head": "para(C2, D2, C2, D2)"
+                },
+                {
+                    "body": [
+                        "cong(E2, C2, D2, C2)"
+                    ],
+                    "head": "eqratio(E2, D2, E2, C2, D2, E2, D2, C2)"
+                },
+                {
+                    "body": [
+                        "cong(C2, D2, C2, E2)"
+                    ],
+                    "head": "eqratio(C2, D2, C2, E2, C2, E2, C2, D2)"
+                },
+                {
+                    "body": [
+                        "eqratio(E2, D2, E2, C2, D2, E2, D2, C2)",
+                        "eqratio(C2, D2, C2, E2, C2, E2, C2, D2)",
+                        "ncoll(C2, E2, D2)"
+                    ],
+                    "head": "para(C2, E2, C2, E2)"
+                },
+                {
+                    "body": [
+                        "cong(B3, C3, B3, A3)",
+                        "cong(B3, C3, B3, D3)"
+                    ],
+                    "head": "cong(B3, D3, B3, A3)"
+                },
+                {
+                    "body": [
+                        "cong(B3, D3, B3, A3)",
+                        "cong(A3, D3, D3, A3)",
+                        "ncoll(B3, D3, A3)"
+                    ],
+                    "head": "para(A3, B3, A3, B3)"
+                },
+                {
+                    "body": [
+                        "cong(B3, C3, B3, D3)",
+                        "cong(C3, D3, D3, C3)",
+                        "ncoll(B3, D3, C3)"
+                    ],
+                    "head": "para(B3, C3, B3, C3)"
+                },
+                {
+                    "body": [
+                        "cong(A3, C3, A3, D3)",
+                        "cong(A3, E3, A3, C3)"
+                    ],
+                    "head": "cong(A3, E3, A3, D3)"
+                },
+                {
+                    "body": [
+                        "cong(A3, E3, A3, D3)",
+                        "cong(E3, D3, D3, E3)",
+                        "ncoll(A3, E3, D3)"
+                    ],
+                    "head": "para(A3, D3, A3, D3)"
+                },
+                {
+                    "body": [
+                        "cong(A3, E3, A3, C3)",
+                        "cong(E3, C3, C3, E3)",
+                        "ncoll(A3, E3, C3)"
+                    ],
+                    "head": "para(A3, C3, A3, C3)"
+                },
+                {
+                    "body": [
+                        "cong(A3, B3, D3, B3)"
+                    ],
+                    "head": "eqratio(A3, D3, A3, B3, D3, A3, D3, B3)"
+                },
+                {
+                    "body": [
+                        "cong(B3, D3, B3, A3)"
+                    ],
+                    "head": "eqratio(B3, D3, B3, A3, B3, A3, B3, D3)"
+                },
+                {
+                    "body": [
+                        "eqratio(A3, D3, A3, B3, D3, A3, D3, B3)",
+                        "eqratio(B3, D3, B3, A3, B3, A3, B3, D3)",
+                        "ncoll(B3, D3, A3)",
+                        "cong(A3, D3, D3, A3)"
+                    ],
+                    "head": "para(B3, D3, B3, D3)"
+                },
+                {
+                    "body": [
+                        "cong(A3, E3, A3, D3)"
+                    ],
+                    "head": "eqratio(D3, E3, D3, A3, E3, D3, E3, A3)"
+                },
+                {
+                    "body": [
+                        "cong(A3, E3, A3, D3)"
+                    ],
+                    "head": "eqratio(A3, E3, A3, D3, A3, D3, A3, E3)"
+                },
+                {
+                    "body": [
+                        "eqratio(D3, E3, D3, A3, E3, D3, E3, A3)",
+                        "eqratio(A3, E3, A3, D3, A3, D3, A3, E3)",
+                        "ncoll(A3, E3, D3)",
+                        "cong(E3, D3, D3, E3)"
+                    ],
+                    "head": "para(A3, E3, A3, E3)"
+                },
+                {
+                    "body": [
+                        "cong(A3, C3, A3, D3)",
+                        "ncoll(A3, D3, C3)"
+                    ],
+                    "head": "eqangle(A3, D3, C3, D3, C3, D3, A3, C3)"
+                },
+                {
+                    "body": [
+                        "cong(B3, C3, B3, D3)",
+                        "cong(B3, C3, B3, A3)"
+                    ],
+                    "head": "circle(B3, C3, D3, A3)"
+                },
+                {
+                    "body": [
+                        "circle(B3, C3, D3, A3)",
+                        "perp(C3, E3, B3, C3)"
+                    ],
+                    "head": "eqangle(A3, C3, C3, E3, A3, D3, C3, D3)"
+                },
+                {
+                    "body": [
+                        "cong(A3, E3, A3, C3)",
+                        "ncoll(A3, E3, C3)"
+                    ],
+                    "head": "eqangle(C3, E3, A3, E3, A3, C3, C3, E3)"
+                },
+                {
+                    "body": [
+                        "eqangle(A3, D3, C3, D3, C3, D3, A3, C3)",
+                        "eqangle(A3, C3, C3, E3, A3, D3, C3, D3)",
+                        "eqangle(C3, E3, A3, E3, A3, C3, C3, E3)"
+                    ],
+                    "head": "eqangle(C3, E3, A3, E3, C3, D3, A3, C3)"
+                },
+                {
+                    "body": [
+                        "eqangle(C3, E3, A3, E3, C3, D3, A3, C3)",
+                        "eqangle(C3, E3, A3, C3, C3, D3, A3, D3)",
+                        "ncoll(A3, E3, C3)"
+                    ],
+                    "head": "eqratio(E3, A3, C3, A3, E3, C3, C3, D3)"
+                },
+                {
+                    "body": [
+                        "eqratio(E3, A3, C3, A3, E3, C3, C3, D3)",
+                        "cong(A3, E3, A3, C3)"
+                    ],
+                    "head": "cong(E3, C3, C3, D3)"
+                },
+                {
+                    "body": [
+                        "cong(E3, C3, C3, D3)",
+                        "cong(E3, D3, D3, E3)",
+                        "ncoll(C3, E3, D3)"
+                    ],
+                    "head": "para(C3, D3, C3, D3)"
+                },
+                {
+                    "body": [
+                        "cong(E3, C3, D3, C3)"
+                    ],
+                    "head": "eqratio(E3, D3, E3, C3, D3, E3, D3, C3)"
+                },
+                {
+                    "body": [
+                        "cong(C3, D3, C3, E3)"
+                    ],
+                    "head": "eqratio(C3, D3, C3, E3, C3, E3, C3, D3)"
+                },
+                {
+                    "body": [
+                        "eqratio(E3, D3, E3, C3, D3, E3, D3, C3)",
+                        "eqratio(C3, D3, C3, E3, C3, E3, C3, D3)",
+                        "ncoll(C3, E3, D3)"
+                    ],
+                    "head": "para(C3, E3, C3, E3)"
+                },
+                {
+                    "body": [
+                        "cong(B4, C4, B4, A4)",
+                        "cong(B4, C4, B4, D4)"
+                    ],
+                    "head": "cong(B4, D4, B4, A4)"
+                },
+                {
+                    "body": [
+                        "cong(B4, D4, B4, A4)",
+                        "cong(A4, D4, D4, A4)",
+                        "ncoll(B4, D4, A4)"
+                    ],
+                    "head": "para(A4, B4, A4, B4)"
+                },
+                {
+                    "body": [
+                        "cong(B4, C4, B4, D4)",
+                        "cong(C4, D4, D4, C4)",
+                        "ncoll(B4, D4, C4)"
+                    ],
+                    "head": "para(B4, C4, B4, C4)"
+                },
+                {
+                    "body": [
+                        "cong(A4, C4, A4, D4)",
+                        "cong(A4, E4, A4, C4)"
+                    ],
+                    "head": "cong(A4, E4, A4, D4)"
+                },
+                {
+                    "body": [
+                        "cong(A4, E4, A4, D4)",
+                        "cong(E4, D4, D4, E4)",
+                        "ncoll(A4, E4, D4)"
+                    ],
+                    "head": "para(A4, D4, A4, D4)"
+                },
+                {
+                    "body": [
+                        "cong(A4, E4, A4, C4)",
+                        "cong(E4, C4, C4, E4)",
+                        "ncoll(A4, E4, C4)"
+                    ],
+                    "head": "para(A4, C4, A4, C4)"
+                },
+                {
+                    "body": [
+                        "cong(A4, B4, D4, B4)"
+                    ],
+                    "head": "eqratio(A4, D4, A4, B4, D4, A4, D4, B4)"
+                },
+                {
+                    "body": [
+                        "cong(B4, D4, B4, A4)"
+                    ],
+                    "head": "eqratio(B4, D4, B4, A4, B4, A4, B4, D4)"
+                },
+                {
+                    "body": [
+                        "eqratio(A4, D4, A4, B4, D4, A4, D4, B4)",
+                        "eqratio(B4, D4, B4, A4, B4, A4, B4, D4)",
+                        "ncoll(B4, D4, A4)",
+                        "cong(A4, D4, D4, A4)"
+                    ],
+                    "head": "para(B4, D4, B4, D4)"
+                },
+                {
+                    "body": [
+                        "cong(A4, E4, A4, D4)"
+                    ],
+                    "head": "eqratio(D4, E4, D4, A4, E4, D4, E4, A4)"
+                },
+                {
+                    "body": [
+                        "cong(A4, E4, A4, D4)"
+                    ],
+                    "head": "eqratio(A4, E4, A4, D4, A4, D4, A4, E4)"
+                },
+                {
+                    "body": [
+                        "eqratio(D4, E4, D4, A4, E4, D4, E4, A4)",
+                        "eqratio(A4, E4, A4, D4, A4, D4, A4, E4)",
+                        "ncoll(A4, E4, D4)",
+                        "cong(E4, D4, D4, E4)"
+                    ],
+                    "head": "para(A4, E4, A4, E4)"
+                },
+                {
+                    "body": [
+                        "cong(A4, C4, A4, D4)",
+                        "ncoll(A4, D4, C4)"
+                    ],
+                    "head": "eqangle(A4, D4, C4, D4, C4, D4, A4, C4)"
+                },
+                {
+                    "body": [
+                        "cong(B4, C4, B4, D4)",
+                        "cong(B4, C4, B4, A4)"
+                    ],
+                    "head": "circle(B4, C4, D4, A4)"
+                },
+                {
+                    "body": [
+                        "circle(B4, C4, D4, A4)",
+                        "perp(C4, E4, B4, C4)"
+                    ],
+                    "head": "eqangle(A4, C4, C4, E4, A4, D4, C4, D4)"
+                },
+                {
+                    "body": [
+                        "cong(A4, E4, A4, C4)",
+                        "ncoll(A4, E4, C4)"
+                    ],
+                    "head": "eqangle(C4, E4, A4, E4, A4, C4, C4, E4)"
+                },
+                {
+                    "body": [
+                        "eqangle(A4, D4, C4, D4, C4, D4, A4, C4)",
+                        "eqangle(A4, C4, C4, E4, A4, D4, C4, D4)",
+                        "eqangle(C4, E4, A4, E4, A4, C4, C4, E4)"
+                    ],
+                    "head": "eqangle(C4, E4, A4, E4, C4, D4, A4, C4)"
+                },
+                {
+                    "body": [
+                        "eqangle(C4, E4, A4, E4, C4, D4, A4, C4)",
+                        "eqangle(C4, E4, A4, C4, C4, D4, A4, D4)",
+                        "ncoll(A4, E4, C4)"
+                    ],
+                    "head": "eqratio(E4, A4, C4, A4, E4, C4, C4, D4)"
+                },
+                {
+                    "body": [
+                        "eqratio(E4, A4, C4, A4, E4, C4, C4, D4)",
+                        "cong(A4, E4, A4, C4)"
+                    ],
+                    "head": "cong(E4, C4, C4, D4)"
+                },
+                {
+                    "body": [
+                        "cong(E4, C4, C4, D4)",
+                        "cong(E4, D4, D4, E4)",
+                        "ncoll(C4, E4, D4)"
+                    ],
+                    "head": "para(C4, D4, C4, D4)"
+                },
+                {
+                    "body": [
+                        "cong(E4, C4, D4, C4)"
+                    ],
+                    "head": "eqratio(E4, D4, E4, C4, D4, E4, D4, C4)"
+                },
+                {
+                    "body": [
+                        "cong(C4, D4, C4, E4)"
+                    ],
+                    "head": "eqratio(C4, D4, C4, E4, C4, E4, C4, D4)"
+                },
+                {
+                    "body": [
+                        "eqratio(E4, D4, E4, C4, D4, E4, D4, C4)",
+                        "eqratio(C4, D4, C4, E4, C4, E4, C4, D4)",
+                        "ncoll(C4, E4, D4)"
+                    ],
+                    "head": "para(C4, E4, C4, E4)"
+                },
+                {
+                    "body": [
+                        "cong(B5, C5, B5, A5)",
+                        "cong(B5, C5, B5, D5)"
+                    ],
+                    "head": "cong(B5, D5, B5, A5)"
+                },
+                {
+                    "body": [
+                        "cong(B5, D5, B5, A5)",
+                        "cong(A5, D5, D5, A5)",
+                        "ncoll(B5, D5, A5)"
+                    ],
+                    "head": "para(A5, B5, A5, B5)"
+                },
+                {
+                    "body": [
+                        "cong(B5, C5, B5, D5)",
+                        "cong(C5, D5, D5, C5)",
+                        "ncoll(B5, D5, C5)"
+                    ],
+                    "head": "para(B5, C5, B5, C5)"
+                },
+                {
+                    "body": [
+                        "cong(A5, C5, A5, D5)",
+                        "cong(A5, E5, A5, C5)"
+                    ],
+                    "head": "cong(A5, E5, A5, D5)"
+                },
+                {
+                    "body": [
+                        "cong(A5, E5, A5, D5)",
+                        "cong(E5, D5, D5, E5)",
+                        "ncoll(A5, E5, D5)"
+                    ],
+                    "head": "para(A5, D5, A5, D5)"
+                },
+                {
+                    "body": [
+                        "cong(A5, E5, A5, C5)",
+                        "cong(E5, C5, C5, E5)",
+                        "ncoll(A5, E5, C5)"
+                    ],
+                    "head": "para(A5, C5, A5, C5)"
+                },
+                {
+                    "body": [
+                        "cong(A5, B5, D5, B5)"
+                    ],
+                    "head": "eqratio(A5, D5, A5, B5, D5, A5, D5, B5)"
+                },
+                {
+                    "body": [
+                        "cong(B5, D5, B5, A5)"
+                    ],
+                    "head": "eqratio(B5, D5, B5, A5, B5, A5, B5, D5)"
+                },
+                {
+                    "body": [
+                        "eqratio(A5, D5, A5, B5, D5, A5, D5, B5)",
+                        "eqratio(B5, D5, B5, A5, B5, A5, B5, D5)",
+                        "ncoll(B5, D5, A5)",
+                        "cong(A5, D5, D5, A5)"
+                    ],
+                    "head": "para(B5, D5, B5, D5)"
+                },
+                {
+                    "body": [
+                        "cong(A5, E5, A5, D5)"
+                    ],
+                    "head": "eqratio(D5, E5, D5, A5, E5, D5, E5, A5)"
+                },
+                {
+                    "body": [
+                        "cong(A5, E5, A5, D5)"
+                    ],
+                    "head": "eqratio(A5, E5, A5, D5, A5, D5, A5, E5)"
+                },
+                {
+                    "body": [
+                        "eqratio(D5, E5, D5, A5, E5, D5, E5, A5)",
+                        "eqratio(A5, E5, A5, D5, A5, D5, A5, E5)",
+                        "ncoll(A5, E5, D5)",
+                        "cong(E5, D5, D5, E5)"
+                    ],
+                    "head": "para(A5, E5, A5, E5)"
+                },
+                {
+                    "body": [
+                        "cong(A5, C5, A5, D5)",
+                        "ncoll(A5, D5, C5)"
+                    ],
+                    "head": "eqangle(A5, D5, C5, D5, C5, D5, A5, C5)"
+                },
+                {
+                    "body": [
+                        "cong(B5, C5, B5, D5)",
+                        "cong(B5, C5, B5, A5)"
+                    ],
+                    "head": "circle(B5, C5, D5, A5)"
+                },
+                {
+                    "body": [
+                        "circle(B5, C5, D5, A5)",
+                        "perp(C5, E5, B5, C5)"
+                    ],
+                    "head": "eqangle(A5, C5, C5, E5, A5, D5, C5, D5)"
+                },
+                {
+                    "body": [
+                        "cong(A5, E5, A5, C5)",
+                        "ncoll(A5, E5, C5)"
+                    ],
+                    "head": "eqangle(C5, E5, A5, E5, A5, C5, C5, E5)"
+                },
+                {
+                    "body": [
+                        "eqangle(A5, D5, C5, D5, C5, D5, A5, C5)",
+                        "eqangle(A5, C5, C5, E5, A5, D5, C5, D5)",
+                        "eqangle(C5, E5, A5, E5, A5, C5, C5, E5)"
+                    ],
+                    "head": "eqangle(C5, E5, A5, E5, C5, D5, A5, C5)"
+                },
+                {
+                    "body": [
+                        "eqangle(C5, E5, A5, E5, C5, D5, A5, C5)",
+                        "eqangle(C5, E5, A5, C5, C5, D5, A5, D5)",
+                        "ncoll(A5, E5, C5)"
+                    ],
+                    "head": "eqratio(E5, A5, C5, A5, E5, C5, C5, D5)"
+                },
+                {
+                    "body": [
+                        "eqratio(E5, A5, C5, A5, E5, C5, C5, D5)",
+                        "cong(A5, E5, A5, C5)"
+                    ],
+                    "head": "cong(E5, C5, C5, D5)"
+                },
+                {
+                    "body": [
+                        "cong(E5, C5, C5, D5)",
+                        "cong(E5, D5, D5, E5)",
+                        "ncoll(C5, E5, D5)"
+                    ],
+                    "head": "para(C5, D5, C5, D5)"
+                },
+                {
+                    "body": [
+                        "cong(E5, C5, D5, C5)"
+                    ],
+                    "head": "eqratio(E5, D5, E5, C5, D5, E5, D5, C5)"
+                },
+                {
+                    "body": [
+                        "cong(C5, D5, C5, E5)"
+                    ],
+                    "head": "eqratio(C5, D5, C5, E5, C5, E5, C5, D5)"
+                },
+                {
+                    "body": [
+                        "eqratio(E5, D5, E5, C5, D5, E5, D5, C5)",
+                        "eqratio(C5, D5, C5, E5, C5, E5, C5, D5)",
+                        "ncoll(C5, E5, D5)"
+                    ],
+                    "head": "para(C5, E5, C5, E5)"
+                },
+                {
+                    "body": [
+                        "cong(B6, C6, B6, A6)",
+                        "cong(B6, C6, B6, D6)"
+                    ],
+                    "head": "cong(B6, D6, B6, A6)"
+                },
+                {
+                    "body": [
+                        "cong(B6, D6, B6, A6)",
+                        "cong(A6, D6, D6, A6)",
+                        "ncoll(B6, D6, A6)"
+                    ],
+                    "head": "para(A6, B6, A6, B6)"
+                },
+                {
+                    "body": [
+                        "cong(B6, C6, B6, D6)",
+                        "cong(C6, D6, D6, C6)",
+                        "ncoll(B6, D6, C6)"
+                    ],
+                    "head": "para(B6, C6, B6, C6)"
+                },
+                {
+                    "body": [
+                        "cong(A6, C6, A6, D6)",
+                        "cong(A6, E6, A6, C6)"
+                    ],
+                    "head": "cong(A6, E6, A6, D6)"
+                },
+                {
+                    "body": [
+                        "cong(A6, E6, A6, D6)",
+                        "cong(E6, D6, D6, E6)",
+                        "ncoll(A6, E6, D6)"
+                    ],
+                    "head": "para(A6, D6, A6, D6)"
+                },
+                {
+                    "body": [
+                        "cong(A6, E6, A6, C6)",
+                        "cong(E6, C6, C6, E6)",
+                        "ncoll(A6, E6, C6)"
+                    ],
+                    "head": "para(A6, C6, A6, C6)"
+                },
+                {
+                    "body": [
+                        "cong(A6, B6, D6, B6)"
+                    ],
+                    "head": "eqratio(A6, D6, A6, B6, D6, A6, D6, B6)"
+                },
+                {
+                    "body": [
+                        "cong(B6, D6, B6, A6)"
+                    ],
+                    "head": "eqratio(B6, D6, B6, A6, B6, A6, B6, D6)"
+                },
+                {
+                    "body": [
+                        "eqratio(A6, D6, A6, B6, D6, A6, D6, B6)",
+                        "eqratio(B6, D6, B6, A6, B6, A6, B6, D6)",
+                        "ncoll(B6, D6, A6)",
+                        "cong(A6, D6, D6, A6)"
+                    ],
+                    "head": "para(B6, D6, B6, D6)"
+                },
+                {
+                    "body": [
+                        "cong(A6, E6, A6, D6)"
+                    ],
+                    "head": "eqratio(D6, E6, D6, A6, E6, D6, E6, A6)"
+                },
+                {
+                    "body": [
+                        "cong(A6, E6, A6, D6)"
+                    ],
+                    "head": "eqratio(A6, E6, A6, D6, A6, D6, A6, E6)"
+                },
+                {
+                    "body": [
+                        "eqratio(D6, E6, D6, A6, E6, D6, E6, A6)",
+                        "eqratio(A6, E6, A6, D6, A6, D6, A6, E6)",
+                        "ncoll(A6, E6, D6)",
+                        "cong(E6, D6, D6, E6)"
+                    ],
+                    "head": "para(A6, E6, A6, E6)"
+                },
+                {
+                    "body": [
+                        "cong(A6, C6, A6, D6)",
+                        "ncoll(A6, D6, C6)"
+                    ],
+                    "head": "eqangle(A6, D6, C6, D6, C6, D6, A6, C6)"
+                },
+                {
+                    "body": [
+                        "cong(B6, C6, B6, D6)",
+                        "cong(B6, C6, B6, A6)"
+                    ],
+                    "head": "circle(B6, C6, D6, A6)"
+                },
+                {
+                    "body": [
+                        "circle(B6, C6, D6, A6)",
+                        "perp(C6, E6, B6, C6)"
+                    ],
+                    "head": "eqangle(A6, C6, C6, E6, A6, D6, C6, D6)"
+                },
+                {
+                    "body": [
+                        "cong(A6, E6, A6, C6)",
+                        "ncoll(A6, E6, C6)"
+                    ],
+                    "head": "eqangle(C6, E6, A6, E6, A6, C6, C6, E6)"
+                },
+                {
+                    "body": [
+                        "eqangle(A6, D6, C6, D6, C6, D6, A6, C6)",
+                        "eqangle(A6, C6, C6, E6, A6, D6, C6, D6)",
+                        "eqangle(C6, E6, A6, E6, A6, C6, C6, E6)"
+                    ],
+                    "head": "eqangle(C6, E6, A6, E6, C6, D6, A6, C6)"
+                },
+                {
+                    "body": [
+                        "eqangle(C6, E6, A6, E6, C6, D6, A6, C6)",
+                        "eqangle(C6, E6, A6, C6, C6, D6, A6, D6)",
+                        "ncoll(A6, E6, C6)"
+                    ],
+                    "head": "eqratio(E6, A6, C6, A6, E6, C6, C6, D6)"
+                },
+                {
+                    "body": [
+                        "eqratio(E6, A6, C6, A6, E6, C6, C6, D6)",
+                        "cong(A6, E6, A6, C6)"
+                    ],
+                    "head": "cong(E6, C6, C6, D6)"
+                },
+                {
+                    "body": [
+                        "cong(E6, C6, C6, D6)",
+                        "cong(E6, D6, D6, E6)",
+                        "ncoll(C6, E6, D6)"
+                    ],
+                    "head": "para(C6, D6, C6, D6)"
+                },
+                {
+                    "body": [
+                        "cong(E6, C6, D6, C6)"
+                    ],
+                    "head": "eqratio(E6, D6, E6, C6, D6, E6, D6, C6)"
+                },
+                {
+                    "body": [
+                        "cong(C6, D6, C6, E6)"
+                    ],
+                    "head": "eqratio(C6, D6, C6, E6, C6, E6, C6, D6)"
+                },
+                {
+                    "body": [
+                        "eqratio(E6, D6, E6, C6, D6, E6, D6, C6)",
+                        "eqratio(C6, D6, C6, E6, C6, E6, C6, D6)",
+                        "ncoll(C6, E6, D6)"
+                    ],
+                    "head": "para(C6, E6, C6, E6)"
+                },
+                {
+                    "body": [
+                        "cong(B7, C7, B7, A7)",
+                        "cong(B7, C7, B7, D7)"
+                    ],
+                    "head": "cong(B7, D7, B7, A7)"
+                },
+                {
+                    "body": [
+                        "cong(B7, D7, B7, A7)",
+                        "cong(A7, D7, D7, A7)",
+                        "ncoll(B7, D7, A7)"
+                    ],
+                    "head": "para(A7, B7, A7, B7)"
+                },
+                {
+                    "body": [
+                        "cong(B7, C7, B7, D7)",
+                        "cong(C7, D7, D7, C7)",
+                        "ncoll(B7, D7, C7)"
+                    ],
+                    "head": "para(B7, C7, B7, C7)"
+                },
+                {
+                    "body": [
+                        "cong(A7, C7, A7, D7)",
+                        "cong(A7, E7, A7, C7)"
+                    ],
+                    "head": "cong(A7, E7, A7, D7)"
+                },
+                {
+                    "body": [
+                        "cong(A7, E7, A7, D7)",
+                        "cong(E7, D7, D7, E7)",
+                        "ncoll(A7, E7, D7)"
+                    ],
+                    "head": "para(A7, D7, A7, D7)"
+                },
+                {
+                    "body": [
+                        "cong(A7, E7, A7, C7)",
+                        "cong(E7, C7, C7, E7)",
+                        "ncoll(A7, E7, C7)"
+                    ],
+                    "head": "para(A7, C7, A7, C7)"
+                },
+                {
+                    "body": [
+                        "cong(A7, B7, D7, B7)"
+                    ],
+                    "head": "eqratio(A7, D7, A7, B7, D7, A7, D7, B7)"
+                },
+                {
+                    "body": [
+                        "cong(B7, D7, B7, A7)"
+                    ],
+                    "head": "eqratio(B7, D7, B7, A7, B7, A7, B7, D7)"
+                },
+                {
+                    "body": [
+                        "eqratio(A7, D7, A7, B7, D7, A7, D7, B7)",
+                        "eqratio(B7, D7, B7, A7, B7, A7, B7, D7)",
+                        "ncoll(B7, D7, A7)",
+                        "cong(A7, D7, D7, A7)"
+                    ],
+                    "head": "para(B7, D7, B7, D7)"
+                },
+                {
+                    "body": [
+                        "cong(A7, E7, A7, D7)"
+                    ],
+                    "head": "eqratio(D7, E7, D7, A7, E7, D7, E7, A7)"
+                },
+                {
+                    "body": [
+                        "cong(A7, E7, A7, D7)"
+                    ],
+                    "head": "eqratio(A7, E7, A7, D7, A7, D7, A7, E7)"
+                },
+                {
+                    "body": [
+                        "eqratio(D7, E7, D7, A7, E7, D7, E7, A7)",
+                        "eqratio(A7, E7, A7, D7, A7, D7, A7, E7)",
+                        "ncoll(A7, E7, D7)",
+                        "cong(E7, D7, D7, E7)"
+                    ],
+                    "head": "para(A7, E7, A7, E7)"
+                },
+                {
+                    "body": [
+                        "cong(A7, C7, A7, D7)",
+                        "ncoll(A7, D7, C7)"
+                    ],
+                    "head": "eqangle(A7, D7, C7, D7, C7, D7, A7, C7)"
+                },
+                {
+                    "body": [
+                        "cong(B7, C7, B7, D7)",
+                        "cong(B7, C7, B7, A7)"
+                    ],
+                    "head": "circle(B7, C7, D7, A7)"
+                },
+                {
+                    "body": [
+                        "circle(B7, C7, D7, A7)",
+                        "perp(C7, E7, B7, C7)"
+                    ],
+                    "head": "eqangle(A7, C7, C7, E7, A7, D7, C7, D7)"
+                },
+                {
+                    "body": [
+                        "cong(A7, E7, A7, C7)",
+                        "ncoll(A7, E7, C7)"
+                    ],
+                    "head": "eqangle(C7, E7, A7, E7, A7, C7, C7, E7)"
+                },
+                {
+                    "body": [
+                        "eqangle(A7, D7, C7, D7, C7, D7, A7, C7)",
+                        "eqangle(A7, C7, C7, E7, A7, D7, C7, D7)",
+                        "eqangle(C7, E7, A7, E7, A7, C7, C7, E7)"
+                    ],
+                    "head": "eqangle(C7, E7, A7, E7, C7, D7, A7, C7)"
+                },
+                {
+                    "body": [
+                        "eqangle(C7, E7, A7, E7, C7, D7, A7, C7)",
+                        "eqangle(C7, E7, A7, C7, C7, D7, A7, D7)",
+                        "ncoll(A7, E7, C7)"
+                    ],
+                    "head": "eqratio(E7, A7, C7, A7, E7, C7, C7, D7)"
+                },
+                {
+                    "body": [
+                        "eqratio(E7, A7, C7, A7, E7, C7, C7, D7)",
+                        "cong(A7, E7, A7, C7)"
+                    ],
+                    "head": "cong(E7, C7, C7, D7)"
+                },
+                {
+                    "body": [
+                        "cong(E7, C7, C7, D7)",
+                        "cong(E7, D7, D7, E7)",
+                        "ncoll(C7, E7, D7)"
+                    ],
+                    "head": "para(C7, D7, C7, D7)"
+                },
+                {
+                    "body": [
+                        "cong(E7, C7, D7, C7)"
+                    ],
+                    "head": "eqratio(E7, D7, E7, C7, D7, E7, D7, C7)"
+                },
+                {
+                    "body": [
+                        "cong(C7, D7, C7, E7)"
+                    ],
+                    "head": "eqratio(C7, D7, C7, E7, C7, E7, C7, D7)"
+                },
+                {
+                    "body": [
+                        "eqratio(E7, D7, E7, C7, D7, E7, D7, C7)",
+                        "eqratio(C7, D7, C7, E7, C7, E7, C7, D7)",
+                        "ncoll(C7, E7, D7)"
+                    ],
+                    "head": "para(C7, E7, C7, E7)"
+                }
+            ]
+        },
+        "eval": {
+            "background_knowledge": [
+                "cong(B8, C8, B8, A8)",
+                "cong(B8, C8, B8, D8)",
+                "cong(D8, A8, A8, D8)",
+                "ncoll(B8, D8, A8)",
+                "cong(D8, C8, C8, D8)",
+                "ncoll(B8, D8, C8)",
+                "cong(A8, C8, A8, D8)",
+                "ncoll(A8, D8, C8)",
+                "cong(A8, E8, A8, C8)",
+                "cong(E8, D8, D8, E8)",
+                "ncoll(A8, E8, D8)",
+                "cong(E8, C8, C8, E8)",
+                "ncoll(A8, E8, C8)",
+                "perp(C8, E8, B8, C8)",
+                "ncoll(C8, E8, D8)",
+                "cong(B9, C9, B9, A9)",
+                "cong(B9, C9, B9, D9)",
+                "cong(D9, A9, A9, D9)",
+                "ncoll(B9, D9, A9)",
+                "cong(D9, C9, C9, D9)",
+                "ncoll(B9, D9, C9)",
+                "cong(A9, C9, A9, D9)",
+                "ncoll(A9, D9, C9)",
+                "cong(A9, E9, A9, C9)",
+                "cong(E9, D9, D9, E9)",
+                "ncoll(A9, E9, D9)",
+                "cong(E9, C9, C9, E9)",
+                "ncoll(A9, E9, C9)",
+                "perp(C9, E9, B9, C9)",
+                "ncoll(C9, E9, D9)"
+            ],
+            "positive_examples": [
+                "para(A8, B8, A8, B8)",
+                "para(B8, C8, B8, C8)",
+                "para(A8, D8, A8, D8)",
+                "para(A8, C8, A8, C8)",
+                "para(B8, D8, B8, D8)",
+                "para(A8, E8, A8, E8)",
+                "para(C8, D8, C8, D8)",
+                "para(C8, E8, C8, E8)",
+                "para(A9, B9, A9, B9)",
+                "para(B9, C9, B9, C9)",
+                "para(A9, D9, A9, D9)",
+                "para(A9, C9, A9, C9)",
+                "para(B9, D9, B9, D9)",
+                "para(A9, E9, A9, E9)",
+                "para(C9, D9, C9, D9)",
+                "para(C9, E9, C9, E9)"
+            ],
+            "proof_steps": [
+                {
+                    "body": [
+                        "cong(B8, C8, B8, A8)",
+                        "cong(B8, C8, B8, D8)"
+                    ],
+                    "head": "cong(B8, D8, B8, A8)"
+                },
+                {
+                    "body": [
+                        "cong(B8, D8, B8, A8)",
+                        "cong(D8, A8, A8, D8)",
+                        "ncoll(B8, D8, A8)"
+                    ],
+                    "head": "para(A8, B8, A8, B8)"
+                },
+                {
+                    "body": [
+                        "cong(B8, C8, B8, D8)",
+                        "cong(D8, C8, C8, D8)",
+                        "ncoll(B8, D8, C8)"
+                    ],
+                    "head": "para(B8, C8, B8, C8)"
+                },
+                {
+                    "body": [
+                        "cong(A8, C8, A8, D8)",
+                        "cong(A8, E8, A8, C8)"
+                    ],
+                    "head": "cong(A8, E8, A8, D8)"
+                },
+                {
+                    "body": [
+                        "cong(A8, E8, A8, D8)",
+                        "cong(E8, D8, D8, E8)",
+                        "ncoll(A8, E8, D8)"
+                    ],
+                    "head": "para(A8, D8, A8, D8)"
+                },
+                {
+                    "body": [
+                        "cong(A8, E8, A8, C8)",
+                        "cong(E8, C8, C8, E8)",
+                        "ncoll(A8, E8, C8)"
+                    ],
+                    "head": "para(A8, C8, A8, C8)"
+                },
+                {
+                    "body": [
+                        "cong(A8, B8, D8, B8)"
+                    ],
+                    "head": "eqratio(A8, D8, A8, B8, D8, A8, D8, B8)"
+                },
+                {
+                    "body": [
+                        "cong(B8, D8, B8, A8)"
+                    ],
+                    "head": "eqratio(B8, D8, B8, A8, B8, A8, B8, D8)"
+                },
+                {
+                    "body": [
+                        "eqratio(A8, D8, A8, B8, D8, A8, D8, B8)",
+                        "eqratio(B8, D8, B8, A8, B8, A8, B8, D8)",
+                        "ncoll(B8, D8, A8)",
+                        "cong(D8, A8, A8, D8)"
+                    ],
+                    "head": "para(B8, D8, B8, D8)"
+                },
+                {
+                    "body": [
+                        "cong(A8, E8, A8, D8)"
+                    ],
+                    "head": "eqratio(D8, E8, D8, A8, E8, D8, E8, A8)"
+                },
+                {
+                    "body": [
+                        "cong(A8, E8, A8, D8)"
+                    ],
+                    "head": "eqratio(A8, E8, A8, D8, A8, D8, A8, E8)"
+                },
+                {
+                    "body": [
+                        "eqratio(D8, E8, D8, A8, E8, D8, E8, A8)",
+                        "eqratio(A8, E8, A8, D8, A8, D8, A8, E8)",
+                        "ncoll(A8, E8, D8)",
+                        "cong(E8, D8, D8, E8)"
+                    ],
+                    "head": "para(A8, E8, A8, E8)"
+                },
+                {
+                    "body": [
+                        "cong(A8, C8, A8, D8)",
+                        "ncoll(A8, D8, C8)"
+                    ],
+                    "head": "eqangle(A8, D8, C8, D8, C8, D8, A8, C8)"
+                },
+                {
+                    "body": [
+                        "cong(B8, C8, B8, D8)",
+                        "cong(B8, C8, B8, A8)"
+                    ],
+                    "head": "circle(B8, C8, D8, A8)"
+                },
+                {
+                    "body": [
+                        "circle(B8, C8, D8, A8)",
+                        "perp(C8, E8, B8, C8)"
+                    ],
+                    "head": "eqangle(A8, C8, C8, E8, A8, D8, C8, D8)"
+                },
+                {
+                    "body": [
+                        "cong(A8, E8, A8, C8)",
+                        "ncoll(A8, E8, C8)"
+                    ],
+                    "head": "eqangle(C8, E8, A8, E8, A8, C8, C8, E8)"
+                },
+                {
+                    "body": [
+                        "eqangle(A8, D8, C8, D8, C8, D8, A8, C8)",
+                        "eqangle(A8, C8, C8, E8, A8, D8, C8, D8)",
+                        "eqangle(C8, E8, A8, E8, A8, C8, C8, E8)"
+                    ],
+                    "head": "eqangle(C8, E8, A8, E8, C8, D8, A8, C8)"
+                },
+                {
+                    "body": [
+                        "eqangle(C8, E8, A8, E8, C8, D8, A8, C8)",
+                        "eqangle(C8, E8, A8, C8, C8, D8, A8, D8)",
+                        "ncoll(A8, E8, C8)"
+                    ],
+                    "head": "eqratio(E8, A8, C8, A8, E8, C8, C8, D8)"
+                },
+                {
+                    "body": [
+                        "eqratio(E8, A8, C8, A8, E8, C8, C8, D8)",
+                        "cong(A8, E8, A8, C8)"
+                    ],
+                    "head": "cong(E8, C8, C8, D8)"
+                },
+                {
+                    "body": [
+                        "cong(E8, C8, C8, D8)",
+                        "cong(E8, D8, D8, E8)",
+                        "ncoll(C8, E8, D8)"
+                    ],
+                    "head": "para(C8, D8, C8, D8)"
+                },
+                {
+                    "body": [
+                        "cong(E8, C8, D8, C8)"
+                    ],
+                    "head": "eqratio(E8, D8, E8, C8, D8, E8, D8, C8)"
+                },
+                {
+                    "body": [
+                        "cong(C8, D8, C8, E8)"
+                    ],
+                    "head": "eqratio(C8, D8, C8, E8, C8, E8, C8, D8)"
+                },
+                {
+                    "body": [
+                        "eqratio(E8, D8, E8, C8, D8, E8, D8, C8)",
+                        "eqratio(C8, D8, C8, E8, C8, E8, C8, D8)",
+                        "ncoll(C8, E8, D8)"
+                    ],
+                    "head": "para(C8, E8, C8, E8)"
+                },
+                {
+                    "body": [
+                        "cong(B9, C9, B9, A9)",
+                        "cong(B9, C9, B9, D9)"
+                    ],
+                    "head": "cong(B9, D9, B9, A9)"
+                },
+                {
+                    "body": [
+                        "cong(B9, D9, B9, A9)",
+                        "cong(D9, A9, A9, D9)",
+                        "ncoll(B9, D9, A9)"
+                    ],
+                    "head": "para(A9, B9, A9, B9)"
+                },
+                {
+                    "body": [
+                        "cong(B9, C9, B9, D9)",
+                        "cong(D9, C9, C9, D9)",
+                        "ncoll(B9, D9, C9)"
+                    ],
+                    "head": "para(B9, C9, B9, C9)"
+                },
+                {
+                    "body": [
+                        "cong(A9, C9, A9, D9)",
+                        "cong(A9, E9, A9, C9)"
+                    ],
+                    "head": "cong(A9, E9, A9, D9)"
+                },
+                {
+                    "body": [
+                        "cong(A9, E9, A9, D9)",
+                        "cong(E9, D9, D9, E9)",
+                        "ncoll(A9, E9, D9)"
+                    ],
+                    "head": "para(A9, D9, A9, D9)"
+                },
+                {
+                    "body": [
+                        "cong(A9, E9, A9, C9)",
+                        "cong(E9, C9, C9, E9)",
+                        "ncoll(A9, E9, C9)"
+                    ],
+                    "head": "para(A9, C9, A9, C9)"
+                },
+                {
+                    "body": [
+                        "cong(A9, B9, D9, B9)"
+                    ],
+                    "head": "eqratio(A9, D9, A9, B9, D9, A9, D9, B9)"
+                },
+                {
+                    "body": [
+                        "cong(B9, D9, B9, A9)"
+                    ],
+                    "head": "eqratio(B9, D9, B9, A9, B9, A9, B9, D9)"
+                },
+                {
+                    "body": [
+                        "eqratio(A9, D9, A9, B9, D9, A9, D9, B9)",
+                        "eqratio(B9, D9, B9, A9, B9, A9, B9, D9)",
+                        "ncoll(B9, D9, A9)",
+                        "cong(D9, A9, A9, D9)"
+                    ],
+                    "head": "para(B9, D9, B9, D9)"
+                },
+                {
+                    "body": [
+                        "cong(A9, E9, A9, D9)"
+                    ],
+                    "head": "eqratio(D9, E9, D9, A9, E9, D9, E9, A9)"
+                },
+                {
+                    "body": [
+                        "cong(A9, E9, A9, D9)"
+                    ],
+                    "head": "eqratio(A9, E9, A9, D9, A9, D9, A9, E9)"
+                },
+                {
+                    "body": [
+                        "eqratio(D9, E9, D9, A9, E9, D9, E9, A9)",
+                        "eqratio(A9, E9, A9, D9, A9, D9, A9, E9)",
+                        "ncoll(A9, E9, D9)",
+                        "cong(E9, D9, D9, E9)"
+                    ],
+                    "head": "para(A9, E9, A9, E9)"
+                },
+                {
+                    "body": [
+                        "cong(A9, C9, A9, D9)",
+                        "ncoll(A9, D9, C9)"
+                    ],
+                    "head": "eqangle(A9, D9, C9, D9, C9, D9, A9, C9)"
+                },
+                {
+                    "body": [
+                        "cong(B9, C9, B9, D9)",
+                        "cong(B9, C9, B9, A9)"
+                    ],
+                    "head": "circle(B9, C9, D9, A9)"
+                },
+                {
+                    "body": [
+                        "circle(B9, C9, D9, A9)",
+                        "perp(C9, E9, B9, C9)"
+                    ],
+                    "head": "eqangle(A9, C9, C9, E9, A9, D9, C9, D9)"
+                },
+                {
+                    "body": [
+                        "cong(A9, E9, A9, C9)",
+                        "ncoll(A9, E9, C9)"
+                    ],
+                    "head": "eqangle(C9, E9, A9, E9, A9, C9, C9, E9)"
+                },
+                {
+                    "body": [
+                        "eqangle(A9, D9, C9, D9, C9, D9, A9, C9)",
+                        "eqangle(A9, C9, C9, E9, A9, D9, C9, D9)",
+                        "eqangle(C9, E9, A9, E9, A9, C9, C9, E9)"
+                    ],
+                    "head": "eqangle(C9, E9, A9, E9, C9, D9, A9, C9)"
+                },
+                {
+                    "body": [
+                        "eqangle(C9, E9, A9, E9, C9, D9, A9, C9)",
+                        "eqangle(C9, E9, A9, C9, C9, D9, A9, D9)",
+                        "ncoll(A9, E9, C9)"
+                    ],
+                    "head": "eqratio(E9, A9, C9, A9, E9, C9, C9, D9)"
+                },
+                {
+                    "body": [
+                        "eqratio(E9, A9, C9, A9, E9, C9, C9, D9)",
+                        "cong(A9, E9, A9, C9)"
+                    ],
+                    "head": "cong(E9, C9, C9, D9)"
+                },
+                {
+                    "body": [
+                        "cong(E9, C9, C9, D9)",
+                        "cong(E9, D9, D9, E9)",
+                        "ncoll(C9, E9, D9)"
+                    ],
+                    "head": "para(C9, D9, C9, D9)"
+                },
+                {
+                    "body": [
+                        "cong(E9, C9, D9, C9)"
+                    ],
+                    "head": "eqratio(E9, D9, E9, C9, D9, E9, D9, C9)"
+                },
+                {
+                    "body": [
+                        "cong(C9, D9, C9, E9)"
+                    ],
+                    "head": "eqratio(C9, D9, C9, E9, C9, E9, C9, D9)"
+                },
+                {
+                    "body": [
+                        "eqratio(E9, D9, E9, C9, D9, E9, D9, C9)",
+                        "eqratio(C9, D9, C9, E9, C9, E9, C9, D9)",
+                        "ncoll(C9, E9, D9)"
+                    ],
+                    "head": "para(C9, E9, C9, E9)"
+                }
+            ]
+        }
+    }
+}
